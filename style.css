@@ -84,9 +84,9 @@ a {
 }
 
 .category-social:hover > .social {
-    transform: translate(0, -5px) scale(1.05);
+    transform: scale(0.5);
 }
 
 .category-social:hover > .social:hover {
-    transform: translate(0, 0px) scale(1.00);
+    transform: scale(2.00);
 }
