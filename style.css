@@ -52,8 +52,8 @@ a {
 }
 
 .project {
-    width: 175px;
-    height: 112.5px;
+    width: 320px;
+    height: 150px;
     border-radius: 6px;
     border: 1px solid #EFEFEF;
     background: #FFFFFF;
@@ -71,6 +71,7 @@ a {
 
 .project > img {
     max-width: 300px;
+    max-height: 130px;
 }
 
 .social {
