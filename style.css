@@ -84,7 +84,7 @@ a {
 }
 
 .category-social:hover > .social {
-    opacity: 50%;
+    transform: translate(0, -5px) scale(1.05) rotate(2deg);
 }
 
 .category-social:hover > .social:hover {
