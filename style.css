@@ -67,12 +67,12 @@ a {
 }
 
 .project {
-    width: 280px;
-    height: 180px;
+    width: 175px;
+    height: 112.5px;
     border-radius: 6px;
-    border: 0.5px solid #EFEFEF;
+    border: 1px solid #EFEFEF;
     background: #FFFFFF;
-    margin: 0 2px 0 2px;
+    margin: 0 7px 0 7px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,8 +85,8 @@ a {
 }
 
 .project > img {
-    max-width: 280px;
-    max-height: 180px;
+    max-width: 137.5px;
+    max-height: 87.5px;
 }
 
 .social {
