@@ -30,21 +30,6 @@ a {
     margin-bottom: 200px;
 }
 
-#heart {
-    margin-top: 70px;
-    transform: rotate(13deg);
-    transition: transform 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-#heart > img {
-    min-width: 22px;
-    max-width: 22px;
-}
-
-#heart:hover {
-    transform: scale(1.5);
-}
-
 .category {
     display: flex;
     flex-direction: column;
