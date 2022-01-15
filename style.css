@@ -73,9 +73,9 @@ a {
 }
 
 .project {
-    width: 530px;
-    height: 299px;
-    border-radius: 4px;
+    width: 550px;
+    height: 320px;
+    border-radius: 3px;
     border: 1px solid #EFEFEF;
     background: #FFFFFF;
     margin: 0 7px 0 7px;
