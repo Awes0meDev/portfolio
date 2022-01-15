@@ -30,22 +30,22 @@ a {
     margin-bottom: 80px;
 }
 
-.category {
+.aboutme {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.category + .category {
+.aboutme + .aboutme {
     margin-top: 10px;
 }
 
-.category-header {
+.aboutme-header {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.category-content {
+.aboutme-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,7 +73,7 @@ a {
 }
 
 .project {
-    width: 709px;
+    width: 100px;
     height: 378px;
     border-radius: 4px;
     border: 1px solid #EFEFEF;
