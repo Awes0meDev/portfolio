@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     overflow: hidden;
     background: #FFFFFF;
 }
@@ -25,24 +25,31 @@ a {
 }
 
 #avatar {
-    width: 300px;
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
     margin-bottom: 80px;
 }
 
 .aboutme {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .aboutme + .aboutme {
-    margin-top: 10px;
+    width: auto;
+    height: auto;
 }
 
 .aboutme-header {
+    width: auto;
+    height: auto;
     font-size: 35px;
-    margin-bottom: 35px;
 }
 
 .aboutme-content {
@@ -73,8 +80,10 @@ a {
 }
 
 .project {
-    width: 550px;
-    height: 320px;
+    max-width: 550px;
+    max-height: 320px;
+    width: auto;
+    height: auto;
     border-radius: 3px;
     border: 2px solid #1e70ff;
     background: #1e70ff;
@@ -93,6 +102,8 @@ a {
 .project > img {
     max-width: 527px;
     max-height: 296px;
+    width: auto;
+    height: auto;
 }
 
 .social {
@@ -101,7 +112,8 @@ a {
 }
 
 .social > img {
-    height: 38px;
+    max-height: 38px;
+    height: auto;
 }
 
 .category-social:hover > .social {
