@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Awes0me Studios</title>
-		<meta charset="UTF-8">
-		<link href="style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
-		
-	<link rel="shortcut icon" href="aslogo-1.png">
-		
-	</head>
+    <head>
+        <title>Awes0me Studios</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+        
+    <link rel="shortcut icon" href="aslogo-1.png">
+        
+    </head>
 
-	<body>
-		<div id="container">
-			<img src="aslogo-1.png" id="avatar">
-			<div class="aboutme">
-				<span class="aboutme-header">About Us</span>
-				<div class="aboutme-content aboutme-projects">
-					<p style="width: 700px">We’re Awes0me Studios, an independent game development studio on Roblox. Founded in 2020, we are a diverse team of innovative developers. Our goal is to create new and unique experiences that users would love, all over the world, and available across all devices.</p>
-				</div>
-				<span class="category-header">Games</span>
-				<div class="category-content category-projects">
-					<a href="https://playbattleisland.com">
-						<div class="project">
-							<img src="2Bea2gnB.jpg-large.jpeg">
-						</div>
-					</a>
+    <body>
+        <div id="container">
+            <img src="aslogo-1.png" id="avatar">
+            <div class="aboutme">
+                <span class="aboutme-header">About Us</span>
+                <div class="aboutme-content aboutme-projects">
+                    <p style="width: 700px">We’re Awes0me Studios, an independent game development studio on Roblox. Founded in 2020, we are a diverse team of innovative developers. Our goal is to create new and unique experiences that users would love, all over the world, and available across all devices.</p>
+                </div>
+                <span class="category-header">Games</span>
+                <div class="category-content category-projects">
+                    <a href="https://playbattleisland.com">
+                        <div class="project">
+                            <img src="2Bea2gnB.jpg-large.jpeg">
+                        </div>
+                    </a>
 
-				</div>
-			</div>
-			<div class="category">
-				
-				<span class="category-header"></span>
-				<div class="category-content category-social">
-					<a href="https://twitter.com/Awes0meStudios" class="social" title="Twitter"><img src="Untitled drawing-18.png"></a>
-					<a href="https://www.roblox.com/groups/7062106" class="social" title="Roblox"><img src="Untitled drawing-24.png"></a>
-					<a href="https://dsc.gg/awes0me" class="social" title="Discord"><img src="Untitled drawing-19.png"></a>
-					<a href="https://www.linkedin.com/company/awes0mestudios" class="social" title="Linkedin"><img src="Untitled drawing-31.png"></a>
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+            <div class="category">
+                
+                <span class="category-header"></span>
+                <div class="category-content category-social">
+                    <a href="https://twitter.com/Awes0meStudios" class="social" title="Twitter"><img src="Untitled drawing-18.png"></a>
+                    <a href="https://www.roblox.com/groups/7062106" class="social" title="Roblox"><img src="Untitled drawing-24.png"></a>
+                    <a href="https://dsc.gg/awes0me" class="social" title="Discord"><img src="Untitled drawing-19.png"></a>
+                    <a href="https://www.linkedin.com/company/awes0mestudios" class="social" title="Linkedin"><img src="Untitled drawing-31.png"></a>
+                </div>
+            </div>
+            <div class="footer">
+                <span class="footer-header"></span>
+                <div class="footer-content footer-social">
+                    <footer>© 2022 Awes0me Studios</footer>
+                </div>
+            </div>
+        </div>
+        <script>
+            const container = document.getElementById("container")
 
-		<script>
-			const container = document.getElementById("container")
+            function updateScaling() {
+                let bodyWidth = document.body.offsetWidth
+                let bodyHeight = document.body.offsetHeight
 
-			function updateScaling() {
-				let bodyWidth = document.body.offsetWidth
-				let bodyHeight = document.body.offsetHeight
+                let containerWidth = container.offsetWidth
+                let containerHeight = container.offsetHeight
 
-				let containerWidth = container.offsetWidth
-				let containerHeight = container.offsetHeight
+                let scaleFactor = (1 / Math.max(containerWidth / bodyWidth, containerHeight / bodyHeight)) * 0.75
 
-				let scaleFactor = (1 / Math.max(containerWidth / bodyWidth, containerHeight / bodyHeight)) * 0.75
+                container.style.transform = scale(${scaleFactor})
+            }
 
-				container.style.transform = `scale(${scaleFactor})`
-			}
-
-			updateScaling()
-			window.addEventListener("resize", updateScaling)
-		</script>
-	</body>
-</html>
+            updateScaling()
+            window.addEventListener("resize", updateScaling)
+        </script>
+    </body>
+</html> 
