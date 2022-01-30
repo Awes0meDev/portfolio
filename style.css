@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    font-family: "Sniglet", cursive;
+    font-family: "Roboto", cursive;
     display: flex;
     align-items: center;
     justify-content: center;
