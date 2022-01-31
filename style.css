@@ -6,9 +6,9 @@ body {
     align-items: center;
 }
 .headlmao {
-    max-width: 200%;
+    max-width: 100%;
     height: 10%;
-    width: auto;
+    width: 100%;
 }
 #avatar {
     max-height: 25%;
