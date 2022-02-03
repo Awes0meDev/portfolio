@@ -98,9 +98,10 @@ padding:0px 0px;
 
 }
 .statisticsnumber{
-  color:#1f9eff;
+  color:#1e70ff;
   font-weight:bold;
   font-size:calc(50px + 0.4vw);
+  padding:10px;
 
 }
 .statisticslabel{
@@ -164,24 +165,14 @@ padding:0px 0px;
     width: auto;
     height: auto;
 }
-.category {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    max-height: 20%;
-    height: auto;
-   
 
-}
 
 .category-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     position:relative;
-float:bottom;
-   
+
 }
 .social {
    margin:10px;
@@ -194,13 +185,10 @@ float:bottom;
     height: auto;
 }
 
-.category-social:hover > .social {
-    transform: scale(1.00);
-}
+.social > img:hover {
+  transform:scale(1.25);
 
-.category-social:hover > .social:hover {
-    transform: scale(1.20);
-}
+
 .footer {
     position: relative;
     bottom: 10px;
