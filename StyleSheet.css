@@ -58,7 +58,7 @@ padding:0px 0px;
     margin-bottom: 1px;
     text-align: center;
      font-size:calc(25px + 0.2vw);
-     font-family:Sniglet;
+     font-family:gotham;
      font-weight:bold;
      padding:15px;
 }
@@ -70,7 +70,7 @@ padding:0px 0px;
     text-align: center;
     width: 70%;
     font-size:calc(15px + 0.3vw);
-       font-family:Sniglet;
+       font-family:gotham;
 }
 
 .statistics-header {
@@ -119,7 +119,7 @@ padding:0px 0px;
     flex-direction: column;
     align-items: center;
          font-size:calc(25px + 0.2vw);
-     font-family:Sniglet;
+     font-family:gotham;
      font-weight:bold;
      padding:15px;
 
