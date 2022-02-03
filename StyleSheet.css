@@ -1,18 +1,20 @@
 
 
 body {
-    background: #ffffff;
-    font-family: "Gotham";
+ 
+
+    font-family: Gotham;
     display:flex;
     flex-direction: column;
-    align-itims: center;
-    height:1000px;
- 
+    align-items: center;
+height:auto;
+
+
 }
 
 .header{
   width:100vw;
-  height:calc(160px + 50vw);
+  height:calc(160px + 10vw);
 margin:-8px;
   background-image:url('header.jpg');
   background-size:cover;
@@ -29,12 +31,12 @@ padding:0px 0px;
 }
 .container {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+background:white;
 
 }
 .aboutme {
@@ -174,6 +176,8 @@ padding:0px 0px;
     position:relative;
 
 }
+
+
 .social {
    margin:10px;
 
@@ -187,11 +191,48 @@ padding:0px 0px;
 
 .social > img:hover {
   transform:scale(1.25);
+}
+.joinsection{
 
+  width:100vw;
+  height:calc(160px + 15vw);
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+
+}
+.jointitle{
+  color:white;
+  font-family:Gotham;
+  font-weight:bold;
+  padding:40px;
+  font-size:30px;
+}
+.joinb{
+  background:#1e70ff;
+  color:white;
+  font-family:Gotham;
+  padding:20px 30px;
+  border-radius:5px;
+  font-weight:bold;
+  font-size:20px;
+}
+.fixedbackground{
+  background-image:url('file:///home/chronos/u-e0c85b26c3bbb9fb6a584342623323421a92b928/MyFiles/awesome%20games/Screen_Shot_2022-02-03_at_3.48.48_PM.png');
+  background-size:cover;
+  width:100vw;
+  height:100vh;
+  filter:brightness(20%);
+  position:fixed;
+  z-index:-6;
+}
 
 .footer {
     position: relative;
     bottom: 10px;
     float:bottom;
    font-size:calc(10px + 0.3vw);
+
 }
