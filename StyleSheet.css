@@ -233,9 +233,9 @@ flex-direction:column;
   color:white;
   font-family:Gotham;
   padding:20px 30px;
-  border-radius:7px;
+  border-radius:5px;
   font-weight:bold;
-  font-size:25px;
+  font-size:20px;
 }
 .fixedbackground{
   -moz-background-image:url('map_render_murilo_2.png');
@@ -272,6 +272,5 @@ flex-direction:column;
     bottom: 10px;
     float:bottom;
    font-size:calc(10px + 0.3vw);
-   font-weight:bold;
 
 }
