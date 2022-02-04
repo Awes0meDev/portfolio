@@ -272,5 +272,6 @@ flex-direction:column;
     bottom: 10px;
     float:bottom;
    font-size:calc(10px + 0.3vw);
+   font-weight:bold;
 
 }
