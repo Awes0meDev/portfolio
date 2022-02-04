@@ -258,51 +258,7 @@ background:white;
   -moz-appearance: none;
   appearance: none;
 }
-.teamsection{
- padding:30px;
- font-family:Rubik;
-}
 
-.teamtitle{
-  color:black;
-  font-weight:bold;
-  padding:40px;
-  font-size:calc(20px + 0.7vw);
-  text-align:center;
-  font-family:Rubik;
-   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-.teamcontent{
-   background:transparent;
-   padding:20px;
-   display:flex;
-   font-family:Rubik;
-   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.devcontainer{
-  display:flex;
-flex-direction:column;
-  text-align:center;
-  justify-content:center;
-  font-family:Rubik;
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-.dev{
-  width:150px;
-  height:150px;
-  padding:20px;
-  font-family:Rubik;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
 .social {
    margin:10px;
