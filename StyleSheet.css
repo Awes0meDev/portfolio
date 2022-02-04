@@ -2,9 +2,9 @@
 
 body {
   
- -moz-font-family:Rubik;
--webkit-font-family:Rubik;
-    font-family:Rubik;
+ -moz-font-family:Gotham;
+-webkit-font-family:Gotham;
+    font-family:Gotham;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -26,7 +26,7 @@ height:auto;
 }
 
 .header{
-  font-family:Rubik;
+
   width:100vw;
   height:calc(160px + 10vw);
 margin:-8px;
@@ -42,7 +42,7 @@ padding:0px 0px;
   appearance: none;
 }
 #avatar {
-  font-family:Rubik;
+
   width:calc(200px + 5vw);
   height:auto;
   max-height:300px;
@@ -52,7 +52,7 @@ padding:0px 0px;
   appearance: none;
 }
 .container {
-  font-family:Rubik;
+
   -moz-height:200%;
     height: 100%;
     width: 100vw;
@@ -69,7 +69,6 @@ background:white;
 }
 .aboutme {
 
-    font-family:Rubik;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -83,7 +82,6 @@ background:white;
 
 
 .aboutme-header {
-  font-family:Rubik;
     max-height: 1%;
     width: auto;
     height: auto;
@@ -102,7 +100,6 @@ background:white;
 }
 
 .aboutme-content {
-  font-family:Rubik;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +113,6 @@ background:white;
 }
 
 .statistics-header {
-  font-family:Rubik;
     max-height: 1%;
     width: auto;
     height: auto;
@@ -135,7 +131,6 @@ background:white;
  
 }
 .statistics-content{
-  font-family:Rubik;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -149,19 +144,17 @@ background:white;
 
 }
 .statisticsnumber{
-  font-family:Rubik;
   color:#1e70ff;
   font-weight:bold;
   font-size:calc(50px + 0.4vw);
   padding:10px;
-  
+  font-family:Gotham;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
 }
 .statisticslabel{
-  font-family:Rubik;
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
@@ -184,7 +177,7 @@ background:white;
     align-items: center;
          font-size:calc(25px + 0.2vw);
      font-weight:bold;
-     font-family:Rubik;
+
      padding:15px;
 
  -webkit-appearance: none;
@@ -201,7 +194,7 @@ background:white;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
-    font-family:Rubik;
+
 
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -213,7 +206,7 @@ background:white;
     width: auto;
     height: auto;
     border-radius: 3px;
-   font-family:Rubik;
+
     background: #1e70ff;
     display: flex;
     flex-direction: column;
@@ -229,7 +222,7 @@ background:white;
 .project:hover {
     transform: translate(0, -5px) scale(1.05) rotate(2deg);
   
-    font-family:Rubik;
+
      -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -240,7 +233,7 @@ background:white;
     max-height: 100%;
     width: auto;
     height: auto;
-    font-family:Rubik;
+
      -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -252,7 +245,7 @@ background:white;
     flex-direction: row;
     justify-content: center;
     position:relative;
-    font-family:Rubik;
+
 
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -262,7 +255,7 @@ background:white;
 
 .social {
    margin:10px;
-font-family:Rubik;
+
     transition: opacity 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
     
      -webkit-appearance: none;
@@ -271,7 +264,7 @@ font-family:Rubik;
 }
 
 .social > img {
-  font-family:Rubik;
+
     max-height: 38px;
     height: auto;
     
@@ -282,7 +275,6 @@ font-family:Rubik;
 
 .social > img:hover {
   transform:scale(1.25);
-  font-family:Rubik;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -292,7 +284,6 @@ font-family:Rubik;
   width:100vw;
   height:calc(160px + 15vw);
 display:flex;
-font-family:Rubik;
 justify-content:center;
 align-items:center;
 text-align:center;
@@ -307,7 +298,6 @@ flex-direction:column;
   color:white;
   font-weight:bold;
   padding:40px;
-  font-family:Rubik;
   font-size:calc(20px + 0.7vw);
   
    -webkit-appearance: none;
@@ -322,7 +312,6 @@ flex-direction:column;
   font-weight:bold;
   font-size:calc(10px + 0.5vw);
   border:none;
-  font-family:Rubik;
   text-decoration:none;
    transition:0.3s;
   
@@ -334,13 +323,11 @@ flex-direction:column;
   background:white;
   color:#1e70ff;
   transition:0.3s;
-  font-family:Rubik;
 }
 .fixedbackground{
   -moz-background-image:url('map_render_murilo_2.png');
 -webkit-background-image:url('map_render_murilo_2.png');
  background-image:url('map_render_murilo_2.png');
- font-family:Rubik;
  -moz-background-size:cover;
 -webkit-background-size:cover;
   background-size:cover;
@@ -371,7 +358,6 @@ flex-direction:column;
 }
 
 .footer {
-  font-family:Rubik;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
