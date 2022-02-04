@@ -1,124 +1,276 @@
-<!DOCTYPE html>
-<html>
-    <head>
-      
-  
-        <title>Awes0me Studios</title>
-        <meta charset="UTF-8">
-        <link href="StyleSheet.css" rel="stylesheet">
-      <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
-        
-    <link rel="shortcut icon" href="aslogo-1.png">
-    </head>
 
-    <body>
-     <div class="container">
-          
-            <div class="header">
-              
-               <img src="aslogo-1.png" id="avatar">
-               
-            </div>
-            
-       
-        
-       <div class="aboutme">
-              
-                <span class="aboutme-header">About Us</span>
-                <div class="aboutme-content">
-                    <p>We're Awes0me Studios, an independent game development studio on Roblox. Founded in 2020, we are a diverse team of innovative developers. Our goal is to create new and unique experiences that users would love, all over the world, and available across all devices.</p>
-                </div>
-             
-                
-                
-                 <span class="statistics-header">Statistics</span>
-               <div class="statistics-content">
-                
-                
-                <div class="statisticsnumber"><i>10,000+</i></div>
-                <div class="statisticslabel">Play Sessions</div>
-              
-                <div class="statisticsnumber"><i>2,000+</i></div>
-                  <div class="statisticslabel">Unique Players</div>
-                  
-                <div class="statisticsnumber"><i>12,000+</i></div>
-                  <div class="statisticslabel">Combined Minutes Played</div>
-                
-                
-                </div>
-                
-                
-                
-                <span class="games-header">Games</span>
-                
-                
-                <div class="games-content">
-                  
-                    <a href="https://playbattleisland.com">
-                        <div class="project">
-                            <img src="2Bea2gnB.jpg-large.jpeg">
-                        </div>
-                    </a>
+
+body {
+  
+ -moz-font-family:Gotham;
+-webkit-font-family:Gotham;
+    font-family: Gotham;
     
-                </div>
-            </div>
-         
-            
-               </div>
-            
-            
-            
-            
-            
-            
-           
-            
-        
-
-                
-            <div class="fixedbackground"></div>
-
-
-<div class="joinsection">
+     -moz-display:flex;
+-webkit-display:flex;
+    display:flex;
     
-<div class="jointitle">
+    -moz-flex-direction:column;
+-webkit-flex-direction:column;
+    flex-direction: column;
+    
+    -moz-align-items:center;
+-webkit-align-items:center;
+    align-items: center;
+    
+  -moz-height:auto;
+-webkit-height:auto;
+height:auto;
+
+-webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+}
+
+.header{
+  width:100vw;
+  height:calc(160px + 10vw);
+margin:-8px;
+  background-image:url('header.jpg');
+  background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:0px 0px;
+
+
+}
+#avatar {
+  width:calc(200px + 5vw);
+  height:auto;
+  max-height:300px;
+}
+.container {
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background:white;
+
+}
+.aboutme {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+}
+
+
+.aboutme-header {
+    max-height: 1%;
+    width: ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+    text-align: center;
+     font-size:calc(25px + 0.2vw);
+     font-family:gotham;
+     font-weight:bold;
+     padding:15px;
+}
+
+.aboutme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    font-size:calc(15px + 0.3vw);
+       font-family:gotham;
+}
+
+.statistics-header {
+    max-height: 1%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+    text-align: center;
+     font-size:calc(25px + 0.2vw);
+     font-family:gotham;
+     font-weight:bold;
+     padding:15px;
+ 
+}
+.statistics-content{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+  margin:10px;
+
+}
+.statisticsnumber{
+  color:#1e70ff;
+  font-weight:bold;
+  font-size:calc(50px + 0.4vw);
+  padding:10px;
+
+}
+.statisticslabel{
+  -moz-font-size:calc(15px + 0.2vw);
+-webkit-font-size:calc(15px + 0.2vw);
+  font-size:calc(15px + 0.2vw);
+}
+
+
+.games-header {
+    max-height: 25%;
+    width: 60%;
+    height: auto;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+         font-size:calc(25px + 0.2vw);
+     font-family:gotham;
+     font-weight:bold;
+     padding:15px;
+
+}
+
+.games-content {
+    margin-top: 20px;
+    max-height: 30%;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+}
+
+
+.project {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    border: 2px solid #1e70ff;
+    background: #1e70ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.project:hover {
+    transform: translate(0, -5px) scale(1.05) rotate(2deg);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+}
+
+.project > img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+.category-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:relative;
+
+}
+
+
+.social {
+   margin:10px;
+
+    transition: opacity 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.social > img {
+    max-height: 38px;
+    height: auto;
+}
+
+.social > img:hover {
+  transform:scale(1.25);
+}
+.joinsection{
+
+  width:100vw;
+  height:calc(160px + 15vw);
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+
+}
+.jointitle{
+  color:white;
+  font-family:Gotham;
+  font-weight:bold;
+  padding:40px;
+  font-size:30px;
+}
+.joinb{
+  background:#1e70ff;
+  color:white;
+  font-family:Gotham;
+  padding:20px 30px;
+  border-radius:5px;
+  font-weight:bold;
+  font-size:20px;
+}
+.fixedbackground{
+  -moz-background-image:url('map_render_murilo_2.png');
+-webkit-background-image:url('map_render_murilo_2.png');
+ background-image:url('map_render_murilo_2.png');
+ 
+ -moz-background-size:cover;
+-webkit-background-size:cover;
+  background-size:cover;
   
-  Be Part Of Creating Fun & Entertaining Experiences
-</div>
+  -moz-width:100vw;
+-webkit-width:100vw;
+  width:100vw;
   
-  <button class="joinb">Join Us</button>
+  -moz-height:100vh;
+-webkit-height:100vh;
+  height:100vh;
   
+  -moz-filter:brightness(20%);
+  -webkit-filter:brightness(20%);
+  filter:brightness(20%);
   
-</div>
+   -moz-position:fixed;
+  -webkit-position:fixed;
+  position:fixed;
+  
+   -moz-z-index:-6;
+  -webkit-z-index:-6;
+  z-index:-6;
+}
 
+.footer {
+    position: relative;
+    bottom: 10px;
+    float:bottom;
+   font-size:calc(10px + 0.3vw);
 
-     <div class="container">
-
-
-                <div class="category-content">
-                  
-                    <a href="https://twitter.com/Awes0meStudios" class="social" title="Twitter"><img src="Untitled drawing-18.png"></a>
-                    
-                    <a href="https://www.roblox.com/groups/7062106" class="social" title="Roblox"><img src="Untitled drawing-24.png"></a>
-                   
-                    <a href="https://dsc.gg/awes0me" class="social" title="Discord"><img src="Untitled drawing-19.png"></a>
-                    
-                    <a href="https://www.linkedin.com/company/awes0mestudios" class="social" title="Linkedin"><img src="Untitled drawing-31.png"></a>
-                </div>
-                
-
-
-
-
-
-                <div class="footer">
-                <span class="footer-header"></span>
-                <div class="footer-content footer-social">
-                    <footer>© 2022 Awes0me Studios</footer>
-                </div>
-            </div>
-     </div>
-            
-        
-    </body>
-</html>
+}
