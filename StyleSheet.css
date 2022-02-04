@@ -1,12 +1,24 @@
 
-
 body {
- 
-
+  
+ -moz-font-family:Gotham;
+-webkit-font-family:Gotham;
     font-family: Gotham;
+    
+     -moz-display:flex;
+-webkit-display:flex;
     display:flex;
+    
+    -moz-flex-direction:column;
+-webkit-flex-direction:column;
     flex-direction: column;
+    
+    -moz-align-items:center;
+-webkit-align-items:center;
     align-items: center;
+    
+  -moz-height:auto;
+-webkit-height:auto;
 height:auto;
 
 
@@ -107,6 +119,8 @@ background:white;
 
 }
 .statisticslabel{
+  -moz-font-size:calc(15px + 0.2vw);
+-webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
 }
 
@@ -220,12 +234,32 @@ flex-direction:column;
   font-size:20px;
 }
 .fixedbackground{
-  background-image:url('map_render_murilo_2.png');
+  -moz-background-image:url('map_render_murilo_2.png');
+-webkit-background-image:url('map_render_murilo_2.png');
+ background-image:url('map_render_murilo_2.png');
+ 
+ -moz-background-size:cover;
+-webkit-background-size:cover;
   background-size:cover;
+  
+  -moz-width:100vw;
+-webkit-width:100vw;
   width:100vw;
+  
+  -moz-height:100vh;
+-webkit-height:100vh;
   height:100vh;
+  
+  -moz-filter:brightness(20%);
+  -webkit-filter:brightness(20%);
   filter:brightness(20%);
+  
+   -moz-position:fixed;
+  -webkit-position:fixed;
   position:fixed;
+  
+   -moz-z-index:-6;
+  -webkit-z-index:-6;
   z-index:-6;
 }
 
