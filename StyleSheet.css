@@ -2,9 +2,9 @@
 
 body {
   
- -moz-font-family:Gotham;
--webkit-font-family:Gotham;
-    font-family: Gotham;
+ -moz-font-family:Rubik;
+-webkit-font-family:Rubik;
+    font-family:Rubik;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -22,9 +22,7 @@ body {
 -webkit-height:auto;
 height:auto;
 
--webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
+
 }
 
 .header{
@@ -38,14 +36,21 @@ justify-content:center;
 align-items:center;
 padding:0px 0px;
 
-
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 #avatar {
   width:calc(200px + 5vw);
   height:auto;
   max-height:300px;
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .container {
+  -moz-height:200%;
     height: 100%;
     width: 100vw;
     position: relative;
@@ -54,21 +59,29 @@ padding:0px 0px;
     align-items: center;
 background:white;
 
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
 }
 .aboutme {
 
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin:50px;
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
 .aboutme-header {
     max-height: 1%;
-    width: ;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -76,9 +89,12 @@ background:white;
     margin-bottom: 1px;
     text-align: center;
      font-size:calc(25px + 0.2vw);
-     font-family:gotham;
      font-weight:bold;
      padding:15px;
+     
+      -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .aboutme-content {
@@ -88,7 +104,10 @@ background:white;
     text-align: center;
     width: 70%;
     font-size:calc(15px + 0.3vw);
-       font-family:gotham;
+       
+        -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .statistics-header {
@@ -101,9 +120,12 @@ background:white;
     margin-bottom: 1px;
     text-align: center;
      font-size:calc(25px + 0.2vw);
-     font-family:gotham;
      font-weight:bold;
      padding:15px;
+     
+      -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
  
 }
 .statistics-content{
@@ -113,6 +135,10 @@ background:white;
   text-align:center;
   flex-direction:column;
   margin:10px;
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
 }
 .statisticsnumber{
@@ -120,12 +146,21 @@ background:white;
   font-weight:bold;
   font-size:calc(50px + 0.4vw);
   padding:10px;
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
 }
 .statisticslabel{
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
+  
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
@@ -139,10 +174,12 @@ background:white;
     flex-direction: column;
     align-items: center;
          font-size:calc(25px + 0.2vw);
-     font-family:gotham;
      font-weight:bold;
      padding:15px;
 
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .games-content {
@@ -155,28 +192,36 @@ background:white;
     align-items: center;
     margin-bottom: 10px;
 
-
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
 .project {
-    max-width: 100%;
-    max-height: 100%;
     width: auto;
     height: auto;
     border-radius: 3px;
-    border: 2px solid #1e70ff;
+   
     background: #1e70ff;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
 }
 
 .project:hover {
     transform: translate(0, -5px) scale(1.05) rotate(2deg);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .project > img {
@@ -184,6 +229,10 @@ background:white;
     max-height: 100%;
     width: auto;
     height: auto;
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
@@ -193,22 +242,77 @@ background:white;
     justify-content: center;
     position:relative;
 
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.teamsection{
+ padding:30px;
 }
 
+.teamtitle{
+  color:black;
+  font-weight:bold;
+  padding:40px;
+  font-size:calc(20px + 0.7vw);
+  text-align:center;
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.teamcontent{
+   background:transparent;
+   padding:20px;
+   display:flex;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.devcontainer{
+  display:flex;
+flex-direction:column;
+  text-align:center;
+  justify-content:center;
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.dev{
+  width:150px;
+  height:150px;
+  padding:20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
 .social {
    margin:10px;
 
     transition: opacity 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .social > img {
     max-height: 38px;
     height: auto;
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .social > img:hover {
   transform:scale(1.25);
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .joinsection{
 
@@ -220,22 +324,34 @@ align-items:center;
 text-align:center;
 flex-direction:column;
 
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
 }
 .jointitle{
   color:white;
-  font-family:Gotham;
   font-weight:bold;
   padding:40px;
-  font-size:30px;
+  font-size:calc(20px + 0.7vw);
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .joinb{
   background:#1e70ff;
   color:white;
-  font-family:Gotham;
-  padding:20px 30px;
+  padding:calc(10px + 1vw);
   border-radius:5px;
   font-weight:bold;
-  font-size:20px;
+  font-size:calc(10px + 0.5vw);
+  border:none;
+  text-decoration:none;
+  
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .fixedbackground{
   -moz-background-image:url('map_render_murilo_2.png');
@@ -265,12 +381,19 @@ flex-direction:column;
    -moz-z-index:-6;
   -webkit-z-index:-6;
   z-index:-6;
+  
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 
 .footer {
     position: relative;
     bottom: 10px;
-    float:bottom;
    font-size:calc(10px + 0.3vw);
+   
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
 }
