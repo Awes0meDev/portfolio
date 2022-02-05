@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   
@@ -249,8 +249,62 @@ background:white;
   -moz-appearance: none;
   appearance: none;
 }
+.teamsection{
+ padding:0px;
 
+}
 
+.teamtitle{
+  color:black;
+  font-weight:bold;
+  padding:40px;
+  font-size:calc(20px + 0.7vw);
+  text-align:center;
+
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.teamcontent{
+   background:transparent;
+   padding:40px;
+   display:flex;
+  flex-wrap: wrap;
+justify-content:center;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.devcontainer{
+  display:flex;
+flex-direction:column;
+  text-align:center;
+justify-content:center;
+align-items:center;
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+}
+.dev{
+  width:calc(100px + 5vw);
+  height:calc(100px + 5vw);
+  padding:20px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.devname{
+  color:#1e70ff;
+  font-weight:bold;
+  font-size:calc(10px + 0.7vw);
+}
+.devrole{
+color:black;
+  font-size:calc(10px + 0.5vw);
+}
 .social {
    margin:10px;
 
