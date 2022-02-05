@@ -167,6 +167,7 @@ margin:-8px;
   -moz-appearance: none;
   appearance: none;
 animation:slideinfromleft 1s 1;
+animation-delay: 2s;
 }
 
 
@@ -181,7 +182,10 @@ animation:slideinfromleft 1s 1;
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
+  
     animation:slideinfromright 1s 1;
+    animation-delay: 2s;
+    
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -450,7 +454,6 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-   font-weight:bold;
    
     -webkit-appearance: none;
   -moz-appearance: none;
