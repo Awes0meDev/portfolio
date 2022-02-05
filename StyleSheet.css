@@ -106,7 +106,7 @@ background:white;
     text-align: center;
     width: 70%;
     font-size:calc(15px + 0.3vw);
-       
+         font-family:roboto;
         -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -158,7 +158,7 @@ background:white;
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
-  
+  font-family:roboto;
   
    -webkit-appearance: none;
   -moz-appearance: none;
