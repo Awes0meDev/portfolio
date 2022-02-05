@@ -303,7 +303,7 @@ align-items:center;
 }
 .devrole{
 color:black;
-  font-size:calc(8px + 0.5vw);
+  font-size:calc(8px + 0.3vw);
 }
 .social {
    margin:10px;
