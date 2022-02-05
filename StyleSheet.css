@@ -1,5 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+
+
 body {
   
  -moz-font-family:roboto;
@@ -89,6 +92,7 @@ margin:-8px;
     flex-direction: column;
     align-items: center;
     margin:50px;
+
     
      -webkit-appearance: none;
   -moz-appearance: none;
@@ -105,7 +109,7 @@ margin:-8px;
     align-items: center;
     margin-bottom: 1px;
     text-align: center;
-     font-size:calc(25px + 0.2vw);
+     font-size:calc(30px + 0.3vw);
      font-weight:bold;
      padding:15px;
      
@@ -120,7 +124,7 @@ margin:-8px;
     align-items: center;
     text-align: center;
     width: 70%;
-    font-size:calc(15px + 0.3vw);
+    font-size:calc(18px + 0.3vw);
 
         -webkit-appearance: none;
   -moz-appearance: none;
@@ -136,7 +140,7 @@ margin:-8px;
     align-items: center;
     margin-bottom: 1px;
     text-align: center;
-     font-size:calc(25px + 0.2vw);
+     font-size:calc(30px + 0.3vw);
      font-weight:bold;
      padding:15px;
      
@@ -146,13 +150,13 @@ margin:-8px;
  
 }
 .statistics-content{
+
   display:flex;
   justify-content:center;
   align-items:center;
   text-align:center;
   flex-direction:column;
   margin:10px;
-  
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -161,13 +165,16 @@ margin:-8px;
 .statisticsnumber{
   color:#1e70ff;
   font-weight:bold;
-  font-size:calc(50px + 0.4vw);
+  font-size:calc(60px + 0.5vw);
   padding:10px;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-animation:slideinfromleft 1s 1;
-animation-delay: 2s;
+animation:slideinfromleft 1s 2;
+
+}
+.statisticsnumber:hover{
+  color:#2de391;
 }
 
 
@@ -178,14 +185,14 @@ animation-delay: 2s;
 
 
 
+
 .statisticslabel{
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
   
-    animation:slideinfromright 1s 1;
-    animation-delay: 2s;
-    
+    animation:slideinfromright 1s 2;
+
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -207,7 +214,7 @@ animation-delay: 2s;
     display: flex;
     flex-direction: column;
     align-items: center;
-         font-size:calc(25px + 0.2vw);
+         font-size:calc(30px + 0.3vw);
      font-weight:bold;
 
      padding:15px;
@@ -291,11 +298,11 @@ animation-delay: 2s;
 
 }
 
-.teamtitle{
+.teamheader{
   color:black;
   font-weight:bold;
   padding:40px;
-  font-size:calc(20px + 0.7vw);
+  font-size:calc(30px + 0.3vw);
   text-align:center;
 
    -webkit-appearance: none;
