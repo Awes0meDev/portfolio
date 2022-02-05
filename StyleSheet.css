@@ -432,6 +432,7 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
+   font-weight:bold;
    
     -webkit-appearance: none;
   -moz-appearance: none;
