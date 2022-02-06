@@ -170,7 +170,7 @@ margin:-8px;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-animation:slideinfromleft 1s 2;
+animation:slideinfromleft 1s 1;
 
 }
 .statisticsnumber:hover{
@@ -191,7 +191,7 @@ animation:slideinfromleft 1s 2;
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
   
-    animation:slideinfromright 1s 2;
+    animation:slideinfromright 1s 1;
 
    -webkit-appearance: none;
   -moz-appearance: none;
