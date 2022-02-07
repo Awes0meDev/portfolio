@@ -129,6 +129,7 @@ margin:-8px;
 }
 
 .aboutme-content {
+  animation:fadein 1s 1,slideinfromleft 1s 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,7 +186,7 @@ animation:slideinfromleft 2s 1;
 
 }
 .statisticsnumber:hover{
-  color:#78A9FF;
+  color:#2de391;
 }
 
 
@@ -472,7 +473,6 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-   font-weight:bold;
    
     -webkit-appearance: none;
   -moz-appearance: none;
