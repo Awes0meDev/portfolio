@@ -39,17 +39,27 @@ display:flex;
 justify-content:center;
 align-items:center;
 padding:0px 0px;
-
+animation:fadein 1s 1;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+
+@Keyframes slideup{
+  from{transform:translate(0px, 120px);}
+  to{transform:translate(0px, 0px);}
+}
+@Keyframes fadein{
+  from{opacity:0%}
+  to{opacity:100%}
+}
+
 #avatar {
 
   width:calc(200px + 5vw);
   height:auto;
   max-height:300px;
-  
+  animation:slideup 1s 1,fadein 2s 1;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -170,11 +180,12 @@ margin:-8px;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-animation:slideinfromleft 1s 1;
+animation:slideinfromleft 2s 1;
+ 
 
 }
 .statisticsnumber:hover{
-  color:#5C97FF;
+  color:#78A9FF;
 }
 
 
@@ -191,7 +202,7 @@ animation:slideinfromleft 1s 1;
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
   
-    animation:slideinfromright 1s 1;
+    animation:slideinfromright 2s 1;
 
    -webkit-appearance: none;
   -moz-appearance: none;
