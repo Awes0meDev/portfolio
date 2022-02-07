@@ -452,9 +452,9 @@ flex-direction:column;
 -webkit-height:100vh;
   height:100vh;
   
-  -moz-filter:brightness(20%);
-  -webkit-filter:brightness(20%);
-  filter:brightness(20%);
+  -moz-filter:brightness(25%);
+  -webkit-filter:brightness(25%);
+  filter:brightness(25%);
   
    -moz-position:fixed;
   -webkit-position:fixed;
