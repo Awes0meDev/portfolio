@@ -108,7 +108,11 @@ margin:-8px;
   -moz-appearance: none;
   appearance: none;
 }
-
+.aboutsectionOC{
+  width:100vw;
+position:absolute;
+animation:slideup 1s 1,fadein 1s 1;
+}
 
 .aboutme-header {
     max-height: 1%;
@@ -186,7 +190,7 @@ animation:slideinfromleft 2s 1;
 
 }
 .statisticsnumber:hover{
-  color:#78A9FF;
+  color:#2de391;
 }
 
 
@@ -452,9 +456,9 @@ flex-direction:column;
 -webkit-height:100vh;
   height:100vh;
   
-  -moz-filter:brightness(25%);
-  -webkit-filter:brightness(25%);
-  filter:brightness(25%);
+  -moz-filter:brightness(20%);
+  -webkit-filter:brightness(20%);
+  filter:brightness(20%);
   
    -moz-position:fixed;
   -webkit-position:fixed;
@@ -473,7 +477,6 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-   font-weight:bold;
    
     -webkit-appearance: none;
   -moz-appearance: none;
