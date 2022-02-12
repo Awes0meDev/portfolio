@@ -33,8 +33,7 @@ height:auto;
   width:100vw;
   height:calc(160px + 10vw);
 margin:-8px;
-  background-image:url('header.jpg');
-  background-size:cover;
+  background:transparent;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -43,6 +42,35 @@ animation:fadein 1s 1;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+.headerfixedbackground{
+   -moz-background-image:url('header.jpg');
+-webkit-background-image:url('header.jpg');
+ background-image:url('header.jpg');
+ -moz-background-size:cover;
+-webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin:-8px
+  ;
+  -moz-width:100vw;
+-webkit-width:100vw;
+  width:100vw;
+  
+  height:calc(160px + 10vw);
+
+  
+   -moz-position:fixed;
+  -webkit-position:fixed;
+  position:fixed;
+  
+   -moz-z-index:-2;
+  -webkit-z-index:-2;
+  z-index:-2;
+  
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 
 @Keyframes slideup{
@@ -63,6 +91,7 @@ animation:fadein 1s 1;
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  position:fixed;
 }
 .container {
 
@@ -83,7 +112,7 @@ background:white;
 .containerbottom{
   
   -moz-height:auto;
-    height: auto;
+    height:auto;
     width: 100vw;
     position: relative;
     display: flex;
@@ -312,7 +341,7 @@ z-index:50;
   appearance: none;
 }
 .teamsection{
- padding:0px;
+
 
 }
 
@@ -400,7 +429,7 @@ color:black;
 .joinsection{
 
   width:100vw;
-  height:calc(160px + 15vw);
+  height:calc(130px + 15vw);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -416,7 +445,7 @@ flex-direction:column;
   color:white;
   font-weight:bold;
   padding:40px;
-  font-size:calc(20px + 0.7vw);
+  font-size:calc(17px + 0.7vw);
   
    -webkit-appearance: none;
   -moz-appearance: none;
@@ -425,7 +454,7 @@ flex-direction:column;
 .joinb{
   background:#1e70ff;
   color:white;
-  padding:calc(10px + 1vw);
+  padding:calc(5px + 0.5vw);
   border-radius:5px;
   font-weight:bold;
   font-size:calc(10px + 0.5vw);
@@ -454,10 +483,8 @@ flex-direction:column;
 -webkit-width:100vw;
   width:100vw;
   
-  -moz-height:100vh;
--webkit-height:100vh;
-  height:100vh;
-  
+  height:calc(210px + 15vw);
+
   -moz-filter:brightness(20%);
   -webkit-filter:brightness(20%);
   filter:brightness(20%);
@@ -466,10 +493,10 @@ flex-direction:column;
   -webkit-position:fixed;
   position:fixed;
   
-   -moz-z-index:-6;
-  -webkit-z-index:-6;
-  z-index:-6;
-  
+   -moz-z-index:-1;
+  -webkit-z-index:-1;
+  z-index:-1;
+  bottom:0px;
   -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
