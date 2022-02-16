@@ -51,8 +51,7 @@ animation:fadein 1s 1;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
-  margin:-8px
-  ;
+  margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
   width:100vw;
@@ -431,7 +430,7 @@ filter:opacity(80%);
 .joinsection{
 
   width:100vw;
-  height:calc(130px + 15vw);
+  height:calc(90px + 15vw);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -446,7 +445,7 @@ flex-direction:column;
 .jointitle{
   color:white;
   font-weight:bold;
-  padding:40px;
+  padding:calc(10px + 0.5vw);
   font-size:calc(17px + 0.7vw);
   
    -webkit-appearance: none;
@@ -495,9 +494,9 @@ flex-direction:column;
   -webkit-position:fixed;
   position:fixed;
   
-   -moz-z-index:-1;
-  -webkit-z-index:-1;
-  z-index:-1;
+   -moz-z-index:-3;
+  -webkit-z-index:-3;
+  z-index:-3;
   bottom:0px;
   -webkit-appearance: none;
         -moz-appearance: none;
