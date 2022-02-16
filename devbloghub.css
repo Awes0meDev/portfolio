@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+body {
+  
+ -moz-font-family:roboto;
+-webkit-font-family:roboto;
+    font-family:roboto;
+    
+     -moz-display:flex;
+-webkit-display:flex;
+    display:flex;
+    
+    -moz-flex-direction:column;
+-webkit-flex-direction:column;
+    flex-direction: column;
+    
+    -moz-align-items:center;
+-webkit-align-items:center;
+    align-items: center;
+    
+  -moz-height:auto;
+-webkit-height:auto;
+height:auto;
+
+
+}
+
+.header{
+
+  width:100vw;
+  height:calc(160px + 10vw);
+margin:-8px;
+  background-image:url('header.jpg');
+  background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:0px 0px;
+animation:fadein 1s 1;
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@Keyframes slideup{
+  from{transform:translate(0px, 120px);}
+  to{transform:translate(0px, 0px);}
+}
+@Keyframes fadein{
+  from{opacity:0%}
+  to{opacity:100%}
+}
+
+#avatar {
+
+  width:calc(200px + 5vw);
+  height:auto;
+  max-height:300px;
+  animation:slideup 1s 1,fadein 2s 1;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.devblogstitle{
+  color:black;
+  font-family:roboto;
+  font-weight:bold;
+  font-size:50px;
+  display:flex;
+  flex-direction:row;
+}
+.outlinetext{
+  color:white;
+  text-shadow:0 0 5px black;
+  padding:0px 10px;
+}
+.container{
+  background:white;
+  width:90vw;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:50px;
+  flex-direction:column;
+}
+
+.bloggroup{
+  background:transparent;
+  padding:100px;
+  margin:30px;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.blog{
+  background:blue;
+  padding:150px 100px;
+  margin:20px;
+  border-radius:10px;
+}
+.blogtitle{
+  color:white;
+  font-family:roboto;
+  font-size:40px;
+  font-weight:bold;
+}
+.blogdate{
+  color:white;
+  font-size:20px;
+  font-family:roboto;
+  margin:10px;
+}
