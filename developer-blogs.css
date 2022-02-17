@@ -114,6 +114,11 @@ height:300px;
   align-items:center;
   text-align:center;
   flex-direction:column;
+     transition:0.3s;
+}
+.blog:hover{
+   transform: translate(0, -5px) scale(1.05) rotate(2deg);
+   transition:0.3s;
 }
 .blogtitle{
   color:white;
