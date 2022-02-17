@@ -5,9 +5,9 @@
 
 body {
   
- -moz-font-family:roboto;
--webkit-font-family:roboto;
-    font-family:roboto;
+ -moz-font-family:Montserrat;
+-webkit-font-family:Montserrat;
+    font-family:Montserrat;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -26,6 +26,9 @@ body {
 height:auto;
 
 
+}
+a{
+  text-decoration:none;
 }
 
 .header{
@@ -66,15 +69,14 @@ animation:fadein 1s 1;
 }
 .devblogstitle{
   color:black;
-  font-family:roboto;
   font-weight:bold;
   font-size:50px;
   display:flex;
   flex-direction:row;
 }
 .outlinetext{
-  color:#1e70ff;
-  text-shadow:0 0 5px white;
+  color:white;
+  text-shadow:0 0 5px black;
   padding:0px 10px;
 }
 .container{
@@ -100,20 +102,28 @@ animation:fadein 1s 1;
   text-align:center;
 }
 .blog{
-  background:blue;
-  padding:150px 100px;
+  background-image:url(' murilo_map_render.png');
+  background-size:cover;
+
+width:300px;
+height:300px;
   margin:20px;
   border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
 }
 .blogtitle{
   color:white;
-  font-family:roboto;
+
   font-size:40px;
   font-weight:bold;
 }
 .blogdate{
   color:white;
   font-size:20px;
-  font-family:roboto;
+
   margin:10px;
 }
