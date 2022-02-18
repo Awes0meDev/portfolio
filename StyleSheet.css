@@ -2,8 +2,10 @@
 
 
 .dashedhr{
-  width:1000px;
+  width:70vw;
   border:1px dashed #1e70ff;
+  margin:20px;
+  text-align:center;
 }
 
 body {
@@ -343,8 +345,11 @@ text-align:center;
 padding:20px;
 }
 .teamsection{
-
-
+  display:flex;
+text-align:center;
+align-items:center;
+justify-content:center;
+flex-direction:column;
 }
 
 .teamheader{
@@ -510,7 +515,6 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-   font-weight:bold;
 color:lightgrey;
     -webkit-appearance: none;
   -moz-appearance: none;
