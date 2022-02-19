@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 
 
 body {
   
- -moz-font-family:roboto;
--webkit-font-family:roboto;
-    font-family:roboto;
+ -moz-font-family:Montserrat;
+-webkit-font-family:Montserrat;
+    font-family:Montserrat;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -35,7 +35,8 @@ height:auto;
 margin:-8px;
   background-image:url('murilo_map_render.png');
   background-size:cover;
-  background-position: top -400px right 0px ;
+
+  
 display:flex;
 justify-content:center;
 align-items:center;
@@ -111,7 +112,7 @@ font-size:calc(15px + 0.5vw);
 margin:0px;
 }
 .updatetitle{
-  font:roboto;
+  font-family:roboto;
   font-size:40px;
   font-weight:bold;
   color:white;
@@ -122,13 +123,13 @@ margin:20px;
   background:transparent;
  z-index:2;
   margin:10px;
- 
-  padding:70px;
+
+  padding:0px;
 }
 .newthing{
-  padding:50px;
+  padding:10px;
 
-  margin:20px;
+  margin:0px;
   border-radius:10px;
 }
 .newthingtitle{
@@ -136,4 +137,28 @@ margin:20px;
   font-weight:bold;
   font-family:roboto;
   font-size:30px;
+  
 }
+.newmap{
+  width:calc(350px + 30px);
+  margin:30px;
+  border-radius:10px;
+   transition:0.3s;
+}
+.newitem{
+  width:calc(220px + 30px);
+  margin:0px;
+  border-radius:10px;
+   transition:0.3s;
+  
+}
+.newmap:hover{
+   transform: translate(0, -5px) scale(1.05) rotate(2deg);
+   transition:0.3s;
+}
+.newitem:hover{
+   transform: translate(0, -5px) scale(1.05) rotate(2deg);
+    transition:0.3s;
+}
+
+
