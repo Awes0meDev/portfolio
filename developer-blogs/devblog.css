@@ -183,5 +183,7 @@ color:grey;
   color:#1e70ff;
   margin:0px;
 }
-
+.footerbloglink:hover{
+  color:black;
+}
 
