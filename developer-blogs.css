@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 
@@ -75,9 +75,7 @@ animation:fadein 1s 1;
   flex-direction:row;
 }
 .outlinetext{
-  color:white;
-  text-shadow:0 0 5px black;
-  padding:0px 10px;
+  color:#1e70ff
 }
 .container{
   background:white;
