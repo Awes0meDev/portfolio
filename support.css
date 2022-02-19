@@ -29,7 +29,7 @@ body {
   -moz-height:auto;
 -webkit-height:auto;
 height:auto;
-
+position:relative;
 
 }
 div{
@@ -145,10 +145,11 @@ flex-direction:column;
   justify-content:center;
   align-items:center;
   text-align:center;
-  width:680px;
+  width:calc(400px + 15vw);
+
 }
 .topsectionpart{
-  width:calc(140px + 70px);
+  width:calc(150px + 70px);
   height:calc(150px + 70px);
   margin:20px;
   display:flex;
@@ -180,6 +181,7 @@ flex-direction:column;
   font-weight:bold;
      transition:0.3s;
      font-size:15px;
+     z-index:50;
 }
 .topsectionpartb:hover{
    transform: translate(0, -5px) scale(1.05) rotate(2deg);
@@ -194,8 +196,8 @@ li{
   padding:10px;
 }
 .form{
-  width:100vw;
-  height:90vh;
+  width:80vw;
+  height:100vh;
 border:none;
 }
 .watermarkblocker{
@@ -203,6 +205,6 @@ border:none;
   z-index:50;
   width:100vw;
   height:100px;
-  bottom:-1550px;
+bottom:0px;
   position:absolute;
 }
