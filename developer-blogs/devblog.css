@@ -160,5 +160,28 @@ margin:20px;
    transform: translate(0, -5px) scale(1.05) rotate(2deg);
     transition:0.3s;
 }
+.footer {
+    position: relative;
+    bottom: 10px;
+   font-size:calc(10px + 0.3vw);
+color:grey;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  width:100vw;
+
+   
+  j
+
+}
+.footerbloglink{
+  color:#1e70ff;
+  margin:0px;
+}
 
 
