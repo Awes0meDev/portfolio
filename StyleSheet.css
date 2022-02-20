@@ -444,7 +444,7 @@ filter:opacity(80%);
 .joinsection{
 
   width:100vw;
-  height:calc(90px + 15vw);
+  height:calc(80px + 15vw);
 display:flex;
 justify-content:center;
 align-items:center;
