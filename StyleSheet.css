@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 .dashedhr{
@@ -9,7 +9,6 @@
 }
 
 body {
-  
  -moz-font-family:Montserrat;
 -webkit-font-family:Montserrat;
     font-family:Montserrat;
@@ -32,7 +31,8 @@ height:auto;
 
 
 }
-
+div{
+}
 .header{
 
   width:100vw;
@@ -114,7 +114,7 @@ background:white;
 
 }
 .containerbottom{
-
+  background-color:white;
     height:auto;
     width: 100vw;
     position: relative;
@@ -122,7 +122,7 @@ background:white;
 flex-direction:column;
     align-items: center;
     text-align:center;
-background:white;
+
 margin:-8px;
 
  -webkit-appearance: none;
@@ -383,7 +383,6 @@ align-items:center;
      -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background:white;
   margin:calc(5px + 0.1vw);
   padding:calc(1px + 0.1vw);
   border-radius:20px;
@@ -397,6 +396,13 @@ align-items:center;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+   transition:0.3s;
+}
+.dev:hover{
+
+ transform: translate(0, -5px) scale(1.05) rotate(2deg);
+ transition:0.3s;
+   
 }
 .devname{
   color:#1e70ff;
@@ -476,8 +482,8 @@ flex-direction:column;
   appearance: none;
 }
 .joinb:hover{
-  background:white;
   color:#1e70ff;
+  background:white;
   transition:0.3s;
 }
 .fixedbackground{
@@ -515,10 +521,19 @@ flex-direction:column;
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-color:lightgrey;
+color:grey;
     -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  width:100vw;
+
+   
+  j
 
 }
 .footerbloglink{
