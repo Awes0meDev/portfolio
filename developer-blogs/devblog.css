@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-
+.dashedhr{
+  width:70vw;
+  border:1px dashed #1e70ff;
+  margin:20px;
+  text-align:center;
+}
 
 body {
   
@@ -160,22 +165,6 @@ margin:20px;
    transform: translate(0, -5px) scale(1.05) rotate(2deg);
     transition:0.3s;
 }
-.footer {
-    position: relative;
-    bottom: 10px;
-   font-size:calc(10px + 0.3vw);
-color:grey;
-    -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  width:100vw;
-
-}
 .containerbottom{
 
     height:auto;
@@ -231,6 +220,24 @@ filter:opacity(80%);
   -moz-appearance: none;
   appearance: none;
 }
+
+.footer {
+    position: relative;
+    bottom: 10px;
+   font-size:calc(10px + 0.3vw);
+color:grey;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  width:100vw;
+
+
+}
 .footerbloglink{
   color:#1e70ff;
   margin:0px;
@@ -238,4 +245,3 @@ filter:opacity(80%);
 .footerbloglink:hover{
   color:black;
 }
-
