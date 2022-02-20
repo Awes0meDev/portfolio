@@ -38,7 +38,7 @@ height:auto;
   width:100vw;
   height:calc(160px + 10vw);
 margin:-8px;
-  background-image:url('murilo_map_render.png');
+  background:none;
   background-size:cover;
 
   
@@ -52,6 +52,35 @@ animation:fadein 1s 1;
   -moz-appearance: none;
   appearance: none;
 }
+.headerfixedbackground{
+   -moz-background-image:url('murilo_map_render.png');
+-webkit-background-image:url('murilo_map_render.png');
+ background-image:url('murilo_map_render.png');
+ -moz-background-size:cover;
+-webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin:-8px ;
+  -moz-width:100vw;
+-webkit-width:100vw;
+  width:100vw;
+  
+  height:calc(160px + 10vw);
+
+  
+   -moz-position:fixed;
+  -webkit-position:fixed;
+  position:fixed;
+  
+   -moz-z-index:-2;
+  -webkit-z-index:-2;
+  z-index:-2;
+  
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+}
+
 
 @Keyframes slideup{
   from{transform:translate(0px, 120px);}
@@ -83,7 +112,7 @@ animation:fadein 1s 1;
 
 .container{
   background:white;
-  width:auto;
+  width:100vw;
   height:auto;
   display:flex;
   justify-content:center;
