@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+@import url('http://fonts.cdnfonts.com/css/gotham');
 .dashedhr{
   width:70vw;
   border:1px dashed #1e70ff;
@@ -10,9 +10,9 @@
 
 body {
     background-color:white;
- -moz-font-family:Montserrat;
--webkit-font-family:Montserrat;
-    font-family:Montserrat;
+ -moz-font-family:gotham;
+-webkit-font-family:gotham;
+    font-family:gotham;
     
      -moz-display:flex;
 -webkit-display:flex;
