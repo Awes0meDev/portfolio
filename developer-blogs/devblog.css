@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
 @Keyframes slideup{
   from{transform:translate(0px, 120px);opacity:0%}
   to{transform:translate(0px, 0px);opacity:100%}
@@ -13,9 +15,9 @@
 
 body {
   
- -moz-font-family:Montserrat;
--webkit-font-family:Montserrat;
-    font-family:Montserrat;
+ -moz-font-family:gotham;
+-webkit-font-family:gotham;
+    font-family:gotham;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -106,7 +108,6 @@ animation:fadein 1s 1;
 }
 .devblogstitle{
   color:black;
-  font-family:roboto;
   font-weight:bold;
   font-size:50px;
   display:flex;
@@ -144,13 +145,11 @@ animation:fadein 1s 1;
 #updatetext{
 padding:0px;
 color:white;
-font:roboto;
 font-size:calc(15px + 0.5vw);
  animation:slideup 1s 1;
 margin:0px;
 }
 .updatetitle{
-  font-family:roboto;
   font-size:40px;
   font-weight:bold;
   color:white;
@@ -174,7 +173,6 @@ margin:20px;
 .newthingtitle{
   color:black;
   font-weight:bold;
-  font-family:roboto;
   font-size:30px;
    animation:fadein 2s 1;
 }
