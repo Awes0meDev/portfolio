@@ -146,7 +146,7 @@ height:400px;
   flex-direction:column;
      transition:0.3s;
      
-      animation:slideup 2s 1;
+      animation:slideup 1s 1;
 
 }
 .blog:hover{
