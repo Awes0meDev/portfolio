@@ -282,7 +282,7 @@ filter:opacity(80%);
     position: relative;
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
-color:grey;
+color:lightgrey;
    font-weight:bold;
     -webkit-appearance: none;
   -moz-appearance: none;
