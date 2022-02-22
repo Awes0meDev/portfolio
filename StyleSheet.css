@@ -392,15 +392,15 @@ align-items:center;
   width:calc(100px + 5vw);
   height:calc(100px + 5vw);
   padding:20px;
-
+filter:brightness(80%);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
    transition:0.3s;
 }
 .dev:hover{
-
- transform: translate(0, -5px) scale(1.05) rotate(2deg);
+filter:brightness(100%);
+ transform:translate(0px, -10px);
  transition:0.3s;
    
 }
