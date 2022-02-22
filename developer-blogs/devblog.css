@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
@@ -202,6 +202,7 @@ margin:20px;
 .newthingtext{
   font-size:18px;
    animation:fadein 2s 1;
+   font-family:Montserrat;
 }
 .containerbottom{
 
