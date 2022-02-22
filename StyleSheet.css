@@ -170,14 +170,13 @@ animation:slideup 1s 1,fadein 1s 1;
 
 .aboutme-content {
   animation:fadein 1s 1,slideinfromleft 1s 1;
-  font-family:roboto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 70%;
     font-size:calc(18px + 0.3vw);
-
+font-family:Montserrat;
         -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -243,7 +242,7 @@ animation:slideinfromleft 2s 1;
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
-  
+  font-family:Montserrat;
     animation:slideinfromright 2s 1;
 
    -webkit-appearance: none;
