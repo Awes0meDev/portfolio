@@ -392,14 +392,12 @@ align-items:center;
   width:calc(100px + 5vw);
   height:calc(100px + 5vw);
   padding:20px;
-filter:brightness(80%);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
    transition:0.3s;
 }
 .dev:hover{
-filter:brightness(100%);
  transform:translate(0px, -10px);
  transition:0.3s;
    
