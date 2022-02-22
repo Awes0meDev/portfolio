@@ -283,6 +283,7 @@ filter:opacity(80%);
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
 color:grey;
+   font-weight:bold;
     -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
