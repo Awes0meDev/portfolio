@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @import url('http://fonts.cdnfonts.com/css/gotham');
 .dashedhr{
@@ -177,7 +177,7 @@ flex-direction:column;
 }
 .topsectiontext{
   font-weight:thin;
-  
+  font-family:Montserrat;
 }
 
 .topsectionpartb{
@@ -200,6 +200,7 @@ flex-direction:column;
 }
 .faqlist{
   animation:fadein 1s 1;
+  font-family:Montserrat;
 }
 li{
   padding:10px;
