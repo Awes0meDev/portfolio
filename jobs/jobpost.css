@@ -251,6 +251,33 @@ filter:opacity(80%);
   -moz-appearance: none;
   appearance: none;
 }
+#closedicon{
+  font-size:50px;
+  color:red;
+}
+ @media(max-width: 770px){
+          
+        #closedtext{
+          display:none;
+        }
+        #closedicon{
+          display:block;
+        }
+        
+        }
+        
+         
+@media(min-width: 770px){
+          
+        #closedtext{
+          display:block;
+        }
+        #closedicon{
+          display:none;
+        }
+        
+        }
+
 
        
        
