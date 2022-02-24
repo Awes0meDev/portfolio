@@ -125,18 +125,14 @@ padding:50px 0px;
     display:flex;
 justify-content:left;
 align-items:center;
+flex-direction:row;
 text-align:left;
 }
 .status{
   text-align:right;
-width:400px;
+width:100vw;
 color:lime;
 
-}
-.red{
-  color:red;
-  letter-spacing:5px;
-  margin:0px 10px;
 }
 .jobstats{
   font-weight:bold;
@@ -290,6 +286,4 @@ filter:opacity(80%);
         }
         
         }
-
-
 
