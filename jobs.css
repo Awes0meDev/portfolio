@@ -170,6 +170,9 @@ padding:100px 0px;
   border-radius:10px;
   width:100px;
   text-align:center;
+    display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 
