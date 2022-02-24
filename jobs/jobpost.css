@@ -142,7 +142,7 @@ color:lime;
 }
 .section{
   display:flex;
-  
+
   text-align:left;
   width:60vw;
   margin:20px;
@@ -158,10 +158,11 @@ color:lime;
   margin:20px;
   line-height:30px;
   font-family:Montserrat;
+  flex-wrap:wrap;
 }
 .sectiontext{
   width:70vw;
- 
+ text-align:left;
 }
 .sectiontitle{
   color:#1e70ff;
@@ -173,15 +174,15 @@ color:lime;
       text-align:center;
 }
 li{
-  margin:20px;
+  margin:20px 0px;
 }
-lu{
+ul{
   text-align:left;
 }
 .emaillink{
   color:#1e70ff;
   text-decoration:none;
-  margin:0px 10px;
+  margin:0px 5px;
 }
 .containerbottom{
 
@@ -286,4 +287,6 @@ filter:opacity(80%);
         }
         
         }
+
+
 
