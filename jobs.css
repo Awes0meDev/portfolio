@@ -131,22 +131,19 @@ padding:100px 0px;
 }
 .jobbox{
   width:70vw;
-  height:400px;
-  margin:0px;
+  margin:30px;
   display:flex;
   align-items:center;
   flex-wrap:wrap;
   text-align:center;
   justify-content:center;
-
   border-radius:10px;
 }
 .jobname{
   text-align:left;
-  background:transparent;
-  height:50px;
+  height:auto;
   width:50vw;
-  margin:10px;
+  margin:0px;
 }
 .jobnametitle{
   font-size:40px;
@@ -165,7 +162,6 @@ padding:100px 0px;
 .detailb{
   background:#1e70ff;
   padding:15px;
-  margin: 0px auto;
   color:white;
   border-radius:10px;
   width:100px;
@@ -174,6 +170,7 @@ padding:100px 0px;
   justify-content:center;
   align-items:center;
   text-decoration:none;
+   transition:0.3s;
 }
 .detailb:hover{
   transform: translate(0, -5px) ;
@@ -181,5 +178,24 @@ padding:100px 0px;
    background:#185acc;
    
 }
+ @media(max-width: 770px){
+         
+         .detailb{
+         margin: 10px 0px;
+           
+        
+        }
+        
+         
+@media(min-width: 770px){
+          
+        .detailb{
+         margin: 0px 0px;
+         
+        }
+        
+        
+        }
+
 
 
