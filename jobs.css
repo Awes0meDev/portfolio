@@ -175,6 +175,11 @@ padding:100px 0px;
   align-items:center;
   text-decoration:none;
 }
-
+.detailb:hover{
+  transform: translate(0, -5px) ;
+   transition:0.3s;
+   background:#185acc;
+   
+}
 
 
