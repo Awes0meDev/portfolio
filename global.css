@@ -31,6 +31,18 @@ height:auto;
 
 
 }
+
+#avatar {
+
+  width:calc(200px + 5vw);
+  height:auto;
+  max-height:300px;
+  animation:slideup 1s 1,fadein 2s 1;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
 .header{
 
   width:100vw;
