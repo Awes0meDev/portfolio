@@ -168,29 +168,7 @@ z-index:50;
   -moz-appearance: none;
   appearance: none;
 }
-.projectbox{
-  background:#242424;
-  height:auto;
-height:350px;
-width:100%;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-flex-direction:column;
-}
-.projecttitle{
-  color:white;
-  font-weight:bold;
-  font-size:30px;
-    margin:10px;
-}
-.projecttext{
-  color:white;
-  font-weight:bold;
-  font-size:15px;
-  margin:10px;
-}
+
 .project{
   height:auto;
   width:60vw;
