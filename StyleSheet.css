@@ -1,4 +1,3 @@
-
 .container {
 
   -moz-height:100%;
@@ -156,26 +155,75 @@ animation:slideinfromleft 2s 1;
 }
 
 .games-content {
-    margin-top: 20px;
-    max-height: 30%;
-    width: 30%;
+   
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    text-align:center;
 z-index:50;
 
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+.projectbox{
+  background:#242424;
+  height:auto;
+height:350px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+}
+.projecttitle{
+  color:white;
+  font-weight:bold;
+  font-size:30px;
+    margin:10px;
+}
+.projecttext{
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+  margin:10px;
+}
+.project{
+  height:auto;
+  width:60vw;
+  max-width:1000px;
+  height:300px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin:50px;
+  flex-direction:column;
+  position:relative;
 
-
-.project {
-    width: auto;
+}
+#hidden-div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  float:center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:100000;
+  color:white;
+  font-weight:bold;
+  font-size:50px;
+}
+.projectimg {
+    width:calc(300px + 20vw);
     height: auto;
-    border-radius: 30px;
+    border-radius: 0px;
     background: #1e70ff;
     display: flex;
     flex-direction: column;
@@ -183,33 +231,19 @@ z-index:50;
     justify-content:center;
     text-align:Center;
 transition:0.3s;
-
+  filter:brightness(100%);
      -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
 }
 
-
-.project:hover {
-    transform: translate(0, -5px) scale(1.05) rotate(2deg);
-  
-
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+.projectimg:hover{
+  filter:brightness(50%);
 }
 
-.project > img {
-    max-width: 200%;
-    max-height: 200%;
-    width: calc(250px +10vw);
-    height: auto;
-border-radius:20px;
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+
+
 
 .teamsection{
   display:flex;
@@ -350,4 +384,3 @@ flex-direction:column;
         -moz-appearance: none;
         appearance: none;
 }
-
