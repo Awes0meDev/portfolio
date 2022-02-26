@@ -54,14 +54,16 @@ animation:fadein 1s 1;
 -webkit-background-image:url('header.jpg');
  background-image:url('header.jpg');
  -moz-background-size:cover;
+background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
+  filter:brightness(25%) blur(2px);
   margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
   width:100vw;
-  
+  transform: scale(1.1);
   height:calc(160px + 10vw);
 
   
