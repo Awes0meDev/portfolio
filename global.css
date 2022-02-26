@@ -51,7 +51,6 @@ animation:fadein 1s 1;
 -webkit-background-image:url('header.jpg');
  background-image:url('header.jpg');
  -moz-background-size:cover;
-background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
