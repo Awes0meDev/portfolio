@@ -7,7 +7,9 @@
   margin:20px;
   text-align:center;
 }
-
+a{
+  text-decoration:none;
+}
 body {
  -moz-font-family:gotham;
 -webkit-font-family:gotham;
@@ -63,6 +65,7 @@ animation:fadein 1s 1;
 -webkit-background-image:url('header.jpg');
  background-image:url('header.jpg');
  -moz-background-size:cover;
+background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
@@ -87,6 +90,93 @@ animation:fadein 1s 1;
         -moz-appearance: none;
         appearance: none;
 }
+.containerbottom{
+  background-color:white;
+    height:auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+flex-direction:column;
+    align-items: center;
+    text-align:center;
+
+margin:-8px;
+
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.category-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items:center;
+text-align:center;
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+padding:20px;
+}
+
+.footer {
+    position: relative;
+    bottom: 10px;
+   font-size:calc(10px + 0.3vw);
+color:grey;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  width:100vw;
+
+   font-family:Montserrat;
+  
+
+}
+
+
+.social {
+   margin:10px;
+
+    transition: opacity 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.social > img {
+filter:opacity(80%);
+    max-height: 38px;
+    height: auto;
+      transition:0.3s;
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.social > img:hover {
+  filter:opacity(100%);
+  transform:translate(0px, -10px);
+  transition:0.3s;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
 @Keyframes slideup{
   from{transform:translate(0px, 120px);opacity:0%}
   to{transform:translate(0px, 0px);opacity:100%}
@@ -103,6 +193,5 @@ animation:fadein 1s 1;
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
-
 
 
