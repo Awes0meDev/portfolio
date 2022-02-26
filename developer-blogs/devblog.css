@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
@@ -58,18 +58,20 @@ animation:fadein 1s 1;
   appearance: none;
 }
 .headerfixedbackground{
-   -moz-background-image:url('murilo_map_render.png');
--webkit-background-image:url('murilo_map_render.png');
- background-image:url('murilo_map_render.png');
+   -moz-background-image:url('header.jpg');
+-webkit-background-image:url('header.jpg');
+ background-image:url('header.jpg');
  -moz-background-size:cover;
+background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
+  filter:brightness(25%) blur(2px);
   margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
   width:100vw;
-  
+  transform: scale(1.1);
   height:calc(160px + 10vw);
 
   
@@ -85,7 +87,6 @@ animation:fadein 1s 1;
         -moz-appearance: none;
         appearance: none;
 }
-
 
 @Keyframes slideup{
   from{transform:translate(0px, 120px);}
@@ -265,7 +266,6 @@ filter:opacity(80%);
     bottom: 10px;
    font-size:calc(10px + 0.3vw);
 color:grey;
-   font-weight:bold;
     -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -278,4 +278,5 @@ color:grey;
 
  font-family:Montserrat;
 }
+
 
