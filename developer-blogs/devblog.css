@@ -62,7 +62,8 @@ margin:20px;
   font-size:40px;
   margin:20px;
   font-weight:bold;
-  text-decoration: underline;
+   text-decoration: underline;
+   font-style: italic;
 }
 .newthing{
   padding:10px;
