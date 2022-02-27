@@ -123,12 +123,5 @@ li{
 border:none;
  z-index:0;
 }
-.watermarkblocker{
-  background:white;
-  z-index:2;
-  width:100vw;
-  height:200px;
-bottom:0px;
-  position:absolute;
-}
+
 
