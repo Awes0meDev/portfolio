@@ -59,12 +59,12 @@ margin:20px;
 }
 .sectiontitle{
   color:#1e70ff;
-  font-size:40px;
+  font-size:50px;
   margin:20px;
   font-weight:bold;
-   text-decoration: underline;
+  text-decoration: underline;
    font-style: italic;
-     animation:slideinfromleft 1s 1;
+   animation:slideinfromleft 1s 1;
 }
 .newthing{
   padding:10px;
@@ -105,6 +105,72 @@ margin:20px;
   font-size:18px;
    animation:fadein 2s 1;
    font-family:Montserrat;
+   margin:0px 20px ;
 }
+.changesectioncontainer{
+  width:100vw;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
+}
+.changessection{
+  width:70vw;
+
+}
+.newthinglist{
+  text-align:left;
+  margin:0px 10vw;
+}
+.newthinglistitem{
+  margin:10px;
+}
+.newweaponssection{
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:auto;
+  flex-direction:column;
+
+}
+.newweaponright{
+  width:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:row;
+}
+.newweaponleft{
+  width:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:row-reverse;
+}
+.newweaponp{
+  text-align:center;
+  width:calc(200px + 10vw);
+  font-size:calc(10px + 0.5vw);
+}
+.newweapontitle{
+  margin:10px;
+  color:black;
+  font-weight:bold;
+  font-size:30px;
+   animation:fadein 2s 1;
+}
+.newweapontext{
+  line-height:25px;
+}
+.newitemweapon{
+  width:calc(100px + 10vw);
+  max-width:200%;
+  margin:0px;
+  border-radius:10px;
+   transition:0.3s;
+    animation:fadein 2s 1;
+  
+}
 
