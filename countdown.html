@@ -42,6 +42,32 @@ p {
   font-family:Montserrat;
   font-weight:bold;
 }
+.confetti{
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  display:none;
+  z-index:-5;
+}
+.playb{
+  background:#1e70ff;
+  padding:30px;
+  border-radius:10px;
+  color:white;
+  font-family:Montserrat;
+  font-weight:bold;
+  font-size:30px;
+    transition:0.3s;
+    text-decoration:none;
+    display:none;
+}
+a{
+  text-decoration:none;
+}
+.playb:hover{
+  transform:translate(0px, -10px);
+  transition:0.3s;
+}
 @keyframes bounce {
 from{transform:scale(95%);}
 to{transform:scale(100%);)
@@ -58,10 +84,14 @@ to{transform:scale(100%);)
 <p id="demo"></p>
 
 
+<a href="https://playbattleisland.com"target="_blank">
+<div class="playb"id="playb">Play Game</div>
+</a>
+
 
 </div>
 
-
+<img src="https://c.tenor.com/v35v-zbtwnUAAAAi/confetti.gif"class="confetti"id="confetti">
 
 <script>
 // Set the date we're counting down to
@@ -89,10 +119,13 @@ var x = setInterval(function() {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "The Update Has Been Released!";
+    document.getElementById("confetti").style.display = "block";
+    document.getElementById("playb").style.display = "block";
   }
 }, 1000);
 </script>
 
 </body>
 </html>
+
