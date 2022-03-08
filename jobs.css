@@ -42,7 +42,7 @@ padding:100px 0px;
 .jobnametitle{
   font-size:40px;
   font-weight:bold;
-    color:#1e70ff;
+    color:lime;
 }
 .jobnametext{
   
@@ -65,7 +65,7 @@ padding:100px 0px;
   align-items:center;
   text-decoration:none;
    transition:0.3s;
-     font-family:Montserrat;
+   font-family:Montserrat;
 }
 .detailb:hover{
   transform: translate(0, -5px) ;
@@ -91,6 +91,8 @@ padding:100px 0px;
         
         
         }
+
+
 
 
 
