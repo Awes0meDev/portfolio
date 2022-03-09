@@ -33,7 +33,6 @@ background:white;
 position:absolute;
 background:transparent;
 animation:slideup 1s 1,fadein 1s 1;
-filter:opacity(50%) brightness(80%);
 
 }
 
