@@ -68,9 +68,6 @@ animation:fadein 1s 1;
   appearance: none;
 }
 .headerfixedbackground{
-   -moz-background-image:url('header.jpg');
--webkit-background-image:url('header.jpg');
- background-image:url('header.jpg');
  -moz-background-size:cover;
 -webkit-background-size:cover;
   background-size:cover;
