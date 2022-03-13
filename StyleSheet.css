@@ -333,7 +333,7 @@ flex-direction:column;
   transition:0.3s;
 }
 .fixedbackground{
-  background-position: bottom 0px right -350px;
+    background-position: bottom -100px right 0px;
   -moz-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
 -webkit-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
  background-image:url('https://awes0mestudios.com/Desert_map_2.png');
