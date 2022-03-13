@@ -41,6 +41,7 @@ color:white;
 font-size:calc(15px + 0.5vw);
  animation:slideup 1s 1;
 margin:0px;
+  font-family:Montserrat;
 }
 .updatetitle{
   font-size:40px;
