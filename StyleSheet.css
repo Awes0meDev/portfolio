@@ -245,43 +245,35 @@ flex-direction:column;
   appearance: none;
 }
 .teamcontent{
-   background:transparent;
-   padding:40px;
-   display:flex;
-   width:50vw;
-  flex-wrap: wrap;
-justify-content:center;
-   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+ display: inline-grid;
+  width:80%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin:50px;
+
 }
 
 .devcontainer{
-  display:flex;
-flex-direction:column;
-  text-align:center;
-justify-content:center;
-align-items:center;
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin:calc(5px + 0.1vw);
-  padding:calc(1px + 0.1vw);
-  border-radius:20px;
+ width: 100%;
+  min-width: 0;
 }
 .dev{
   
   width:calc(100px + 5vw);
   height:calc(100px + 5vw);
-  padding:20px;
+  padding:10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
    transition:0.3s;
+
+
 }
 .dev:hover{
  transform:translate(0px, -10px);
  transition:0.3s;
+
    
 }
 .devname{
@@ -340,9 +332,9 @@ flex-direction:column;
   transition:0.3s;
 }
 .fixedbackground{
-  -moz-background-image:url('map_render_murilo_2.png');
--webkit-background-image:url('map_render_murilo_2.png');
- background-image:url('map_render_murilo_2.png');
+  -moz-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
+-webkit-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
+ background-image:url('https://awes0mestudios.com/Desert_map_2.png');
  -moz-background-size:cover;
 -webkit-background-size:cover;
   background-size:cover;
