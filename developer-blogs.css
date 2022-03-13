@@ -13,7 +13,8 @@ a{
 
 }
 .outlinetext{
-  color:#1e70ff
+  color:#1e70ff;
+    margin:0px 10px;
 }
 .container{
   background:white;
