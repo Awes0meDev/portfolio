@@ -246,7 +246,7 @@ flex-direction:column;
 }
 .teamcontent{
  display: inline-grid;
-  width:80%;
+  width:auto;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -257,6 +257,7 @@ flex-direction:column;
 .devcontainer{
  width: 100%;
   min-width: 0;
+  margin:20px;
 }
 .dev{
   
@@ -332,6 +333,7 @@ flex-direction:column;
   transition:0.3s;
 }
 .fixedbackground{
+  background-position: bottom 0px right -350px;
   -moz-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
 -webkit-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
  background-image:url('https://awes0mestudios.com/Desert_map_2.png');
