@@ -66,6 +66,7 @@ margin:20px;
   text-decoration: underline;
    font-style: italic;
    animation:slideinfromleft 1s 1;
+    font-family:roboto;
 }
 .newthing{
   padding:10px;
