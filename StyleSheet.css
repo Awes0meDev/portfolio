@@ -132,94 +132,64 @@ animation:slideinfromleft 2s 1;
 }
 
 
-
-
-.games-header {
-    max-height: 25%;
-    width: 60%;
-    height: auto;
-
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-         font-size:calc(30px + 0.3vw);
-     font-weight:bold;
-
-     padding:15px;
-
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.games-content {
-   
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:center;
-z-index:50;
-
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-
-.project{
-  height:auto;
-  width:60vw;
-  max-width:1000px;
-  height:300px;
+.game-project{
   display:flex;
-  align-items:center;
   justify-content:center;
+  align-items:center;
   text-align:center;
-  margin:50px;
   flex-direction:column;
-  position:relative;
-
+  width:auto;
+  z-index:5;
 }
-#hidden-div{
+.imgcontainer{
   display:flex;
   justify-content:center;
-  align-items:center;
+align-items:center;
+text-align:center;
+}
+.project-img{
+  width:70vw;
+    max-width:700px;
+  height:auto;
+  filter:brightness(60%);
   text-align:center;
-  float:center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index:100000;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.game-bottom-box{
+  background:#242424;
+  width:70vw;
+  max-width:700px;
+  height:80px;
+   display:flex;
+  align-items:center;
+  text-align:left;
+  border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.game-title{
   color:white;
+  font-size:40px;
   font-weight:bold;
-  font-size:50px;
-  pointer-events: none;
+    position: absolute;
 }
-.projectimg {
-    width:calc(300px + 20vw);
-    height: auto;
-    border-radius: 0px;
-    background: #1e70ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    text-align:Center;
-transition:0.3s;
-  filter:brightness(100%);
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius:10px;
-
+.game-stats-category{
+  margin:0px 20px;
+  padding:10px;
+  text-align:left;
 }
-
-.projectimg:hover{
-  filter:brightness(50%) ;
+.game-stats-category-title{
+    color:grey;
+    font-size:22px;
+}
+.game-stats-category-value{
+  color:white;
+  font-size:20px;
+  margin:5px;
+  font-weight:bold;
 }
 
 
@@ -333,7 +303,7 @@ flex-direction:column;
   transition:0.3s;
 }
 .fixedbackground{
-    background-position: bottom -100px right 0px;
+  background-position: bottom -100px right 0px;
   -moz-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
 -webkit-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
  background-image:url('https://awes0mestudios.com/Desert_map_2.png');
