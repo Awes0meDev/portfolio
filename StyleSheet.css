@@ -158,6 +158,12 @@ text-align:center;
 display:flex;
 justify-content:center;
 align-items:center;
+  transition:0.6s;
+}
+.project-img:hover{
+  filter:brightness(100%);
+  transition:0.6s;
+  
 }
 .game-bottom-box{
   background:#242424;
