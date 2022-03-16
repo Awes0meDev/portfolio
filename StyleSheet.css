@@ -151,7 +151,7 @@ text-align:center;
   width:70vw;
     max-width:700px;
   height:auto;
-  filter:brightness(60%);
+  filter:brightness(100%);
   text-align:center;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
@@ -161,7 +161,7 @@ align-items:center;
   transition:0.6s;
 }
 .project-img:hover{
-  filter:brightness(100%);
+  filter:brightness(60%);
   transition:0.6s;
   
 }
