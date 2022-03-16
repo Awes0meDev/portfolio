@@ -127,6 +127,7 @@ padding:20px;
    font-size:calc(10px + 0.3vw);
    font-weight:bold;
 color:lightgrey;
+  font-weight:bold;
     -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
