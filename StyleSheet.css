@@ -33,10 +33,11 @@ background:white;
 position:absolute;
 background:transparent;
 animation:slideup 1s 1,fadein 1s 1;
+filter:opacity(60%);
 
 }
 
-.aboutme-header {
+.section-header {
     max-height: 1%;
     width: auto;
     height: auto;
@@ -68,24 +69,6 @@ font-family:Montserrat;
   appearance: none;
 }
 
-.statistics-header {
-    max-height: 1%;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1px;
-    text-align: center;
-     font-size:calc(30px + 0.3vw);
-     font-weight:bold;
-     padding:15px;
-     
-      -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
- 
-}
 .statistics-content{
 
   display:flex;
@@ -147,6 +130,9 @@ animation:slideinfromleft 2s 1;
 align-items:center;
 text-align:center;
 }
+.games-content{
+  margin:30px 0px;
+}
 .project-img{
   width:70vw;
     max-width:700px;
@@ -190,7 +176,7 @@ align-items:center;
 .game-stats-category-title{
     color:grey;
     font-size:22px;
-      font-family:Montserrat;
+    font-family:Montserrat;
 }
 .game-stats-category-value{
   color:white;
@@ -198,7 +184,18 @@ align-items:center;
   margin:5px;
   font-weight:bold;
 }
-
+@media only screen and (max-width: 600px) {
+  .game-bottom-box{
+    display:none;
+  }
+  .project-img{
+      border-radius:10px;
+  }
+  .aboutsectionOC{
+    display:none;
+  }
+  
+}
 
 
 
@@ -210,17 +207,6 @@ justify-content:center;
 flex-direction:column;
 }
 
-.teamheader{
-  color:black;
-  font-weight:bold;
-  padding:40px;
-  font-size:calc(30px + 0.3vw);
-  text-align:center;
-
-   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 .teamcontent{
  display: inline-grid;
   width:auto;
