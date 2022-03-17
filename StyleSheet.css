@@ -169,13 +169,13 @@ align-items:center;
     position: absolute;
 }
 .game-stats-category{
-  margin:0px 20px;
+  margin:0px calc(1px + 1vw);
   padding:10px;
   text-align:left;
 }
 .game-stats-category-title{
     color:grey;
-    font-size:22px;
+    font-size:calc(15px + 0.5vw);
     font-family:Montserrat;
 }
 .game-stats-category-value{
