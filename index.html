@@ -47,12 +47,40 @@ document.getElementById('hidden-div').style.display="none";
          
         
       
-    
+      
           
-          <div class="notif-box">
+          <div class="notif-box"id="notif-box">
             
-            <div class="notif-p"><i class="fa-solid fa-clover"></i>Happy St.Patricks day! Use code STPATRICKSDAY2022 in game!<i class="fa-solid fa-clover"></i></div>
+        
             
+             
+             
+      
+            
+            <div class="notif-p"id="notif-text">
+              
+            <i class="fa-solid fa-clover"id="clover"></i>
+            
+            Happy St.Patricks day! Use code STPATRICKSDAY2022 in game!
+            
+            <i class="fa-solid fa-clover"id="clover"></i>
+            
+           <i class="fa-solid fa-xmark"id="x-mark"onclick="closenotif()"></i>
+          
+          <script>
+            
+            function closenotif(){
+              document.getElementById("x-mark").style.display="none"
+              document.getElementById("notif-box").style.display="none"
+              document.getElementById("notif-text").style.display="none"
+            }
+            
+            
+            
+          </script>
+            </div>
+            
+          
           </div>
          
             
@@ -227,7 +255,7 @@ document.getElementById('hidden-div').style.display="none";
        
             <div class="devcontainer"> <a href="https://web.roblox.com/users/196190193/profile"target="/blank"><img src="https://awes0mestudios.com/trintigon-modified.png"class="dev"></a>
        
-       <h1 class="devname">Eli "Trintigon"</h1>
+       <h1 class="devname">Trintigon</h1>
         <h2 class="devrole">QA Manager / Contributor</h2>
        
        </div>
