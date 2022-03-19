@@ -1,31 +1,46 @@
 .notif-box{
   width:100vw;
-  height:50px;
+  height:auto;
+  padding:5px 0px;
   background:linear-gradient(to right,#32a852, green);
   z-index:10;
   margin:-8px;
   display: flex;
-    flex-direction: column;
+  justify-content:center;
     align-items: center;
 text-align:center;
 position:absolute;
+
 }
 .notif-p{
   color:lime;
   font-weight:bold;
-  font-size:25px;
+  font-size:calc(15px + 0.5vw);
   height:100%;
    display: flex;
     flex-direction: row;
     align-items: center;
 text-align:center;
 font-style:italic;
-  font-family:Montserrat;
+font-family:Montserrat;
 }
-.fa-solid{
+
+#clover{
   color:lime;
   margin:0px 20px;
 }
+#x-mark{
+   color:white;
+   margin:0px 20px;
+   font-size:35px;
+     transition:0.3s;
+}
+#x-mark:hover{
+  color:black;
+  transition:0.3s;
+
+}
+
 .container {
 
   -moz-height:100%;
