@@ -23,6 +23,8 @@ position:absolute;
 text-align:center;
 font-style:italic;
 font-family:Montserrat;
+animation:rubberBand 2s 3;
+animation-delay:2s;
 }
 
 #clover{
