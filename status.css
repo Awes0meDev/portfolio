@@ -58,7 +58,7 @@ margin:0px 20px;
   margin:15px 10px;
 }
 .item-status{
-  color:#5bba50;
+  color:#7ade85;
   font-size:calc(20px + 1vw);
   font-weight:bold;
     width:40vw;
@@ -72,8 +72,10 @@ margin:0px 20px;
   margin:0px 10px;
 }
 hr{
-  color:#343434;
+ color:lightgrey;
   width:80vw;
+  border:0.5px solid lightgrey;
+
   
   
 }
