@@ -1,7 +1,1 @@
-Operational <! ---Datastores-- >
 
-Operational <! ---Response Time-- >
-
-Operational <! ---Assets-- >
-
-Operational <! ---Gameplay Systems-- >
