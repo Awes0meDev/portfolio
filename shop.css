@@ -1,3 +1,4 @@
+
 .container {
       background-color:white;
   -moz-height:100%;
@@ -100,6 +101,7 @@
    font-size:35px;
 transition:0.3s;
 color:yellow;
+cursor: pointer;
 }
 .item-link{
   height:70px;
@@ -121,6 +123,7 @@ transition:0.3s;
     font-size:40px;
 transition:0.3s;
 color:yellow;
+cursor: pointer;
 }
 .item-type{
   height:70px;
@@ -140,6 +143,7 @@ transition:0.3s;
    font-size:40px;
 transition:0.3s;
 color:yellow;
+cursor: pointer;
 }
 
 
