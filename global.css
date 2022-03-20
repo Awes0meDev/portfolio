@@ -76,7 +76,7 @@ animation:fadein 1s 1;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
-  filter:brightness(25%) blur(5px);
+  filter:brightness(17%) blur(5px);
   margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
