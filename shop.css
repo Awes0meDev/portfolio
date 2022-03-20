@@ -1,3 +1,4 @@
+
 .container {
       background-color:white;
   -moz-height:100%;
@@ -51,7 +52,7 @@
     text-align:center;
     border-top-left-radius:10px;
         border-top-right-radius:10px;
-           background:#1e70ff;
+            background:linear-gradient(to bottom right,#1e70ff 70%,blue);
      font-weight:bold;
     font-size:30px;
     color:white;
@@ -93,7 +94,7 @@
 .item-link{
   height:70px;
   width:100px;
-  background:#1e70ff;
+  background:linear-gradient(to bottom right,#1e70ff 70%,blue);
    font-weight:bold;
     font-size:30px;
     color:white;
@@ -103,11 +104,12 @@
     text-align:center;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
-     transition:0.3s;
+transition:0.3s;
     
 }
 .item-link:hover{
-  background:blue;
-  transition:0.3s;
+    font-size:40px;
+transition:0.3s;
+color:yellow;
 }
 
