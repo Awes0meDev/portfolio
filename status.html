@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <head>
+     
+ 
+        <title>Awes0me Studios</title>
+        <meta charset="UTF-8">
+        
+
+
+
+        <link href="status.css" rel="stylesheet" type="text/css">
+        
+   <link href="global.css" rel="stylesheet" type="text/css">
+
+     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+       
+      <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+        
+    <link rel="shortcut icon" href="aslogo-1.png">
+
+    
+    </head>
+
+      <body>
+     
+      
+
+
+
+         
+        
+         
+         <span class="container">
+           
+           
+           
+           
+           <div class="main-bar"><div class="main-bar-p">All Systems Operational</div></div>
+        
+                 
+              <script>
+        fetch("https://awes0mestudios.com/status.txt", {credentials: "omit"}).then(resp => resp.text()).then(text => {
+
+  content.innerText = text
+})
+</script>
+    
+    <div class="container2">
+      
+
+           <div class="item-titles">
+
+
+        <div class="item-title">Datastores</div>
+
+        
+
+        <div class="item-title">Response Time</div>
+
+        
+
+        <div class="item-title">Assets</div>
+
+
+        <div class="item-title">Gameplay Systems</div>
+
+</div>
+
+
+<div class="item-status"id="content"/></div>
+       
+           </div>
+
+           
+          </span>
+    </body>
+</html>
