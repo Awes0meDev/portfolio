@@ -1,1 +1,6 @@
+Use this key to assign the colors of each status on the status page. This key is not connected to the code, which means u must  copy each number code, and paste it in each of the status html files withen this folder(status-changer)
+
+Operational = #7ade85
+Minor Issue = #ebc034
+Disruption = #ff4e21
 
