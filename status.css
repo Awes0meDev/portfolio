@@ -32,9 +32,11 @@ margin:0px 20px;
 .container2{
   border:2px solid lightgrey;
   margin:30px;
+  border-radius:10px;
+  width:80vw;
 }
 .item{
-  width:70vw;
+  width:80vw;
   background:white;
   height:100px;
   margin:0px;
@@ -66,7 +68,7 @@ margin:0px 20px;
   font-size:20px;
   text-align:right;
   height:80px;
-  width:40vw;
+  width:50vw;
   display:flex;
   justify-content:right;
   align-items:center;
