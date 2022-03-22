@@ -26,7 +26,7 @@
 
       <body>
      
-      
+
 
 
 
@@ -47,7 +47,7 @@
 
 
 <div class="item">
-        <div class="item-title">Datastores<i class="fa-regular fa-circle-question"></i></div> <div class="status-value"><div id="datastores"></div></div>
+        <div class="item-title">Datastores<i class="fa-regular fa-circle-question"onmouseover="hoverbox1()"onmouseleave="oneleave()"></i></div> <div class="status-value"><div class="hoverbox"id="hoverbox1">explanation</div><div id="datastores"></div></div>
     
  <script>$(document).ready(function() {
           $('#datastores').load("https://awes0mestudios.com/status-changer/datastores.html");
@@ -56,7 +56,7 @@
      <hr>
 
 <div class="item">
-        <div class="item-title">Response Time<i class="fa-regular fa-circle-question"></i></div><div class="status-value"> <div id="responsetime"></div></div>
+        <div class="item-title">Response Time<i class="fa-regular fa-circle-question"onmouseover="hoverbox2()"onmouseleave="twoleave()"></i></div><div class="status-value"><div class="hoverbox"id="hoverbox2">explanation</div> <div id="responsetime"></div></div>
 
 <script>$(document).ready(function() {
           $('#responsetime').load("https://awes0mestudios.com/status-changer/responsetime.html");
@@ -66,7 +66,7 @@
 
 
 <div class="item">
-        <div class="item-title">Assets<i class="fa-regular fa-circle-question"></i></div> <div class="status-value"><div id="assets"></div></div>
+        <div class="item-title">Assets<i class="fa-regular fa-circle-question"onmouseover="hoverbox3()"onmouseleave="threeleave()"></i></div> <div class="status-value"><div class="hoverbox"id="hoverbox3">explanation</div><div id="assets"></div></div>
         
 <script>$(document).ready(function() {
           $('#assets').load("https://awes0mestudios.com/status-changer/assets.html");
@@ -75,7 +75,7 @@
  <hr>
 
 <div class="item">
-        <div class="item-title">Gameplay Systems<i class="fa-regular fa-circle-question"></i></div><div class="status-value"> <div id="gameplaysystems"></div></div>
+        <div class="item-title">Gameplay Systems<i class="fa-regular fa-circle-question"onmouseover="hoverbox4()"onmouseleave="fourleave()"></i></div><div class="status-value"><div class="hoverbox"id="hoverbox4">explanation</div> <div id="gameplaysystems"></div></div>
         
 <script>$(document).ready(function() {
           $('#gameplaysystems').load("https://awes0mestudios.com/status-changer/gameplaysystems.html");
@@ -84,7 +84,52 @@
 </div>
 
 
+<script>
 
+  function hoverbox1(){
+       $("#hoverbox1").css("display","inline");
+    
+    
+  }
+function oneleave(){
+  $("#hoverbox1").css("display","none");
+  
+}
+
+  
+  function hoverbox2(){
+       $("#hoverbox2").css("display","inline");
+    
+    
+  }
+ function twoleave(){
+  $("#hoverbox2").css("display","none");
+  
+}
+
+  
+  function hoverbox3(){
+       $("#hoverbox3").css("display","inline");
+  }
+ 
+  function threeleave(){
+  $("#hoverbox3").css("display","none");
+  
+}
+
+  function hoverbox4(){
+    
+       $("#hoverbox4").css("display","inline");
+    
+  }
+    function fourleave(){
+  $("#hoverbox4").css("display","none");
+  
+}
+
+  
+  
+</script>
 
 
        
