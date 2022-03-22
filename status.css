@@ -56,19 +56,14 @@ margin:0px 20px;
   justify-content:left;
   align-items:center;
   text-align:left;
-   width:30vw;
+  width:60vw;
 }
 
-.fa-regular {
-  margin:0px 10px;
-  font-size:calc(12px + 1vw);
-  color:grey;
-}
 .status-value{
   font-size:13px;
   text-align:right;
   height:80px;
-  width:50vw;
+  width:20vw;
   display:flex;
   justify-content:right;
   align-items:center;
@@ -80,4 +75,30 @@ margin:0px 20px;
 .hoverbox{
   display:none;
   background:#191919;
+  padding:10px;
+  color:white;
+  font-size:15px;
+  border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:50px;
+        border-bottom-left-radius:50px;
 }
+
+#questionmark{
+      margin:0px 10px;
+  font-size:calc(12px + 1vw);
+  color:grey;
+}
+
+@media only screen and (max-width: 600px) {
+.fa-regular{
+  display:none;
+}
+#questionmark{
+  display:none;
+}
+  
+}
+
+
+
