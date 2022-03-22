@@ -72,7 +72,12 @@ margin:0px 20px;
   display:flex;
   justify-content:right;
   align-items:center;
+
 }
 #datastores,#responsetime,#assets,#gameplaysystems{
   margin:0px 20px;
+}
+.hoverbox{
+  display:none;
+  background:#191919;
 }
