@@ -1,7 +1,7 @@
 
 
 <div class="incident">
-<p id="date"></p>    
+<h1 id="date-0"></h1>    
 <h2> No Incidents Reported On This Day.</h2>         
 <p></p>
 </div>
@@ -145,6 +145,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
   
+<script>
   var x = new Date();
 
 var month = x.getMonth()+1;
@@ -154,7 +155,7 @@ var output1 = x.getFullYear() + '/' +
     ((''+month).length<2 ? '0' : '') + month + '/' +
     ((''+day).length<2 ? '0' : '') + day;
 
-    document.getElementById('date').innerHTML = output1;
+    document.getElementById('date-0').innerHTML = output1;
   
 </script>
 
