@@ -298,7 +298,7 @@ color:black;
 .joinsection{
 
   width:100vw;
-  height:calc(80px + 15vw);
+  height:calc(60px + 15vw);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -353,15 +353,12 @@ flex-direction:column;
 -webkit-width:100vw;
   width:100vw;
   
-  height:calc(240px + 15vw);
+  height:calc(170px + 15vw);
   
    -moz-position:fixed;
   -webkit-position:fixed;
   position:fixed;
-  
-   -moz-z-index:-3;
-  -webkit-z-index:-3;
-  z-index:-3;
+  z-index:-2;
   bottom:0px;
   -webkit-appearance: none;
         -moz-appearance: none;
