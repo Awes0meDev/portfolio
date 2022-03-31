@@ -76,7 +76,6 @@ background:white;
 .aboutsectionOC{
   width:100vw;
 position:absolute;
-background:transparent;
 animation:slideup 1s 1,fadein 1s 1;
 filter:opacity(60%);
 
@@ -183,6 +182,10 @@ background-position:center;
 .game:hover{
   transform: translate(0, -5px) scale(1.05) rotate(2deg);
    transition:0.3s;
+     z-index:10;
+}
+.gamelink{
+  z-index:10;
 }
 
 @media only screen and (max-width: 600px) {
