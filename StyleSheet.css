@@ -22,7 +22,6 @@ position:absolute;
     align-items: center;
 text-align:center;
 font-style:italic;
-font-family:Montserrat;
 animation:rubberBand 2s 3;
 animation-delay:2s;
 }
@@ -150,9 +149,7 @@ letter-spacing:3px;
   -moz-font-size:calc(15px + 0.2vw);
 -webkit-font-size:calc(15px + 0.2vw);
   font-size:calc(15px + 0.2vw);
-  font-family:Montserrat;
     animation:slideinfromright 2s 1;
-
    -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
