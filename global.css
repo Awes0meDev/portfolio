@@ -1,12 +1,12 @@
- @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
-
-@import url('http://fonts.cdnfonts.com/css/gotham');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/gotham');
 
 .dashedhrcontainer{
   width:100vw;
@@ -21,13 +21,14 @@
   margin:20px;
   text-align:center;
 }
+
 a{
   text-decoration:none;
 }
 body {
- -moz-font-family:gotham;
--webkit-font-family:gotham;
-    font-family:gotham;
+ -moz-font-family: 'Gotham', sans-serif;
+-webkit-font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham', sans-serif;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -41,11 +42,28 @@ body {
 -webkit-align-items:center;
     align-items: center;
     
+
+    
   -moz-height:auto;
 -webkit-height:auto;
 height:auto;
 
 
+}
+div{
+  -moz-font-family: 'Gotham', sans-serif;
+-webkit-font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham', sans-serif;
+}
+p{
+ -moz-font-family: 'Gotham', sans-serif;
+-webkit-font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham', sans-serif;
+}
+h1,h2,h3{
+ -moz-font-family: 'Gotham', sans-serif;
+-webkit-font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham', sans-serif;
 }
 
 #avatar {
@@ -76,6 +94,7 @@ animation:fadein 1s 1;
 }
 .headerfixedbackground{
  -moz-background-size:cover;
+background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
   background-repeat:no-repeat;
@@ -134,7 +153,6 @@ padding:20px;
    font-size:calc(10px + 0.3vw);
    font-weight:bold;
 color:lightgrey;
-  font-weight:bold;
     -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -205,5 +223,6 @@ filter:opacity(80%);
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
+
 
 
