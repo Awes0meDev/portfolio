@@ -130,7 +130,7 @@ font-family:Montserrat;
 }
 .statisticsnumber{
   color:#1e70ff;
-  font-size:calc(90px + 0.5vw);
+  font-size:calc(70px + 2vw);
   padding:10px;
    -webkit-appearance: none;
   -moz-appearance: none;
