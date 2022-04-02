@@ -106,9 +106,11 @@ filter:opacity(60%);
     text-align: center;
     width: 70%;
     font-size:calc(18px + 0.3vw);
+font-family:Montserrat;
         -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
 }
 
 .statistics-content{
@@ -145,9 +147,7 @@ letter-spacing:3px;
 
 
 .statisticslabel{
-  -moz-font-size:calc(15px + 0.2vw);
--webkit-font-size:calc(15px + 0.2vw);
-  font-size:calc(15px + 0.2vw);
+  font-size:calc(17px + 0.2vw);
     animation:slideinfromright 2s 1;
    -webkit-appearance: none;
   -moz-appearance: none;
@@ -243,6 +243,7 @@ flex-direction:column;
 .devrole{
 color:black;
   font-size:calc(10px + 0.5vw);
+  font-weight:300;
 }
 
 .joinsection{
