@@ -61,6 +61,7 @@ color:lime;
 .sectiontext{
   width:70vw;
  text-align:center;
+ font-size:20px;
 }
 .sectiontitle{
   color:#1e70ff;
@@ -73,6 +74,7 @@ color:lime;
 }
 li{
   margin:20px 0px;
+  font-size:20px;
 }
 ul{
   text-align:left;
@@ -80,6 +82,7 @@ ul{
 .emaillink{
   color:#1e70ff;
   text-decoration:none;
+  font-size:20px;
   margin:0px 5px;
 }
 
@@ -111,5 +114,6 @@ ul{
         }
         
         }
+
 
 
