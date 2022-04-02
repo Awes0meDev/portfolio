@@ -1,4 +1,4 @@
-   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -6,7 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+
 
 .dashedhrcontainer{
   width:100vw;
@@ -26,9 +29,9 @@ a{
   text-decoration:none;
 }
 body {
- -moz-font-family: 'Gotham', sans-serif;
--webkit-font-family: 'Gotham', sans-serif;
-   font-family: 'Gotham', sans-serif;
+ -moz-font-family: GothamPro;
+-webkit-font-family: GothamPro;
+   font-family:GothamPro;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -51,19 +54,19 @@ height:auto;
 
 }
 div{
-  -moz-font-family: 'Gotham', sans-serif;
--webkit-font-family: 'Gotham', sans-serif;
-   font-family: 'Gotham', sans-serif;
+  -moz-font-family:GothamPro;
+-webkit-font-family:GothamPro;
+   font-family: GothamPro;
 }
 p{
- -moz-font-family: 'Gotham', sans-serif;
--webkit-font-family: 'Gotham', sans-serif;
-   font-family: 'Gotham', sans-serif;
+ -moz-font-family:GothamPro;
+-webkit-font-family:GothamPro;
+   font-family: GothamPro;
 }
 h1,h2,h3{
- -moz-font-family: 'Gotham', sans-serif;
--webkit-font-family: 'Gotham', sans-serif;
-   font-family: 'Gotham', sans-serif;
+ -moz-font-family: GothamPro;
+-webkit-font-family: GothamPro;
+   font-family: GothamPro;
 }
 
 #avatar {
@@ -223,6 +226,7 @@ filter:opacity(80%);
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
+
 
 
 
