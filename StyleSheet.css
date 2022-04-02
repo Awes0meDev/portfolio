@@ -1,3 +1,6 @@
+body{
+  width:100vw;
+}
 .notif-box{
   width:100vw;
   height:auto;
@@ -9,7 +12,7 @@
   justify-content:center;
     align-items: center;
 text-align:center;
-position:absolute;
+position:absolute
 
 }
 .notif-p{
@@ -77,6 +80,7 @@ background:white;
 position:absolute;
 animation:slideup 1s 1,fadein 1s 1;
 filter:opacity(60%);
+display:none;
 
 }
 
@@ -163,6 +167,7 @@ letter-spacing:3px;
   justify-content:center;
   align-items:center;
   text-align:center;
+  flex-wrap:wrap;
 }
 
 .game{
@@ -238,12 +243,12 @@ flex-direction:column;
 .devname{
   color:#1e70ff;
   font-weight:bold;
-  font-size:calc(10px + 0.7vw);
+  font-size:calc(12px + 0.7vw);
 }
 .devrole{
 color:black;
   font-size:calc(10px + 0.5vw);
-  font-weight:300;
+  font-weight:600;
 }
 
 .joinsection{
