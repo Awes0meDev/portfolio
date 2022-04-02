@@ -41,7 +41,6 @@ color:white;
 font-size:calc(15px + 0.5vw);
  animation:slideup 1s 1;
 margin:0px;
-  font-family:Montserrat;
 }
 .updatetitle{
   font-size:40px;
@@ -62,11 +61,10 @@ margin:20px;
   color:#1e70ff;
   font-size:50px;
   margin:20px;
-  font-weight:bold;
+  font-weight:Bold;
   text-decoration: underline;
    font-style: italic;
    animation:slideinfromleft 1s 1;
-    font-family:roboto;
 }
 .newthing{
   padding:10px;
@@ -106,7 +104,6 @@ margin:20px;
 .newthingtext{
   font-size:18px;
    animation:fadein 2s 1;
-   font-family:Montserrat;
    margin:0px 20px ;
 }
 .changesectioncontainer{
@@ -175,4 +172,3 @@ margin:20px;
     animation:fadein 2s 1;
   
 }
-
