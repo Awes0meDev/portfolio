@@ -82,7 +82,7 @@ h1,h2,h3{
 
 }
 .header{
-
+     object-fit:cover;
   width:100vw;
   height:calc(160px + 10vw);
 margin:-8px;
@@ -97,6 +97,7 @@ animation:fadein 1s 1;
   appearance: none;
 }
 .headerfixedbackground{
+       object-fit:cover;
  -moz-background-size:cover;
 background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
