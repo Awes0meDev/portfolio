@@ -52,7 +52,7 @@ body {
 -webkit-height:auto;
 height:auto;
 
-
+overflow-x: hidden;
 }
 div{
   -moz-font-family:GothamPro;
