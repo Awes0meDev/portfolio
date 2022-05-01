@@ -13,13 +13,7 @@
   appearance: none;
 
 }
-.pagetitle{
-  color:#1e70ff;
-  font-size:50px;
-  font-weight:bold;
-  margin:50px;
-    animation:slideinfromleft 1s 1;
-}
+
 .topsection{
   background-color:white;
   width:100vw;
