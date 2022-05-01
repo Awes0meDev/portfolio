@@ -14,14 +14,6 @@ padding:100px 0px;
   appearance: none;
 
 }
-.pagetitle{
-  color:#1e70ff;
-  font-size:70px;
-  font-weight:bold;
-  margin:20px;
-  
-    animation:slideinfromleft 1s 1;
-}
 .section{
   width:60vw;
   margin:10px 0px;
@@ -265,6 +257,7 @@ margin:0px 20px;
         
         
         }
+
 
 
 
