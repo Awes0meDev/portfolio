@@ -1,18 +1,4 @@
 
-.container {
-      background-color:white;
-  -moz-height:100%;
-    height: 100%;
-    width: 100vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-}
 
 
 .shop-box{
