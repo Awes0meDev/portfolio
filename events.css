@@ -15,14 +15,6 @@ padding:100px 0px;
   appearance: none;
 
 }
-.pagetitle{
-  color:#1e70ff;
-  font-size:50px;
-  font-weight:bold;
-  margin:20px;
-  
-    animation:slideinfromleft 1s 1;
-}
 
 .event-box{
   width:70vw;
