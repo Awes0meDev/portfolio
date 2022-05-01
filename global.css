@@ -32,7 +32,7 @@ body {
  -moz-font-family: GothamPro;
 -webkit-font-family: GothamPro;
    font-family:GothamPro;
-     font-weight:200;
+   font-weight:200;
     
      -moz-display:flex;
 -webkit-display:flex;
@@ -41,7 +41,6 @@ body {
     -moz-flex-direction:column;
 -webkit-flex-direction:column;
     flex-direction: column;
-    
     -moz-align-items:center;
 -webkit-align-items:center;
     align-items: center;
@@ -52,22 +51,27 @@ body {
 -webkit-height:auto;
 height:auto;
 
-overflow-x: hidden;
+
 }
 div{
   -moz-font-family:GothamPro;
 -webkit-font-family:GothamPro;
    font-family: GothamPro;
+   
+
 }
 p{
  -moz-font-family:GothamPro;
 -webkit-font-family:GothamPro;
    font-family: GothamPro;
+
 }
 h1,h2,h3{
  -moz-font-family: GothamPro;
 -webkit-font-family: GothamPro;
    font-family: GothamPro;
+   
+
 }
 
 #avatar {
@@ -82,7 +86,7 @@ h1,h2,h3{
 
 }
 .header{
-     object-fit:cover;
+
   width:100vw;
   height:calc(160px + 10vw);
 margin:-8px;
@@ -91,14 +95,15 @@ display:flex;
 justify-content:center;
 align-items:center;
 padding:0px 0px;
+     object-fit:cover;
 animation:fadein 1s 1;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 .headerfixedbackground{
-       object-fit:cover;
  -moz-background-size:cover;
+     object-fit:cover;
 background-position: bottom 0px right -350px;
 -webkit-background-size:cover;
   background-size:cover;
@@ -202,7 +207,14 @@ filter:opacity(80%);
   appearance: none;
 }
 
-
+.pagetitle{
+  color:#1e70ff;
+  font-size:60px;
+  font-weight:bold;
+  margin:20px;
+  
+    animation:slideinfromleft 1s 1;
+}
 
 
 
