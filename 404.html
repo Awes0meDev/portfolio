@@ -33,7 +33,63 @@
       align-items:center;
 
       flex-direction:column;
-    }   
+    }
+   
+
+   @keyframes img {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+    .hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+   
+    
+    
+    
     
     
   </style>
@@ -46,10 +102,10 @@
   
 <div class="box">
   
-  <img src="https://awes0mestudios.com/Copy of Untitled drawing (1) (1).png"id="img">
+  <img src="Copy of Untitled drawing (1).png"id="img">
   
   
-  <div class="words">Page Not Found. <i><a href="https://awes0mestudios.com/"target="/blank"class="link">Go back home?</a></i></div>
+  <div class="words">Page Not Found. <i><a href="https://awes0mestudios.com/"target="/blank"class="link"> <p class="hover-underline-animation">Go back home?</p></a></i></div>
   
   </div>
   
