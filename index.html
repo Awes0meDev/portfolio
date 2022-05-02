@@ -4,15 +4,12 @@
  
         <title>Awes0me Studios</title>
         <meta charset="UTF-8">
-            <meta name="description" content="Official Website For Awes0meStudios.">
-    <meta name="keywords" content="awes0mestudios, awes0me, awes0mestudios roblox,roblox game studio,awes0medev">
-        
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
         <link href="StyleSheet.css" rel="stylesheet">
  
-   <link href="https://awes0mestudios.com/global.css" rel="stylesheet">
+   <link href="global.css" rel="stylesheet">
 
 
 <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
@@ -42,7 +39,44 @@ document.getElementById('hidden-div').style.display="none";
          
        <body>
       
-
+      
+         
+        
+      
+      
+          
+          <div class="notif-box"id="notif-box">
+            
+        
+            
+             
+             
+      
+            
+            <div class="notif-p"id="notif-text">
+              
+            <i class="fa-solid fa-clover"id="clover"></i>
+            
+            Happy St.Patricks day! Use code STPATRICKSDAY2022 in game!
+            
+            <i class="fa-solid fa-clover"id="clover"></i>
+             </div>
+           <i class="fa-solid fa-xmark"id="x-mark"onclick="closenotif()"></i>
+          
+          <script>
+            
+            function closenotif(){
+              document.getElementById("x-mark").style.display="none"
+              document.getElementById("notif-box").style.display="none"
+              document.getElementById("notif-text").style.display="none"
+            }
+            
+            
+            
+          </script>
+            </div>
+            
+          
          
          
             
@@ -89,9 +123,9 @@ document.getElementById('hidden-div').style.display="none";
                   <div class="statisticslabel">Combined Minutes Played</div>
                   
                   
-                  
+                      
                         <img src="https://awes0mestudios.com/Untitled_design.png"class="aboutsectionOC">
-                
+
                 
                 </div>
                 
@@ -101,12 +135,47 @@ document.getElementById('hidden-div').style.display="none";
               <div class="section-header">Games</div>
               
               <div class="games-content">
+                
+                
+                
   
               
-              <a href="https://playbattleisland.com"target="_blank"class="gamelink"><div style="background-image: url('https://awes0mestudios.com/gameicon.jpg');"class="game"></div></a>
+             <div style="background-image: url('https://awes0mestudios.com/gameicon.jpg');"class="game">
+                <div class="game-top-section"></div>
+              <div class="game-bottom-section">
+                <div class="game-p">
+                  <div class="game-title"><p>Battle Island</p> </div>
+                    <div class="game-visits"><p>14K+ Visits </p></div>
+                    </div>
+              <a href="https://playbattleisland.com"target="_blank"class="game-link">
+                
+                <div class="game-play-b-container"> <div class="game-play-b">Play Now</div></div>
+                <div class="game-play-b-bottom-container"> </div>
+                </a>
+              </div>
+              </div>
               
-              <a href=""target="_blank"class="gamelink"><div style="background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/N13e7awhgiljgescq/videoblocks-questionmark-with-funky-look-on-dark-background_rbtgenf8r_thumbnail-1080_01.png');"class="game"></div></a>
-   
+              
+                <div style="background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/N13e7awhgiljgescq/videoblocks-questionmark-with-funky-look-on-dark-background_rbtgenf8r_thumbnail-1080_01.png');"class="game">
+                <div class="game-top-section"></div>
+              <div class="game-bottom-section">
+                <div class="game-p">
+                  <div class="game-title"><p>Coming Soon</p> </div>
+                    <div class="game-visits"><p>0 visits</p></div>
+                    </div>
+              <a href=""target="_blank"class="game-link-unavailable">
+                
+                <div class="game-play-b-container"> <div class="game-play-b-unavailable">Play Now</div></div>
+                <div class="game-play-b-bottom-container"> </div>
+                </a>
+              </div>
+              </div>
+              
+              
+                  
+              
+             
+
               
               
               </div>
@@ -277,3 +346,4 @@ document.getElementById('hidden-div').style.display="none";
         
     </body>
 </html>
+
