@@ -394,13 +394,12 @@ flex-direction:column;
   appearance: none;
 }
 .joinb{
-  background:#1e70ff;
   color:white;
-  padding:calc(5px + 0.5vw);
+  padding:calc(6px + 0.5vw);
   border-radius:5px;
   font-weight:bold;
   font-size:calc(10px + 0.5vw);
-  border:none;
+  border:2px solid white;
   text-decoration:none;
    transition:0.3s;
   
