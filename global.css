@@ -1,4 +1,4 @@
- @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -82,7 +82,6 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
 
 .dashedhrcontainer{
   width:100vw;
@@ -186,7 +185,7 @@ background-position: bottom 0px right -350px;
 -webkit-width:100vw;
   width:100vw;
   transform: scale(1.1);
-  height:calc(160px + 10vw);
+  height:60vh;
 
   
    -moz-position:fixed;
