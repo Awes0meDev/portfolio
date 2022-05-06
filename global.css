@@ -11,6 +11,77 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.header-box{
+  width:100vw;
+  height:78px;
+  background: #ffffff;
+  display: -webkit-flex;
+  display: flex;
+  margin:-8px;
+}
+.header-favicon{
+  width:50vw;
+  display:flex;
+    display: -webkit-flex;
+  align-items:center;
+   -webkit-justify-content:left;
+    justify-content:left;
+   animation:bounceInLeft;
+  animation-duration:1.5s;
+}
+.header-favicon > img{
+  height:50px;
+  margin:0px 20px;
+}
+.header-button-group{
+  display: -webkit-flex;
+  display:flex;
+ -webkit-justify-content:right;
+  justify-content:right;
+  align-items:center;
+  text-align:right;
+  height:78px;
+  width:50vw;
+ }
+.header-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:90%;
+  width:120px;
+  font-size:20px;
+  font-weight:bold;
+  color:#1e70ff;
+  border:none;
+   transition:2s;
+   letter-spacing: 1px;
+    
+    
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 
 .dashedhrcontainer{
