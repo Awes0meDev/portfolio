@@ -1,4 +1,4 @@
- @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -11,6 +11,33 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.headerfixedbackground{
+ -moz-background-size:cover;
+     object-fit:cover;
+background-position: bottom 0px right -350px;
+-webkit-background-size:cover;
+  background-size:cover;
+  filter:brightness(17%) blur(5px);
+  margin:-8px ;
+  -moz-width:100vw;
+-webkit-width:100vw;
+  width:100vw;
+  transform: scale(1.1);
+  height:70vh;
+
+  
+   -moz-position:fixed;
+  -webkit-position:fixed;
+  position:fixed;
+  
+   -moz-z-index:-2;
+  -webkit-z-index:-2;
+  z-index:-2;
+  
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+}
 .header-box{
   width:100vw;
   height:78px;
@@ -149,111 +176,80 @@ animation:fadein 1s 1;
   -moz-appearance: none;
   appearance: none;
 }
-.headerfixedbackground{
- -moz-background-size:cover;
-     object-fit:cover;
-background-position: bottom 0px right -350px;
--webkit-background-size:cover;
-  background-size:cover;
-  filter:brightness(17%) blur(5px);
-  margin:-8px ;
-  -moz-width:100vw;
--webkit-width:100vw;
-  width:100vw;
-  transform: scale(1.1);
-  height:70vh;
-
-  
-   -moz-position:fixed;
-  -webkit-position:fixed;
-  position:fixed;
-  
-   -moz-z-index:-2;
-  -webkit-z-index:-2;
-  z-index:-2;
-  
-  -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-}
 .containerbottom{
-  background-color:white;
-    height:auto;
+  background-color:#191919;
+    height:200px;
     width: 100vw;
     position: relative;
     display: flex;
 flex-direction:column;
     align-items: center;
     text-align:center;
-
+flex-direction:row;
 margin:-8px;
-
+bottom:0px;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-.category-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-align-items:center;
-text-align:center;
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-padding:20px;
-}
 
-.footer {
-    position: relative;
-    bottom: 10px;
-   font-size:calc(10px + 0.3vw);
-   font-weight:bold;
-color:lightgrey;
-    -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+.footer-logo{
+  height:100%;
+  width:30%;
   display:flex;
-  flex-direction:row;
-  justify-content:center;
   align-items:center;
-  text-align:center;
-  width:100vw;
-
-   font-family:Montserrat;
+  justify-content:center;
   
+}
+.footer-logo > img{
+  width:170px;
+}
+.footer-copyright{
+  height:100%;
+  width:40%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 
+  
+}
+.footer-copyright > p{
+    color:white;
+  font-weight:bold;
+  margin-top:120px;
+
+}
+.footer-socials{
+  height:100%;
+  width:30%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  
+}
+.social-item{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-weight:Bold;
+  margin:10px 0px;
+  letter-spacing:1.5px;
+}
+.fa-twitter,.fa-square{
+    color:white;
+    margin:10px;
+    font-size:25px;
+}
+.fa-square{
+  transform:rotate(20deg);
 }
 
 
-.social {
-   margin:10px;
 
-    transition: opacity 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
-    
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
-.social > img {
-filter:opacity(80%);
-    max-height: 38px;
-    height: auto;
-      transition:0.3s;
-     -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.social > img:hover {
-  filter:opacity(100%);
-  transform:translate(0px, -10px);
-  transition:0.3s;
-   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
 .pagetitle{
   color:#1e70ff;
@@ -273,7 +269,7 @@ filter:opacity(80%);
     flex-direction: column;
     align-items: center;
 background:white;
-padding:60px 0px;
+padding:0px 0px;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
