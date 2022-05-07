@@ -1,17 +1,14 @@
-
 .headerfixedbackgroundhome{
- -moz-background-size:cover;
-     object-fit:cover;
+
 background-position: bottom 0px right -350px;
--webkit-background-size:cover;
-  background-size:cover;
+
   filter:brightness(17%) blur(5px);
   margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
   width:100vw;
   transform: scale(1.1);
-  height:50vh;
+  height:100vh;
 
   
    -moz-position:fixed;
@@ -387,7 +384,7 @@ color:black;
 }
 
 .joinsection{
-background:black;
+background:transparent;
   width:100vw;
   height:calc(30px + 15vw);
 display:flex;
