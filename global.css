@@ -1,4 +1,4 @@
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -38,6 +38,7 @@ background-position: bottom 0px right -350px;
         -moz-appearance: none;
         appearance: none;
 }
+
 .header-box{
   width:100vw;
   height:78px;
@@ -178,7 +179,7 @@ animation:fadein 1s 1;
 }
 .containerbottom{
   background-color:#191919;
-    height:25vh;
+    height:30vh;
     width: 100vw;
     position: relative;
     display: flex;
@@ -202,7 +203,7 @@ bottom:0px;
   
 }
 .footer-logo > img{
-  width:170px;
+  width:190px;
 }
 .footer-copyright{
   height:100%;
@@ -340,6 +341,9 @@ padding:0px 0px;
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
+
+
+
 
 
 
