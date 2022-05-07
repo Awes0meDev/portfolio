@@ -1,14 +1,15 @@
+
 .headerfixedbackgroundhome{
 
 background-position: bottom 0px right -350px;
-
+background-size:cover;
   filter:brightness(17%) blur(5px);
   margin:-8px ;
   -moz-width:100vw;
 -webkit-width:100vw;
   width:100vw;
   transform: scale(1.1);
-  height:100vh;
+  height:50vh;
 
   
    -moz-position:fixed;
@@ -18,6 +19,32 @@ background-position: bottom 0px right -350px;
    -moz-z-index:-2;
   -webkit-z-index:-2;
   z-index:-2;
+  
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+}
+
+.footerfixedbackgroundhome{
+background-size:cover;
+background-position: bottom -150px right -350px;
+bottom: 0px;
+  filter:brightness(20%) blur(5px);
+  margin:-8px ;
+  -moz-width:100vw;
+-webkit-width:100vw;
+  width:100vw;
+  transform: scale(1.1);
+  height:50vh;
+
+  
+   -moz-position:fixed;
+  -webkit-position:fixed;
+  position:fixed;
+  
+   -moz-z-index:-3;
+  -webkit-z-index:-3;
+  z-index:-3;
   
   -webkit-appearance: none;
         -moz-appearance: none;
@@ -386,7 +413,7 @@ color:black;
 .joinsection{
 background:transparent;
   width:100vw;
-  height:calc(30px + 15vw);
+  height:25vh;
 display:flex;
 justify-content:center;
 align-items:center;
