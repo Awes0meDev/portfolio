@@ -1,25 +1,3 @@
-
-
-.topsection{
-  background-color:white;
-  width:100vw;
-  height:auto;
-  margin:30px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-flex-direction:column;
- animation:fadein 1s 1;
-}
-.sectiontitle{
-  color:#1e70ff;
-  font-size:30px;
-  font-weight:bold;
-      animation:slideinfromright 1s 1;
-        width:100vw;
-  text-align:center;
-}
 .topsectioncontent{
   display:flex;
   flex-wrap:wrap;
@@ -102,5 +80,33 @@ flex-direction:column;
 li{
   padding:20px 0px;
 }
+#social-icon-github:hover,#social-icon-twitter:hover,#social-icon-discord:hover,#social-icon-email:hover{
+  color:#1e70ff;
+  transition:0.3s;
+}
+#social-icon-github,#social-icon-twitter,#social-icon-discord,#social-icon-email{
+  transition:0.3s;
+  font-size:40px;
+  color:#242424;
+  margin:20px;
+    transition:0.3s;
+}
 
+#social-icon-github{
+     animation:fadeInUp;
+ animation-duration:0.5s;
+
+}
+#social-icon-twitter{
+     animation:fadeInUp;
+ animation-duration:1s;
+}
+#social-icon-discord{
+     animation:fadeInUp;
+ animation-duration:1.5s;
+}
+#social-icon-email{
+     animation:fadeInUp;
+ animation-duration:2s;
+}
 
