@@ -50,6 +50,28 @@ bottom: 0px;
         appearance: none;
 }
 
+.pagetitlehome{
+  color:#1e70ff;
+  font-size:60px;
+  font-weight:bold;
+  margin:20px;
+}
+.typed-out-container{
+  display: inline-block;
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em transparent;
+  white-space: nowrap;
+  animation:
+    typing 2s forwards;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 .container-home {
 
   -moz-height:100%;
@@ -413,12 +435,12 @@ color:black;
 .joinsection{
 background:transparent;
   width:100vw;
-  height:20vh;
+  height:30vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-flex-direction:row;
+flex-direction:column;
 
  -webkit-appearance: none;
   -moz-appearance: none;
