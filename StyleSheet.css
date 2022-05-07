@@ -1,4 +1,3 @@
-
 .headerfixedbackgroundhome{
 
 background-position: bottom 0px right -350px;
@@ -42,9 +41,9 @@ bottom: 0px;
   -webkit-position:fixed;
   position:fixed;
   
-   -moz-z-index:-3;
-  -webkit-z-index:-3;
-  z-index:-3;
+   -moz-z-index:-1;
+  -webkit-z-index:-1;
+  z-index:-1;
   
   -webkit-appearance: none;
         -moz-appearance: none;
@@ -413,12 +412,12 @@ color:black;
 .joinsection{
 background:transparent;
   width:100vw;
-  height:25vh;
+  height:20vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-flex-direction:column;
+flex-direction:row;
 
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -442,6 +441,7 @@ flex-direction:column;
   font-weight:bold;
   font-size:calc(10px + 0.5vw);
   border:2px solid white;
+  margin:0px 20px;
   text-decoration:none;
    transition:0.3s;
   
