@@ -386,7 +386,7 @@ color:black;
 }
 
 .joinsection{
-
+background:black;
   width:100vw;
   height:calc(30px + 15vw);
 display:flex;
@@ -429,31 +429,7 @@ flex-direction:column;
   background:white;
   transition:0.3s;
 }
-.fixedbackground{
-  background-position: bottom -100px right 0px;
-  -moz-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
--webkit-background-image:url('https://awes0mestudios.com/Desert_map_2.png');
- background-image:url('https://awes0mestudios.com/Desert_map_2.png');
- -moz-background-size:cover;
--webkit-background-size:cover;
-  background-size:cover;
-  filter:brightness(25%) blur(2px);
-  -moz-width:100vw;
--webkit-width:100vw;
-  width:100vw;
-  
-  
-  height:50vh;
-  
-   -moz-position:fixed;
-  -webkit-position:fixed;
-  position:fixed;
-  z-index:-2;
-  bottom:0px;
-  -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-}
+
 @media only screen and (max-width: 600px) {
  
   .aboutsectionOC{
