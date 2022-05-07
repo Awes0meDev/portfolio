@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -178,7 +178,7 @@ animation:fadein 1s 1;
 }
 .containerbottom{
   background-color:#191919;
-    height:200px;
+    height:25vh;
     width: 100vw;
     position: relative;
     display: flex;
@@ -341,13 +341,6 @@ padding:0px 0px;
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
-
-
-
-
-
-
-
 
 
 
