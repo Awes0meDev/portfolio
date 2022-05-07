@@ -1,4 +1,4 @@
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   
@@ -217,6 +217,7 @@ bottom:0px;
     color:white;
   font-weight:bold;
   margin-top:120px;
+   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 
 }
 .footer-socials{
@@ -237,6 +238,7 @@ bottom:0px;
   font-weight:Bold;
   margin:10px 0px;
   letter-spacing:1.5px;
+   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 }
 .fa-twitter,.fa-square{
     color:white;
@@ -246,7 +248,14 @@ bottom:0px;
 .fa-square{
   transform:rotate(20deg);
 }
+.sectiontitle,.section-title{
+  font-size:40px;
+  font-weight:bold;
+      color:#242424;
+  
+      animation:slideinfromright 1s 1;
 
+}
 
 
 
@@ -259,6 +268,29 @@ bottom:0px;
   
     animation:slideinfromleft 1s 1;
 }
+
+.section-main-container{
+  width:100vw;
+  padding:30px 0px;
+  margin:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+.section{
+  width:60vw;
+  margin:30px 0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+      color:#242424;
+      
+}
+
 
 .container {
         -moz-height:100%;
@@ -298,7 +330,6 @@ padding:0px 0px;
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
-
 
 
 
