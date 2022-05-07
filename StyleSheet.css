@@ -25,51 +25,8 @@ background-position: bottom 0px right -350px;
         -moz-appearance: none;
         appearance: none;
 }
-.notif-box{
-  width:100vw;
-  height:auto;
-  padding:5px 0px;
-  background:linear-gradient(to right,#32a852, green);
-  z-index:10;
-  margin:-8px;
-  display: flex;
-  justify-content:center;
-    align-items: center;
-text-align:center;
-position:absolute
 
-}
-.notif-p{
-  color:lime;
-  font-weight:bold;
-  font-size:calc(15px + 0.5vw);
-  height:100%;
-   display: flex;
-    flex-direction: row;
-    align-items: center;
-text-align:center;
-font-style:italic;
-animation:rubberBand 2s 3;
-animation-delay:2s;
-}
-
-#clover{
-  color:lime;
-  margin:0px 20px;
-}
-#x-mark{
-   color:white;
-   margin:0px 20px;
-   font-size:35px;
-     transition:0.3s;
-}
-#x-mark:hover{
-  color:black;
-  transition:0.3s;
-
-}
-
-.container {
+.container-home {
 
   -moz-height:100%;
     height: 100%;
@@ -79,6 +36,7 @@ animation-delay:2s;
     flex-direction: column;
     align-items: center;
 background:white;
+  margin:0px;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -91,9 +49,7 @@ background:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:50px;
 
-    
      -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -124,6 +80,17 @@ display:none;
   -moz-appearance: none;
   appearance: none;
 }
+.aboutme-main-container{
+  background:#dbf4ff;
+  width:100vw;
+  padding:70px 0px;
+  margin:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
 
 .aboutme-content {
   animation:fadein 1s 1,slideinfromleft 1s 1;
@@ -142,7 +109,7 @@ font-family:Montserrat;
 
 }
 .statistics-main-container{
-  background:#dbeaff;
+  background:white;
   width:100vw;
   padding:30px 0px;
   margin:20px 0px;
@@ -213,9 +180,20 @@ letter-spacing:3px;
   letter-spacing:2px;
 }
 
-
+.games-main-container{
+  background:  #dbeaff;
+  width:100vw;
+  padding:30px 0px;
+  margin:20px 0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
 
 .games-content{
+
   margin:30px 0px;
   width:80vw;
   display:flex;
