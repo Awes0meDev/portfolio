@@ -83,20 +83,6 @@
   transform-origin: bottom left;
 }
 
-.dashedhrcontainer{
-  width:100vw;
-  text-align:center;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.dashedhr{
-  width:70vw;
-  border:1px dashed #1e70ff;
-  margin:20px;
-  text-align:center;
-}
-
 a{
   text-decoration:none;
 }
