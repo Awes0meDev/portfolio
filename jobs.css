@@ -223,18 +223,19 @@ margin:10px 20px;
         .jobstats{
           text-align:center;
         }
-        
-         
-@media(min-width: 770px){
-          
+        .cards{
+  
+  width:100vw;
+
+}
+        .testimonial-card{
+  width:80vw;
+}
+    
         .detailb{
          margin: 0px 0px;
          
         }
-        
-        
-        }
-
 
 
 
