@@ -5,8 +5,7 @@ a{
 .devblogstitle{
   color:black;
   font-weight:bold;
-  font-size:50px;
-  display:flex;
+  font-size:40px;
   flex-direction:row;
   margin:20px;
 
@@ -69,3 +68,4 @@ height:400px;
   font-size:20px;
   margin:10px;
 }
+
