@@ -287,6 +287,7 @@ letter-spacing:3px;
   justify-content:center;
   align-items:center;
 }
+
 .game-play-b-unavailable{
 
   background:#1e70ff;
@@ -462,6 +463,12 @@ flex-direction:row;
   }
   .teamcontent{
     grid-template-columns: repeat(2, 1fr);
+}
+.game-play-b > p{
+  display:none;
+}
+.game-play-b-unavailable > p{
+  display:none;
 }
 
 }
