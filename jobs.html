@@ -169,7 +169,12 @@ Our team consists of talented and creative builders, modelers, programmers, desi
          <div class="jobbox">
       
         <div class="jobname">
-          <div class="jobnametitle">2D Artist <i class="fa-solid fa-fire-flame-curved"></i></div>
+           <div class="hoverbox"id="flamehoverbox">Designated as an important hire for the company.</div>
+          <div class="jobnametitle">2D Artist
+          <i class="fa-solid fa-fire-flame-curved"id="flame"onmouseover="flamehoverbox()"onmouseleave="flamehoverboxoff()"></i>
+         
+          </div>
+          
           <p class="jobstats">Part-time • R$600K-3K • No Equity</p>
              
          </div>
@@ -193,6 +198,21 @@ Our team consists of talented and creative builders, modelers, programmers, desi
         
       </div>
       </div>
+      
+      <script>
+        
+        function flamehoverbox(){
+          document.getElementById("flamehoverbox").style.display = "block";
+        }
+        
+            function flamehoverboxoff(){
+          document.getElementById("flamehoverbox").style.display = "none";
+        }
+        
+        
+        
+        
+      </script>
           
 
            
@@ -337,3 +357,4 @@ Our team consists of talented and creative builders, modelers, programmers, desi
         
     </body>
 </html>
+
