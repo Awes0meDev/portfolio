@@ -80,12 +80,17 @@ background-position: bottom 0px right -350px;
   width:120px;
   font-size:20px;
   font-weight:bold;
-  color:#1e70ff;
+  transition:0.3s;
+  color:#242424;
   border:none;
-   transition:2s;
+   transition:0.1s;
    letter-spacing: 1px;
     
     
+}
+.header-button:hover{
+  color:#1e70ff;
+  transition:0.1s;
 }
 
 .hover-underline-animation {
@@ -382,6 +387,8 @@ padding:0px 0px;
   
 }
 }
+
+
 
 
 
