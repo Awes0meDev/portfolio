@@ -3,7 +3,7 @@
   font-size:15px;
   color:white;
   padding:10px;
-  width:400px;
+  width:auto;
   border-radius:10px;
   display:none;
   transition:0.3s;
@@ -261,6 +261,8 @@ margin:10px 20px;
          margin: 0px 0px;
          
         }
+
+
 
 
 
