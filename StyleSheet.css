@@ -217,11 +217,17 @@ font-family:Montserrat;
   appearance: none;
 animation:slideinfromleft 2s 1;
 font-family: bungee;
-letter-spacing:3px;
-
- -webkit-text-stroke: 3px #242424;
+letter-spacing:15px;
+ -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow:
+						8px 8px  #1e70ff,
+						20px 20px #000000;
 
 }
+
+
 
 
 
