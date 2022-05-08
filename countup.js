@@ -1,5 +1,5 @@
 // How long you want the animation to take, in ms
-const animationDuration = 3000;
+const animationDuration = 3500;
 // Calculate how long each ‘frame’ should last if we want to update the animation 60 times per second
 const frameDuration = 1000 / 60;
 // Use that to calculate how many frames we need to complete the animation
