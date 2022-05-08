@@ -25,7 +25,10 @@
       
       
          
-       <body style="background:#242424;">
+       <body style="background:white;">
+         <script>
+            var catagorychoice = 'askaquestion';
+         </script>
                    
          <div class="header-box">
   
@@ -60,7 +63,7 @@
                
             </div>
             
-          <span class="container"style="background:#242424;">
+          <span class="container"style="background:white;">
             
             
             
@@ -75,7 +78,59 @@
             
             <div class="form-content"id="form-content">
     
+           <div class="iwouldliketo">I Would Like To...</div>
+           
+           <div class="catagory-row">
+             
+             <div class="catagory-item"onclick="askaquestion();"id="aaq-b">Ask a question</div>
+             
+               <div class="catagory-item"onclick="partnerwithus();"id="pwu-b">Partner with us</div>
+               
+                 <div class="catagory-item"onclick="businesscontact();"id="gbc-b">Get business contact</div>
+                 
+                 
+                  <script>
+             function askaquestion(){
+              var catagorychoice = 'askaquestion';
+              
+     document.getElementById("aaq-b").style.background = "white";
+     document.getElementById("pwu-b").style.background = "transparent";
+     document.getElementById("gbc-b").style.background = "transparent";
+              
+              }
+             
+             function partnerwithus(){
+                 var catagorychoice = 'partnerwithus';
+                 
+                   document.getElementById("aaq-b").style.background = "transparent";
+     document.getElementById("pwu-b").style.background = "white";
+     document.getElementById("gbc-b").style.background = "transparent";
+              
+           
+             }
+             
+             function businesscontact(){
+                 var catagorychoice = 'businesscontact';
+                 
+                 document.getElementById("aaq-b").style.background = "transparent";
+     document.getElementById("pwu-b").style.background = "transparent";
+     document.getElementById("gbc-b").style.background = "white";
+                
+             
+             }
+             
 
+  
+ 
+           </script>
+             
+                    
+                 
+                 <p id="catagory-choice"></p>
+                 
+            
+             
+           </div>
                 
         
             <div class="form-top-section">
@@ -129,6 +184,10 @@ const params = {
       "title": `Form Result from awes0mestudios.com/contact`,
       "description": `Form`,
       "fields": [
+         {
+          "name": `Catagory`,
+          "value": `${catagorychoice}`
+        },
         {
           "name": `Name`,
           "value": `${name}`
