@@ -87,7 +87,9 @@
 .jobstats{
   text-align:left;
   margin:5px;
-    color:black;
+    color:#242424;
+    font-family:Montserrat;
+    font-weight:thin;
 }
 .detailb{
   background:#1e70ff;
