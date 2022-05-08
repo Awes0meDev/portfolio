@@ -51,13 +51,22 @@ bottom: 0px;
 }
 
 .pagetitlehome{
-  color:transparent;
+  color: #1e70ff;
   font-size:60px;
-  letter-spacing:2px;
+  letter-spacing:10px;
   margin:20px;
-    -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #1e70ff;
+
+  display: flex;
+  justify-content:center;
+  align-items:center;
+ -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow:
+						8px 8px  #1e70ff,
+						20px 20px #000000;
 }
+
 .typed-out-container{
   display: inline-block;
 }
@@ -497,4 +506,3 @@ flex-direction:column;
 }
 
 }
-
