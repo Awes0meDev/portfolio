@@ -1,0 +1,38 @@
+
+label{
+  width:calc(70% + 10px);
+  text-align:left;
+}
+br{
+
+}
+input{
+  border:none;
+ width:70%;
+ height:50px;
+ margin:10px;
+  border-radius:5px;
+  padding:10px;
+  
+}
+
+#message{
+  height:30%;
+  resize: none;
+}
+.form-box{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height:90vh;
+  padding:20px;
+  width:50vw;
+  background-image:linear-gradient(to bottom right, #f5f5f5, lightgrey);
+  margin:40px;
+  border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.submit-b{
+  margin:10px;
+}
