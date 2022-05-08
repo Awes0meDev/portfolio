@@ -51,11 +51,12 @@ bottom: 0px;
 }
 
 .pagetitlehome{
-  color:#1e70ff;
+  color:transparent;
   font-size:60px;
-  font-weight:bold;
-  letter-spacing:1.5px;
+  letter-spacing:2px;
   margin:20px;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #1e70ff;
 }
 .typed-out-container{
   display: inline-block;
@@ -66,6 +67,7 @@ bottom: 0px;
   white-space: nowrap;
   animation:
     typing 2s forwards;
+      font-family:Bungee;
   width: 0;
 }
 @keyframes typing {
@@ -495,3 +497,4 @@ flex-direction:column;
 }
 
 }
+
