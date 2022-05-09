@@ -1,3 +1,6 @@
 # **Official website source code for awes0mestudios**
 ## This code shall not be used by anyone
-## https://awes0mestudios.com
+official developers:
+> BlueHollowDev
+> Murilo (awes0mestudios lead developer)
+## 	* *https://awes0mestudios.com	* *
