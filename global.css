@@ -196,6 +196,7 @@ margin:-8px;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+    box-shadow:#242424 0px 8px 24px;
 }
 
 .footer-logo{
