@@ -106,7 +106,7 @@
 }
 .fa-fire-flame-curved{
   margin:10px;
-  
+      text-shadow: 0 0 15px orange;
   font-size:26px;
    background: -webkit-gradient(linear, left top, left bottom, from(orange), to(red));
         -webkit-background-clip: text;
