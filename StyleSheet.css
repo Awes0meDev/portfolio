@@ -231,8 +231,6 @@ letter-spacing:15px;
 
 
 
-
-
 .statisticslabel{
   font-size:calc(17px + 0.2vw);
     animation:slideinfromright 2s 1;
@@ -255,7 +253,9 @@ letter-spacing:15px;
   text-align:center;
   flex-direction:column;
 }
-
+.game{
+     box-shadow:grey 0px 8px 24px;
+}
 .games-content{
 
   margin:30px 0px;
@@ -316,12 +316,11 @@ letter-spacing:15px;
   
 }
 .game-play-b{
-  background:#1e70ff;
+  background:linear-gradient(to bottom right,#1e70ff,blue);
   padding:5px 14px;
   border-radius:10px;
   border:none;
   color:white;
-   
      transition:0.3s;
      display:flex;
   justify-content:center;
@@ -330,7 +329,7 @@ letter-spacing:15px;
 
 .game-play-b-unavailable{
 
-  background:#1e70ff;
+  background:linear-gradient(to bottom right,#1e70ff,blue);
   opacity:50%;
  padding:5px 14px;
   border-radius:10px;
@@ -510,5 +509,9 @@ flex-direction:column;
 .game-play-b-unavailable > p{
   display:none;
 }
+.pagetitlehome{
+  font-size:40px;
+}
 
 }
+
