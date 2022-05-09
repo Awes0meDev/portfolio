@@ -18,6 +18,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px;
   font-weight:bold;
   width:97%;
 }
+
 .catagory-row{
   width:100%;
   height:50px;
@@ -38,15 +39,19 @@ box-shadow: #c2c0c0 0px 7px 29px 0px;
   margin:0px 20px;
   padding:10px 15px;
   border-radius:1000000000000px;
+  
 }
 #aaq-b{
   background:white;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 #pwu-b{
  background:transparent;
+ box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 #gbc-b{
   background:transparent;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .submitted-content{
   display:none;
@@ -130,6 +135,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px;
   border:none;
         border-radius:10px;
                     font-family:Montserrat;
+                    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 #email{
     height:20px;
@@ -138,6 +144,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px;
       border:none;
             border-radius:10px;
                         font-family:Montserrat;
+                        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 #message{
   width:97%;
@@ -146,6 +153,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px;
       border:none;
             border-radius:10px;
             font-family:Montserrat;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
           
 }
 input{
@@ -171,6 +179,7 @@ input{
   transition:0.3s;
   
 }
+
 
 
 
