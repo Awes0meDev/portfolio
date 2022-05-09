@@ -180,6 +180,15 @@ input{
   
 }
 
+@media only screen and (max-width: 1000px) {
+  .form-box{
+  width:80vw;
+  }
+  .submit-b-container{
+  width:97%;
+  text-align:center;
+}
+}
 
 
 
