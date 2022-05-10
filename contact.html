@@ -26,10 +26,6 @@
       
          
        <body style="background:white;">
-         <script>
-            var catagorychoice = 'askaquestion';
-         </script>
-                   
          <div class="header-box">
   
 <div class="header-favicon"><img src="aslogo-1.png"></img></div>
@@ -97,6 +93,7 @@
      document.getElementById("pwu-b").style.background = "transparent";
      document.getElementById("gbc-b").style.background = "transparent";
               
+               document.getElementById("catagory-choice").innerHTML = catagorychoice;
               }
              
              function partnerwithus(){
@@ -106,7 +103,7 @@
      document.getElementById("pwu-b").style.background = "white";
      document.getElementById("gbc-b").style.background = "transparent";
               
-           
+            document.getElementById("catagory-choice").innerHTML = catagorychoice;
              }
              
              function businesscontact(){
@@ -116,7 +113,7 @@
      document.getElementById("pwu-b").style.background = "transparent";
      document.getElementById("gbc-b").style.background = "white";
                 
-             
+             document.getElementById("catagory-choice").innerHTML = catagorychoice;
              }
              
 
@@ -173,6 +170,8 @@
   <script>
     function sendMessage() {
       var name= document.getElementById("name").value;
+      
+       var catagorychoicesubmit=document.getElementById("catagory-choice").innerHTML;
 var email= document.getElementById("email").value;
 var message= document.getElementById("message").value;
       const request = new XMLHttpRequest();
@@ -188,7 +187,7 @@ const params = {
       "fields": [
          {
           "name": `Catagory`,
-          "value": `${catagorychoice}`
+          "value": `${catagorychoicesubmit}`
         },
         {
           "name": `Name`,
