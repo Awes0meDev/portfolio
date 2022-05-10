@@ -41,18 +41,12 @@ box-shadow: #c2c0c0 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 
   border-radius:1000000000000px;
   
 }
-#aaq-b{
+#aaq-b, #pwu-b, #gbc-b{
   background:white;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  cursor:pointer;
 }
-#pwu-b{
- background:transparent;
- box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-}
-#gbc-b{
-  background:transparent;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-}
+
 .submitted-content{
   display:none;
   justify-content:center;
@@ -189,6 +183,3 @@ input{
   text-align:center;
 }
 }
-
-
-
