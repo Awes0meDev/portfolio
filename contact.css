@@ -165,6 +165,7 @@ input{
   border-radius:5px;
     transition:0.3s;
     margin:20px 0px;
+      font-weight:bold;
   
 }
 #submit-b:hover{
