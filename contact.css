@@ -125,32 +125,30 @@ box-shadow: #c2c0c0 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 
   margin:10px 0px;
   color:grey;
 }
-#name{
-  width:90%;
-  height:20px;
+#name, #email, #message{
   padding:10px;
   border:none;
         border-radius:10px;
                     font-family:Montserrat;
                     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+                    outline:none;
 }
+}
+#name{
+  width:90%;
+  height:20px;
+}
+  
 #email{
     height:20px;
   width:90%;
-    padding:10px;
-      border:none;
-            border-radius:10px;
-                        font-family:Montserrat;
-                        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   
 }
 #message{
   width:97%;
   height:300px;
-    padding:10px;
-      border:none;
-            border-radius:10px;
-            font-family:Montserrat;
-            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  resize:none;
+    
           
 }
 input{
