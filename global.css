@@ -85,7 +85,8 @@ background-position: bottom 0px right -350px;
   border:none;
    transition:0.1s;
    letter-spacing: 1px;
-    
+    animation:bounceInDown 1s 1;
+
     
 }
 .header-button:hover{
@@ -93,28 +94,6 @@ background-position: bottom 0px right -350px;
   transition:0.1s;
 }
 
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-}
-
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 a{
   text-decoration:none;
@@ -196,7 +175,7 @@ margin:-8px;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-    box-shadow:#242424 0px 8px 24px;
+  box-shadow:#242424 0px 8px 24px;
 }
 
 .footer-logo{
@@ -388,6 +367,15 @@ padding:0px 0px;
   
 }
 }
+
+
+
+
+
+
+
+
+
 
 
 
