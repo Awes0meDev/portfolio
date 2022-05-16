@@ -194,19 +194,37 @@ Our team consists of talented and creative builders, modelers, programmers, desi
           <a href="https://awes0mestudios.com/jobs/animator"class="detailb"target="_blank">Details</a>
         </div>
         
-        
-        
-         <div class="jobbox">
+
+   
+   
+   
+           <div class="jobbox">
       
         <div class="jobname">
-          <div class="jobnametitle">Visual Effects Designer </div>
+           <div class="hoverbox"id="flamehoverbox2">This job is designated as an important position for the studio.</div>
+          <div class="jobnametitle">Visual Effects Designer
+          <i class="fa-solid fa-fire-flame-curved"id="flame"onmouseover="flamehoverbox2()"onmouseleave="flamehoverboxoff2()"></i>
+         
+          </div>
+          
           <p class="jobstats">Commission • R$1-2K • No Equity</p>
              
          </div>
          
           <a href="https://awes0mestudios.com/jobs/visual-effects-designer"class="detailb"target="_blank">Details</a>
         </div>
-  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
         
       </div>
@@ -220,6 +238,13 @@ Our team consists of talented and creative builders, modelers, programmers, desi
         
             function flamehoverboxoff(){
           document.getElementById("flamehoverbox").style.display = "none";
+        }
+         function flamehoverbox2(){
+          document.getElementById("flamehoverbox2").style.display = "block";
+        }
+        
+            function flamehoverboxoff2(){
+          document.getElementById("flamehoverbox2").style.display = "none";
         }
         
         
