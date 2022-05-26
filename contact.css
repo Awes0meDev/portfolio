@@ -94,10 +94,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 
     flex-direction:row;
 }
 .form-top-section-question{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:left;
+ 
       flex-direction:column;
       margin:10px;
             border-radius:10px;
@@ -115,8 +112,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 
 }
 .top-section-label{
   width:100%;
-
-    margin:10px 0px;
+    margin:5px 0px;
     color:grey;
 }
 .bottom-section-label{
@@ -132,7 +128,7 @@ box-shadow: #c2c0c0 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 
                     font-family:Montserrat;
                     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
                     outline:none;
-}
+
 }
 #name{
   width:90%;
@@ -165,7 +161,7 @@ input{
   border-radius:5px;
     transition:0.3s;
     margin:20px 0px;
-      font-weight:bold;
+    font-weight:bold;
   
 }
 #submit-b:hover{
