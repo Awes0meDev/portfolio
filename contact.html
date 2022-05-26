@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         
 
-
+<script src="webhook.js"></script>
 
         <link href="contact.css" rel="stylesheet" type="text/css">
         
@@ -86,6 +86,7 @@
                  
                  
                   <script>
+                  
              function askaquestion(){
               var catagorychoice = 'askaquestion';
               
@@ -175,7 +176,7 @@
 var email= document.getElementById("email").value;
 var message= document.getElementById("message").value;
       const request = new XMLHttpRequest();
-request.open("POST", "https://discord.com/api/webhooks/972836891932127272/jpO-ch4JqzS8GAnM3R-vZ0f99yCN-ihPkduJQRT4Y6r01dtsLYyFbCImHjsuk__40C2R");
+request.open("POST", webhook);
 request.setRequestHeader('Content-type', 'application/json');
 const params = {
   "content": `This is a message`,
