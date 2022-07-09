@@ -14,17 +14,7 @@ a{
   color:#1e70ff;
   margin:0px 10px;
 }
-.container{
-  background:white;
-  width:100vw;
-  height:auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  margin:0px;
-  flex-direction:column;
-}
+
 
 .bloggroup{
   background:transparent;
@@ -38,7 +28,7 @@ a{
 }
 .blog{
   background-size:cover;
- box-shadow:lightgrey 0px 8px 24px;
+ box-shadow:black 0px 8px 24px;
 width:400px;
 height:400px;
   margin:20px;
@@ -68,5 +58,7 @@ height:400px;
   font-size:20px;
   margin:10px;
 }
+
+
 
 
