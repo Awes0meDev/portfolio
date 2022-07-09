@@ -10,7 +10,7 @@
         flex-wrap:wrap;
 }
 .clothing-title{
-  color:#242424;
+  color:white;
   width:100vw;
   text-align:center;
   font-size:50px;
@@ -122,4 +122,6 @@ transition:0.3s;
 color:yellow;
 cursor: pointer;
 }
+
+
 
