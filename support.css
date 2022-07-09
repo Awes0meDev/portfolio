@@ -24,7 +24,7 @@
   align-items:center;
     text-align:center;
       flex-direction:column;
-      color:#242424;
+      color:white;
 }
 .top-section-box-title{
   font-weight:bold;
@@ -42,7 +42,7 @@
   color:white;
   font-weight:bold;
   transition:0.3s;
-   box-shadow:lightgrey 0px 8px 24px;
+   box-shadow:black 0px 8px 24px;
 }
 .top-section-box-b:hover{
    transform: translate(0, -5px) scale(1.05) rotate(2deg);
@@ -70,10 +70,11 @@
       text-align:center;
           list-style: none;
           flex-direction:column;
+          color:white;
               
 }
 .blue{
-  color:#343434;
+  color:white;
   font-weight:bold;
   font-size:20px;
   margin:10px;
@@ -89,7 +90,7 @@ li{
 #social-icon-github,#social-icon-twitter,#social-icon-discord,#social-icon-email{
   transition:0.3s;
   font-size:40px;
-  color:#242424;
+  color:white;
   margin:20px;
     transition:0.3s;
 }
@@ -114,7 +115,7 @@ li{
 .bottom-text{
    font-size:20px;
   font-weight:bold;
-      color:#242424;
+      color:white;
 }
 .bottom-text > a{
   color: #1e70ff;
