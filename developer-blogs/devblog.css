@@ -1,5 +1,5 @@
 .devblogstitle{
-  color:black;
+  color:white;
   font-weight:bold;
   font-size:50px;
   display:flex;
@@ -72,7 +72,7 @@ margin:20px;
   border-radius:10px;
 }
 .newthingtitle{
-  color:black;
+  color:white;
   font-weight:bold;
   font-size:30px;
    animation:fadein 2s 1;
@@ -83,6 +83,7 @@ margin:20px;
   border-radius:10px;
    transition:0.3s;
     animation:fadein 2s 1;
+         box-shadow:black 0px 8px 24px;
 }
 .newitem{
   width:calc(220px + 30px);
@@ -120,6 +121,7 @@ margin:20px;
 .newthinglist{
   text-align:left;
   margin:0px 10vw;
+  color:white;
 }
 .newthinglistitem{
   margin:10px;
@@ -131,6 +133,7 @@ margin:20px;
   align-items:center;
   width:auto;
   flex-direction:column;
+  color:white;
 
 }
 .newweaponright{
@@ -154,7 +157,7 @@ margin:20px;
 }
 .newweapontitle{
   margin:10px;
-  color:black;
+  color:white;
   font-weight:bold;
   font-size:30px;
    animation:fadein 2s 1;
@@ -171,3 +174,4 @@ margin:20px;
     animation:fadein 2s 1;
   
 }
+
