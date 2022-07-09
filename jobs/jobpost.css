@@ -1,19 +1,4 @@
-.container {
-  -moz-height:100%;
-    height: 100%;
-    width: 100vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-background:white;
 
-padding:50px 0px;
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-}
 .pagetitlejobpost{
   width: 70vw;
 height:100px;
@@ -145,6 +130,8 @@ ul{
         
         }
         
+
+
 
 
 
