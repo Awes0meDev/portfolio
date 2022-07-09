@@ -51,7 +51,7 @@ bottom: 0px;
 }
 
 .pagetitlehome{
-  color: #1e70ff;
+  color: white;
   font-size:60px;
   letter-spacing:10px;
   margin:20px;
@@ -93,7 +93,7 @@ bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-background:white;
+background:#191919;
   margin:0px;
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -139,7 +139,7 @@ display:none;
   appearance: none;
 }
 .aboutme-main-container{
-  background:#dbf4ff;
+  background:#191919;
   width:100vw;
   padding:70px 0px;
   margin:0px;
@@ -153,6 +153,7 @@ display:none;
 .aboutme-content {
   animation:fadein 1s 1,slideinfromleft 1s 1;
     display: flex;
+    color:white;
     line-height:25px;
     flex-direction: column;
     align-items: center;
@@ -167,7 +168,7 @@ font-family:Montserrat;
 
 }
 .statistics-main-container{
-  background:white;
+  background:#242424;
   width:100vw;
   padding:30px 0px;
   margin:20px 0px;
@@ -238,12 +239,12 @@ letter-spacing:15px;
   -moz-appearance: none;
   appearance: none;
   font-weight:bold;
-  color:#242424;
+  color:white;
   letter-spacing:2px;
 }
 
 .games-main-container{
-  background:  #dbeaff;
+  background:  #191919;
   width:100vw;
   padding:30px 0px;
   margin:20px 0px;
@@ -254,7 +255,7 @@ letter-spacing:15px;
   flex-direction:column;
 }
 .game{
-     box-shadow:grey 0px 8px 24px;
+     box-shadow:black 0px 8px 24px;
 }
 .games-content{
 
@@ -402,6 +403,7 @@ text-align:center;
 align-items:center;
 justify-content:center;
 flex-direction:column;
+
 }
 
 .teamcontent{
@@ -428,7 +430,7 @@ flex-direction:column;
   -moz-appearance: none;
   appearance: none;
    transition:0.3s;
- box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
+  box-shadow:black 0px 8px 24px;
    border-radius:10000000000000000px;
 
 }
@@ -439,12 +441,12 @@ flex-direction:column;
    
 }
 .devname{
-  color:#1e70ff;
+  color:white;
   font-weight:bold;
   font-size:calc(12px + 0.7vw);
 }
 .devrole{
-color:black;
+color:white;
   font-size:calc(10px + 0.5vw);
   font-weight:600;
 }
@@ -514,4 +516,5 @@ flex-direction:column;
 }
 
 }
+
 
