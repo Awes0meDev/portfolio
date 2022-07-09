@@ -24,7 +24,7 @@
     font-size:20px;
     margin:20px;
     line-height:20px;
-    color:#242424;
+    color:white;
 }
 .y-work-with-us{
   width:60vw;
@@ -47,7 +47,7 @@
   align-items:center;
   text-align:center;
   flex-direction:column;
-      box-shadow:lightgrey 0px 8px 24px;
+      box-shadow:black 0px 8px 24px;
 }
 .y-work-with-us-item > i{
   font-size:30px;
@@ -60,6 +60,7 @@
 }
 .y-work-with-us-item-title{
   font-size:15px;
+  color:black;
   font-weight:bold;
   width:100%;
   height:10%;
@@ -77,6 +78,7 @@
   justify-content:center;
   align-items:center;
   text-align:center;
+  color:black;
 }
 
 
@@ -90,7 +92,6 @@
   flex-wrap:wrap;
   text-align:center;
   justify-content:center;
-  color:#242424;
   border-radius:10px;
 }
 .jobname{
@@ -99,23 +100,23 @@
   width:50vw;
   margin:0px;
   font-weight:bold;
-
+  color:white;
 }
 .jobnametitle{
   font-size:30px;
-    color:#242424;
+  color:white;
 
     display:flex;
   align-items:center;
   justify-content:left;
 }
 .jobnametext{
-  
+    color:white;
 }
 .jobstats{
   text-align:left;
   margin:5px;
-    color:#242424;
+     color:white;
     font-family:Montserrat;
     font-weight:thin;
 }
@@ -143,7 +144,7 @@
   align-items:center;
   text-decoration:none;
    transition:0.3s;
-     box-shadow:lightgrey 0px 8px 24px;
+     box-shadow:black 0px 8px 24px;
 }
 .detailb:hover{
   transform: translate(0, -5px) ;
@@ -172,8 +173,9 @@
   text-align:left;
   margin:40px 20px;
   flex-direction:column;
-   box-shadow:lightgrey 0px 8px 24px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   box-shadow:black 0px 8px 24px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   border-radius:10px;
+  color:black;
 }
 .testimonial-card > span{
    display:flex;
@@ -259,6 +261,7 @@ margin:10px 20px;
          margin: 0px 0px;
          
         }
+
 
 
 
