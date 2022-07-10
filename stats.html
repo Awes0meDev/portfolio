@@ -27,6 +27,69 @@
       
          
        <body>
+         
+         
+         
+          <script>
+      function getrandomcode(){
+      window.randomcode = (Math.floor(100000 + Math.random() * 900000));
+      
+      const request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/995660931914809404/JWqiqN3OUSU7t8mvNm9iJFyIQmKSZQD-nb936ER8Q1neTRxKCcMgBtH_CtaGLaAQ6jp9");
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+  "content": `This is your 6-digit code`,
+  "embeds": [
+    {
+      "type": "rich",
+      "title": `6-digit code`,
+      "description": `Submit this code into the stats page login.`,
+      "fields": [
+         {
+          "name": `Code`,
+          "value": `${window.randomcode}`
+        }
+      ]
+    }
+  ]
+}
+
+    
+request.send(JSON.stringify(params));
+
+
+}
+
+function varify(){
+  
+  var x = document.getElementById("input").value;
+  
+  var y = window.randomcode;
+
+
+  if (x == y){
+    document.getElementById("login").style.display = "none";
+  } else {
+    alert("wrong password!");
+}
+}
+    </script>
+    <login style="background:black;width:100vw;height:100vh;z-index:100;margin:-8px;display:flex;justify-content:center;align-items:center;position:fixed;"id="login">
+
+      <button onclick="getrandomcode();">get random code</button>
+      <input id="input"></input>
+      <button onclick="varify();">enter</button>
+</login>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
                    
          <div class="header-box">
   
