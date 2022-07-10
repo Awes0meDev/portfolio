@@ -74,11 +74,31 @@ function varify(){
 }
 }
     </script>
-    <login style="background:black;width:100vw;height:100vh;z-index:100;margin:-8px;display:flex;justify-content:center;align-items:center;position:fixed;"id="login">
+    <login style="background:black;width:100vw;height:100vh;z-index:100;margin:-8px;display:flex;justify-content:center;align-items:center;position:fixed;overflow:none;"id="login">
 
-      <button onclick="getrandomcode();">get random code</button>
-      <input id="input"></input>
-      <button onclick="varify();">enter</button>
+<buttongroup style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+<button onclick="getrandomcode();"
+style="padding:20px;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px;
+font-weight:bold;
+border:none;
+margin:-8px;
+">get random code</button>
+      
+      <input id="input"style="padding:20px;border:none;margin:-8px;"></input>
+      
+      <button onclick="varify();"
+      style="padding:20px;
+      border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+font-weight:bold;
+border:none;
+background:#1e70ff;
+margin:-8px;
+      ">enter</button>
+      
+      </buttongroup>
 </login>
          
          
@@ -160,3 +180,4 @@ function varify(){
         
     </body>
 </html>
+
