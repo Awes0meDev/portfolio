@@ -259,6 +259,7 @@ letter-spacing:15px;
   justify-content:center;
   align-items:center;
   text-align:center;
+  width:100vw;
   flex-direction:row;
 }
 
@@ -399,6 +400,9 @@ flex-direction:column;
 }
 .pagetitlehome{
   font-size:40px;
+}
+.games-content{
+  flex-direction:column;
 }
 
 }
