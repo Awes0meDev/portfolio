@@ -324,6 +324,12 @@ background:#191919;
   border-radius:10px;
   color:white;
   margin:10px;
+   -moz-font-family: GothamPro;
+-webkit-font-family: GothamPro;
+   font-family: GothamPro;
+}
+#goog-gt-tt{
+  filter:opacity(0%);
 }
 
 
