@@ -11,6 +11,9 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
 .headerfixedbackground{
  -moz-background-size:cover;
      object-fit:cover;
@@ -306,31 +309,6 @@ background:#191919;
   margin:-8px;
 }
 
-.translated-ltr{margin-top:-40px;}
-.translated-ltr{margin-top:-40px;}
-.goog-te-banner-frame {display: none;margin-top:-20px;}
-
-.goog-logo-link {
-   display:none !important;
-}
-
-.goog-te-gadget{
-   color: transparent !important;
-}
-.goog-te-combo{
-  border:none;
-  background:#242424;
-  padding:20px;
-  border-radius:10px;
-  color:white;
-  margin:10px;
-   -moz-font-family: GothamPro;
--webkit-font-family: GothamPro;
-   font-family: GothamPro;
-}
-#goog-gt-tt{
-  filter:opacity(0%);
-}
 
 
 
@@ -354,8 +332,29 @@ background:#191919;
  to{ opacity:100%;}
 }
 
+.translated-ltr{margin-top:-40px;}
+.translated-ltr{margin-top:-40px;}
+.goog-te-banner-frame {display: none;margin-top:-20px;}
 
+.goog-logo-link {
+   display:none !important;
+}
 
+.goog-te-gadget{
+   color: transparent !important;
+}
+#goog-gt-tt{
+  filter:opacity(0%);
+}
+.trans-section{
+  font-size: 16px;
+  padding: 10px;
+  height: auto;
+  border-radius: 0;
+  margin: 0;
+    max-width: 330px;
+  padding: 15px;
+}
 
 @media only screen and (max-width: 1000px) {
   
