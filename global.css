@@ -343,19 +343,39 @@ background:#191919;
 .goog-te-gadget{
    color: transparent !important;
 }
+.goog-te-combo{
+  background:none;
+  border:none;
+  color:white;
+  outline:none;
+}
+#google_translate_element select{
+padding:20px;  font-weight:bold;
+border-radius:100px;
+ }
+
+#google_translate_element select option{
+  background:white;
+  color:black;
+    font-size:15px;
+  border-radius:20px;
+  font-weight:bold;
+}
+
 #goog-gt-tt{
   filter:opacity(0%);
 }
-.trans-section{
-  font-size: 16px;
-  padding: 10px;
-  height: auto;
-  border-radius: 0;
-  margin: 0;
-    max-width: 330px;
-  padding: 15px;
+.goog-tooltip {
+display: none !important;
 }
-
+.goog-tooltip:hover {
+display: none !important;
+}
+.goog-text-highlight {
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
 @media only screen and (max-width: 1000px) {
   
   .header-favicon{
