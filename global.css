@@ -92,7 +92,7 @@ background-position: bottom 0px right -350px;
     
 }
 .header-button:hover{
-  color:#1e70ff;
+  color:#38c3ff;
   transition:0.1s;
 }
 
@@ -260,7 +260,7 @@ margin:-8px;
 
 
 .pagetitle{
-   color:#1e70ff;
+   color:#38c3ff;
   font-size:60px;
   font-weight:bold;
   margin:20px;
