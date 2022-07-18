@@ -332,52 +332,6 @@ background:#191919;
  to{ opacity:100%;}
 }
 
-      .translated-ltr{margin-top:-40px;}
-.translated-ltr{margin-top:-40px;}
-.goog-te-banner-frame {display: none;margin-top:-20px;}
-
-.goog-logo-link {
-   display:none !important;
-}
-
-.goog-te-gadget{
-   color: transparent !important;
-}
-.goog-te-combo{
-  background:none;
-  border:none;
-  color:white;
-  outline:none;
-}
-
-
-#goog-gt-tt{
-  filter:opacity(0%);
-}
-.goog-tooltip {
-display: none !important;
-}
-.goog-tooltip:hover {
-display: none !important;
-}
-.goog-text-highlight {
-background-color: transparent !important;
-border: none !important;
-box-shadow: none !important;
-}
-      .selectpicker{
-        border:none;
-        background:none;
-        word-spacing:5px;
-        padding:20px;  font-weight:bold;
-        outline:none;
-        color:white;
-      }
-      .selectpicker option{
-        font-weight:bold;
-        border-radius:10px;
-        color:black;
-      }
 
 @media only screen and (max-width: 1000px) {
   
