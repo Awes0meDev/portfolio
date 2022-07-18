@@ -36,7 +36,7 @@
     margin:10px;
 }
 .top-section-box-b{
-  background:#1e70ff;
+  background:#38c3ff;
   padding:15px;
   border-radius:9px;
   color:white;
@@ -84,7 +84,7 @@ li{
   padding:20px 0px;
 }
 #social-icon-github:hover,#social-icon-twitter:hover,#social-icon-discord:hover,#social-icon-email:hover{
-  color:#1e70ff;
+  color:#38c3ff;
   transition:0.3s;
 }
 #social-icon-github,#social-icon-twitter,#social-icon-discord,#social-icon-email{
@@ -118,5 +118,5 @@ li{
       color:white;
 }
 .bottom-text > a{
-  color: #1e70ff;
+  color: #38c3ff;
 }
