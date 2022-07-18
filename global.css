@@ -332,7 +332,7 @@ background:#191919;
  to{ opacity:100%;}
 }
 
-.translated-ltr{margin-top:-40px;}
+      .translated-ltr{margin-top:-40px;}
 .translated-ltr{margin-top:-40px;}
 .goog-te-banner-frame {display: none;margin-top:-20px;}
 
@@ -349,18 +349,7 @@ background:#191919;
   color:white;
   outline:none;
 }
-#google_translate_element select{
-padding:20px;  font-weight:bold;
-border-radius:100px;
- }
 
-#google_translate_element select option{
-  background:white;
-  color:black;
-    font-size:15px;
-  border-radius:20px;
-  font-weight:bold;
-}
 
 #goog-gt-tt{
   filter:opacity(0%);
@@ -376,6 +365,20 @@ background-color: transparent !important;
 border: none !important;
 box-shadow: none !important;
 }
+      .selectpicker{
+        border:none;
+        background:none;
+        word-spacing:5px;
+        padding:20px;  font-weight:bold;
+        outline:none;
+        color:white;
+      }
+      .selectpicker option{
+        font-weight:bold;
+        border-radius:10px;
+        color:black;
+      }
+
 @media only screen and (max-width: 1000px) {
   
   .header-favicon{
