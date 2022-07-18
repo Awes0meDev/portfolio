@@ -34,7 +34,7 @@ margin:50px;
     text-align:center;
     border-top-left-radius:10px;
         border-top-right-radius:10px;
-            background:linear-gradient(to bottom right,#1e70ff 70%,blue);
+            background:linear-gradient(to bottom right,#38c3ff 70%,blue);
      font-weight:bold;
     font-size:30px;
     color:white;
@@ -83,7 +83,7 @@ cursor: pointer;
 .item-link{
   height:70px;
   width:100px;
-  background:linear-gradient(to bottom right,#1e70ff 70%,blue);
+  background:linear-gradient(to bottom right,#38c3ff 70%,blue);
    font-weight:bold;
     font-size:30px;
     color:white;
