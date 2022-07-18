@@ -61,7 +61,7 @@ box-shadow: black 0px 7px 29px 0px,rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30
 }
 .fa-check-to-slot{
   font-size:120px;
-  color:#1e70ff;
+  color:#38c3ff;
 }
 .submitted-p{
   color:white;
@@ -166,7 +166,7 @@ input{
 }
 #submit-b:hover{
 
-  background:#1e70ff;
+  background:#38c3ff;
  
   transition:0.3s;
   
