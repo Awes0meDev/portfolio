@@ -63,7 +63,7 @@ bottom: 0px;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   text-shadow:
-						8px 8px  #1e70ff,
+						8px 8px  #38c3ff,
 						20px 20px #000000;
 }
 
@@ -206,8 +206,8 @@ font-family:Montserrat;
   45deg,
   #3d84ff,
 #3d84ff 10px,
- #1e70ff 10px,
-  #1e70ff 20px
+ #38c3ff 10px,
+  #38c3ff 20px
 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -223,7 +223,7 @@ letter-spacing:15px;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   text-shadow:
-						8px 8px  #1e70ff,
+						8px 8px  #38c3ff,
 						20px 20px #000000;
 
 }
@@ -379,7 +379,7 @@ flex-direction:column;
   appearance: none;
 }
 .joinb:hover{
-  color:#1e70ff;
+  color:#38c3ff;
   background:white;
   transition:0.3s;
 }
@@ -388,7 +388,8 @@ flex-direction:column;
 
 @media only screen and (max-width: 600px) {
 
-  .aboutsectionOC{
+  
+  aboutsectionOC{
     display:none;
   }
   .teamcontent{
