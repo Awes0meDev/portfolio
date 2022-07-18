@@ -337,33 +337,56 @@ document.getElementById('hidden-div').style.display="none";
 
 <!--translation part starts here-->
 
+ <div class="trans-section">
+        <div id="google_translate_element" style="display: none;"></div>
+      
+        <select class="selectpicker"onchange="translateLanguage(this.value);">
+                    <option value="English"translate="no">🇺🇸 English</option>
+         <option value="Afrikaans"translate="no">🇿🇦 Afrikaans</option>
+          <option value="Albanian"translate="no">🇦🇱 shqiptare</option>
+           <option value="Arabic"translate="no">🇦🇪 عربي</option>
+          <option value="Armenian"translate="no">🇦🇲 հայերեն</option>
+        <option value="Belarusian"translate="no">🇧🇾 беларускі</option>
+          <option value="Bengali"translate="no">🇧🇩 বাংলা</option>
+          <option value="Spanish"translate="no">🇪🇸 Español</option>
+           <option value="French"translate="no">🇫🇷 Français</option>
+          <option value="Portuguese"translate="no">🇧🇷 Português</option>
+               <option value="German"translate="no">🇩🇪 Deutsch</option>
+                <option value="Ukrainian"translate="no">🇺🇦 українська</option>
+                     <option value="Chinese (Simplified)"translate="no">🇨🇳 简体中文</option>
+                         <option value="Japanese"translate="no">🇯🇵 日本</option>
+                    <option value="Russian"translate="no">🇷🇺 Русский</option>
+                      <option value="Persian"translate="no">🇮🇷 فارسی</option>
+                        <option value="Turkish"translate="no">🇹🇷 Türk</option>
+                             <option value="Italian"translate="no">🇮🇹 Italiano</option>
+            
+        </select>
+            </div>
+            
+             <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
 
-<div id='google_translate_element'></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+        }
 
- <script>
+        function translateLanguage(lang) {
+            googleTranslateElementInit();
+            var $frame = $('.goog-te-menu-frame:first');
+            if (!$frame.size()) {
+                alert("Error: Could not find Google translate frame.");
+                return false;
+            }
+            $frame.contents().find('.goog-te-menu2-item span.text:contains(' + lang + ')').get(0).click();
+            return false;
+        }
 
- function googleTranslateElementInit() {
-
- new google.translate.TranslateElement({
-
- pageLanguage: 'en',
-
- autoDisplay: 'true',
-
- includedLanguages:'en,es,pt,fr,ar,ru,bn,hi,id,zh,de,it,ko,fa,sv,tr,uk,ja,ga,in',
-
- layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-
- }, 'google_translate_element');
-
- }
- 
- 
-
- </script>
-
- <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
+    </script>
 
 
 <!--translation part ends here-->
