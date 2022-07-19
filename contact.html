@@ -57,7 +57,7 @@
              
             <div class="header">
               
-      <div class="pagetitle">Contact</div>
+      <div class="pagetitle">Drop Us A Line</div>
                
             </div>
             
@@ -76,90 +76,22 @@
             
             <div class="form-content"id="form-content">
     
-           <div class="iwouldliketo">I Would Like To...</div>
-           
-           <div class="catagory-row">
-             
-             <div class="catagory-item"onclick="askaquestion();"id="aaq-b">Ask a question</div>
-             
-               <div class="catagory-item"onclick="partnerwithus();"id="pwu-b">Partner with us</div>
+     
+         
                
-                 <div class="catagory-item"onclick="businesscontact();"id="gbc-b">Get business contact</div>
-                 
-                 
-                  <script>
-                  
-             function askaquestion(){
-              var catagorychoice = 'askaquestion';
-              
-     document.getElementById("aaq-b").style.background = "white";
-     document.getElementById("pwu-b").style.background = "grey";
-     document.getElementById("gbc-b").style.background = "grey";
-              
-               document.getElementById("catagory-choice").innerHTML = catagorychoice;
-              }
-             
-             function partnerwithus(){
-                 var catagorychoice = 'partnerwithus';
-                 
-                   document.getElementById("aaq-b").style.background = "grey";
-     document.getElementById("pwu-b").style.background = "white";
-     document.getElementById("gbc-b").style.background = "grey";
-              
-            document.getElementById("catagory-choice").innerHTML = catagorychoice;
-             }
-             
-             function businesscontact(){
-                 var catagorychoice = 'businesscontact';
-                 
-                 document.getElementById("aaq-b").style.background = "grey";
-     document.getElementById("pwu-b").style.background = "grey";
-     document.getElementById("gbc-b").style.background = "white";
-                
-             document.getElementById("catagory-choice").innerHTML = catagorychoice;
-             }
+
+
+
+             <input type="text" class="name" name="name" placeholder="Full Name"id="name"><br>
+
              
 
-  
- 
-           </script>
-             
-                    
-                 
-                 <p id="catagory-choice"></p>
-                 
-            
-             
-           </div>
-                
-               
+             <input type="text" class="email" name="email" placeholder="Email"id="email"><br>
+
         
-            <div class="form-top-section">
-              
-              <div class="form-top-section-question"style="width:40%;">
-             <div class="top-section-label">Name</div>
-             <input type="text" class="name" name="name" placeholder="enter here"id="name"><br>
-</div>
-             
-             
-                   <div class="form-top-section-question"style="width:60%;">
-           <div class="top-section-label">Email</div>
-             <input type="text" class="email" name="email" placeholder="enter here"id="email"><br>
-         </div>
-             </div>
-        
-          
          
-         
-                   <div class="form-bottom-section">
-                
-                  <div class="form-bottom-section-question">
-                <div class="bottom-section-label">Message</div>
-         
-          <textarea id="message" name="message"class="message" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-         </div>
-          
+          <textarea id="message" name="message"class="message" placeholder="Write something interesting.." style="height:200px"></textarea>
+
             
             
             <div class="submit-b-container">
@@ -174,7 +106,7 @@
     function sendMessage() {
       var name= document.getElementById("name").value;
       
-       var catagorychoicesubmit=document.getElementById("catagory-choice").innerHTML;
+      
 var email= document.getElementById("email").value;
 var message= document.getElementById("message").value;
       const request = new XMLHttpRequest();
@@ -188,10 +120,6 @@ const params = {
       "title": `Form Result from awes0mestudios.com/contact`,
       "description": `Form`,
       "fields": [
-         {
-          "name": `Catagory`,
-          "value": `${catagorychoicesubmit}`
-        },
         {
           "name": `Name`,
           "value": `${name}`
