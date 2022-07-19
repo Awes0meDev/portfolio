@@ -12,7 +12,52 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+.mobilemenu{
+  transition:0.3s;
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  background:#191919;
+  margin:-8px;
+  z-index:100;
+  display: none;
+  align-items:center;
+   justify-content:center;
+   flex-direction:column;
+}
+.mobilemenub{
+  color:white;
+  font-size:60px;
+  letter-spacing:1.2px;
+  background:inherit;
+  border:none;
+  margin:20px;
+  font-weight:bold;
+  transition:0.2s;
+     font-family: 'Ubuntu', sans-serif;
+}
+.mobilemenub:hover{
+  color:#38c3ff;
+  transition:0.2s;
+}
+.mobile-menu-button{
+background:inherit;
+border:none;
+color:white;
+font-size:30px;
+margin:0px 30px;
+display:none;
+}
+.mobile-menu-close-button{
+background:inherit;
+border:none;
+color:white;
+font-size:30px;
+margin:0px 30px;
+display:none;
+}
 
 .headerfixedbackground{
  -moz-background-size:cover;
@@ -49,6 +94,7 @@ background-position: bottom 0px right -350px;
   display: -webkit-flex;
   display: flex;
   margin:-8px;
+  z-index:100000000;
 }
 .header-favicon{
   width:50vw;
@@ -95,7 +141,6 @@ background-position: bottom 0px right -350px;
   color:#38c3ff;
   transition:0.1s;
 }
-
 
 a{
   text-decoration:none;
@@ -313,8 +358,6 @@ background:#191919;
 
 
 
-
-
 @Keyframes slideup{
   from{transform:translate(0px, 120px);opacity:0%}
   to{transform:translate(0px, 0px);opacity:100%}
@@ -335,10 +378,7 @@ background:#191919;
 
 @media only screen and (max-width: 1000px) {
   
-  .header-favicon{
-    display:none;
-  }
-  
+
 .header-box{
 
   display: flex;
@@ -348,6 +388,10 @@ background:#191919;
 }
 .header-button-group{
   width:70vw;
+  text-align:right;
+}
+.header-button{
+  display:none;
 }
 .footer-copyright{
   
@@ -369,6 +413,9 @@ background:#191919;
   width:50%;
 
   
+}
+.mobile-menu-button{
+display:block;
 }
 }
 
