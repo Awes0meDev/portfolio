@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
+ <script type="text/javascript" src="global.js"></script>
 <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         
@@ -40,7 +40,7 @@
        
    
     
-    <a href="../index.html"class="header-button"><p class="hover-underline-animation">Home</p></a>
+    <a href=""class="header-button"><p class="hover-underline-animation">Home</p></a>
   
  <a href="jobs.html"class="header-button"><p class="hover-underline-animation">Jobs</p></a>
   
@@ -48,11 +48,20 @@
   
   <a href="contact.html"class="header-button"><p class="hover-underline-animation">Contact</p></a>
   
+  <button class="mobile-menu-button"onclick="openmobilemenu();"id="mobilemenub"><i class="fa-solid fa-bars"></i></button>
+   <button class="mobile-menu-close-button"onclick="closemobilemenu();"id="mobilemenucloseb"><i class="fa-solid fa-xmark"></i></button>
+  
   </div>
   
 </div>
         
-      
+      <div class="mobilemenu"id="mobilemenu">
+        <a href=""><button class="mobilemenub">Home</button></a>
+         <a href="jobs.html"><button class="mobilemenub">Jobs</button></a>
+          <a href="developer-blogs.html"><button class="mobilemenub">Blog</button></a>
+           <a href="contact.html"><button class="mobilemenub">Contact</button></a>
+      </div>
+        
     
     
           
@@ -305,10 +314,7 @@ Our team consists of talented and creative builders, modelers, programmers, desi
 </div>
       
          
-         
-         
-      
-      
+   
   
 
 
