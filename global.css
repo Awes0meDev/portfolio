@@ -116,7 +116,7 @@ background-position: bottom 0px right -350px;
  -webkit-justify-content:right;
   justify-content:right;
   align-items:center;
-  text-align:right;
+    text-align:right;
   height:78px;
   width:50vw;
  }
@@ -300,6 +300,10 @@ margin:-8px;
       animation:slideinfromright 1s 1;
 
 }
+.section-p{
+   font-size:calc(18px + 0.3vw);
+}
+
 
 
 
