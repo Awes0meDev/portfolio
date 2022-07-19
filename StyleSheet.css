@@ -403,6 +403,7 @@ flex-direction:column;
 }
 .pagetitlehome{
   font-size:40px;
+  text-shadow:none;
 }
 .games-content{
   flex-direction:column;
