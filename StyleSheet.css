@@ -1,3 +1,5 @@
+
+
 .headerfixedbackgroundhome{
 
 background-position: bottom 0px right -350px;
@@ -168,7 +170,7 @@ font-family:Montserrat;
 
 }
 .statistics-main-container{
-  background:#242424;
+  background:#191919;
   width:100vw;
   padding:30px 0px;
   margin:20px 0px;
@@ -244,7 +246,7 @@ letter-spacing:15px;
 }
 
 .games-main-container{
-  background:  #191919;
+  background:  #242424;
   width:100vw;
   padding:30px 0px;
   margin:20px 0px;
@@ -383,7 +385,13 @@ flex-direction:column;
   background:white;
   transition:0.3s;
 }
-
+.teamsliderframe{
+  width:100vw;
+  height:80vh;
+  border:none;
+  overflow:hidden;
+  display:none;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -408,7 +416,11 @@ flex-direction:column;
 .games-content{
   flex-direction:column;
 }
-
+.teamsliderframe{
+  display:block;
+}
+.teamcontent{
+  display:none;
 }
 
-
+}
