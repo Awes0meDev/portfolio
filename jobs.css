@@ -292,8 +292,10 @@ margin:10px 20px;
 }
     
         .detailb{
-         margin: 0px 0px;
-         
+         margin: 20px 0px;
+         width:60vw;
+         height:50px;
+         font-size:20px;
         }
 }
 
