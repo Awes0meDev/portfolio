@@ -422,5 +422,9 @@ flex-direction:column;
 .teamcontent{
   display:none;
 }
+.statisticsnumber{
+
+  font-size:calc(50px + 2vw);
+  
 
 }
