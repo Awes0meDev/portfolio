@@ -164,7 +164,7 @@
 }
 .testimonial-card{
   width:25%;
-  height:320px;
+  height:50vh;
   background:black;
   display:flex;
   justify-content:left;
@@ -222,12 +222,26 @@ font-size:20px;
 margin:10px 20px;
   
 }
+.devsliderframe{
+  width:100vw;
+  height:80vh;
+  border:none;
+  overflow:hidden;
+  display:none;
+}
 
 
  @media(max-width: 770px){
    .y-work-with-us{
   width:90vw;
   
+  
+}
+.devsliderframe{
+  display:block;
+}
+.cards{
+  display:none;
 }
          .y-work-with-us-item{
            width:100%;
@@ -281,7 +295,7 @@ margin:10px 20px;
          margin: 0px 0px;
          
         }
-
+}
 
 
 
