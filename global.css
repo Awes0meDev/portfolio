@@ -13,7 +13,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  margin:0px;
+}
 .mobilemenu{
   transition:0.3s;
   width:100vw;
