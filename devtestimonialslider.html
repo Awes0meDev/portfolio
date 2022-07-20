@@ -1,0 +1,161 @@
+<html>
+  <head>
+     <script type="text/javascript" src="https://getuikit.com/assets/uikit/dist/js/uikit.js?nc=4433"></script>
+    <script type="text/javascript" src="https://getuikit.com/assets/uikit/dist/js/uikit-icons.js?nc=4433"></script>
+    
+    <link rel="stylesheet" href="global.css">
+  </head>
+  <style>
+    @import url('https://getuikit.com/assets/uikit/dist/css/uikit.css?nc=4433');
+    body{
+      background:#191919;
+    }
+    .teamslider{
+  
+}
+.slider{
+  width:80vw;
+}
+.box-container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  /*%%%%%%%%
+   %% CARD %%
+   %%%%%%%%*/
+  /*%% End card %%*/
+}
+.box-container .card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: transparent;
+  color:white;
+}
+
+
+
+.box-container .card .pic {
+  position: relative;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  background: #fff;
+}
+.box-container .card .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+.box-container .card .content {
+  margin-top: 90px;
+  text-align: center;
+  padding: 0 30px;
+  transition: margin-top 0.5s ease;
+}
+.box-container .card .content .title {
+  margin-bottom: 0;
+  font-size: 30px;
+  color:white;
+   -moz-font-family: GothamPro;
+-webkit-font-family: GothamPro;
+   font-family:GothamPro;
+}
+.box-container .card .content span {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+   -moz-font-family: GothamPro;
+-webkit-font-family: GothamPro;
+   font-family:GothamPro;
+}
+.box-container .card .content p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+/*%% End container %%*/
+  </style>
+  <body>
+    <div uk-slider="center: true"class="slider">
+    <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1">
+        <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@l uk-child-width-1-4@m uk-grid">
+
+            <li>
+                                                    <div class="uk-panel">
+                                        <div class="box-container">
+                                         <div class="card">
+                                             
+                                                <div
+                                                    class="pic"><img src="images/creeper2.png"/>
+                                                </div>
+                                            <div class="content">
+                                                <h3 class="title">Creeperman164</h3><span>Programmer / UI Designer</span>
+                                                <p>
+"The team is really fun to work with and communication is really smooth. Additionally, Working time is really flexible.I strongly recommend working here."</p>
+                                               
+                                            </div>
+                                         </div>
+                                        </div>
+                                    </div>
+            </li>
+
+            <li>
+                                    <div class="uk-panel">
+                                        <div class="box-container">
+                                         <div class="card">
+                                               
+                                                <div
+                                                    class="pic"><img src="images/bluehollow-modified.png" alt="profile-picture"/>
+                                                </div>
+                                            <div class="content">
+                                                <h3 class="title">BlueHollow123</h3><span>Web Developer</span>
+                                                <p>
+                                                  "Working with Awes0me Studios has been a great experience for me as a part-time developer. The studio community is friendly, and overall just great to be around."
+                                                </p>
+                                            </div>
+                                         </div>
+                                        </div>
+                                    </div>
+            </li>
+                <li>
+                                    <div class="uk-panel">
+                                        <div class="box-container">
+                                         <div class="card">
+                                               
+                                                <div
+                                                    class="pic"><img src="images/trint2.png" alt="profile-picture"/>
+                                                </div>
+                                            <div class="content">
+                                                <h3 class="title">Trintigon</h3><span>QA Manager / Contributor</span>
+                                                <p>"Working at Awes0me Studios has been absolutely delightful, the team really get things done in a non-stressful and flexible manner. The community is extremely positive and all around fun to be around."</p>
+                                                
+                                            </div>
+                                         </div>
+                                        </div>
+                                    </div>
+            </li>
+
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+    </div>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+</div>
+  </body>
+</html>
