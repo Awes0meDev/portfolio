@@ -42,6 +42,9 @@ body {
   transition:0.2s;
      font-family: 'Ubuntu', sans-serif;
 }
+.mobilemenub{
+  animation:zoomIn 0.5s 1;
+}
 .mobilemenub:hover{
   color:#38c3ff;
   transition:0.2s;
