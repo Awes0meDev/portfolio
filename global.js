@@ -11,3 +11,6 @@ document.getElementById("mobilemenu").style.display = "none";
 document.getElementById("mobilemenucloseb").style.display = "none";
 document.getElementById("mobilemenub").style.display = "block";
 }
+document.body.addEventListener('touchmove',function(e){
+      e.preventDefault();
+  });
