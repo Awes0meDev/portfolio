@@ -70,7 +70,7 @@ background-size:cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-background:#e9e9e9;
+background:#e8ecf1;
   margin:0px;
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -116,7 +116,7 @@ display:none;
   appearance: none;
 }
 .aboutme-main-container{
-  background:#e9e9e9;
+  background:#e8ecf1;
   width:100vw;
   padding:70px 0px;
   margin:0px;
