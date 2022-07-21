@@ -37,6 +37,7 @@ function gameoffhover()
 document.getElementById('hidden-div').style.display="none";
 }
 
+
 </script>
 
                            
@@ -118,17 +119,34 @@ document.getElementById('hidden-div').style.display="none";
                <div class="statistics-content">
                 
                 
-                <div class="statisticsnumber"><i> <span class="countup">20000 </span>+</i></div>
+                <div class="statisticsnumber"><i><span class="countup"id="playsessions">20000</span><span id="plus">+</span></i></div>
                 <div class="statisticslabel">Play Sessions</div>
               
-                <div class="statisticsnumber"><i><span class="countup">8000 </span>+</i></div>
+                <div class="statisticsnumber"><i><span class="countup"id="uniqueplayers">8000</span><span id="plus2">+</span></i></div>
                   <div class="statisticslabel">Unique Players</div>
                   
-                <div class="statisticsnumber"><i><span class="countup">30000 </span>+</i></div>
+                <div class="statisticsnumber"><i><span class="countup"id="combinedminutesplayed">30000</span><span id="plus3">+</span></i></div>
                   <div class="statisticslabel">Combined Minutes Played</div>
                   
                   
+                      <script>
                       
+                        if (window.innerWidth < 960) {
+document.getElementById('playsessions').innerHTML = "20";
+document.getElementById('uniqueplayers').innerHTML = "8";
+document.getElementById('combinedminutesplayed').innerHTML = "30";
+document.getElementById('plus').innerHTML = "K+";
+document.getElementById('plus2').innerHTML = "K+";
+document.getElementById('plus3').innerHTML = "K+";
+} else if (window.innerWidth > 960) {
+document.getElementById('playsessions').innerHTML = "20000";
+document.getElementById('uniqueplayers').innerHTML = "8000";
+document.getElementById('combinedminutesplayed').innerHTML = "30000";
+document.getElementById('plus').innerHTML = "+";
+document.getElementById('plus2').innerHTML = "+";
+document.getElementById('plus3').innerHTML = "+";
+}
+                      </script>
                       
 
                 </div>
