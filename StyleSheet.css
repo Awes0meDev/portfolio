@@ -315,7 +315,7 @@ text-align:left;
   font-size:30px;
   border:none;
   border-radius:15px;
-   box-shadow:lightgrey 0px 8px 24px;
+   box-shadow:grey 0px 8px 24px;
    color:white;
      transition:0.3s;
 }
@@ -348,9 +348,10 @@ text-align:left;
 }
 
 .statisticsnumber{
-
-  font-size:calc(50px + 2vw);
+  text-shadow:none;
+  font-size:calc(70px + 2vw);
 }
+
 
 .statisticslabel{
   font-size:calc(20px + 0.2vw);
