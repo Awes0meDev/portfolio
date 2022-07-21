@@ -23,7 +23,7 @@ body {
   width:100vw;
   height:100vh;
   position:fixed;
-  background:#191919;
+  background:white;
   margin:-8px;
   z-index:100;
   display: none;
@@ -32,11 +32,11 @@ body {
    flex-direction:column;
 }
 .mobilemenub{
-  color:white;
   font-size:60px;
   letter-spacing:1.2px;
   background:inherit;
   border:none;
+  color:grey;
   margin:20px;
   font-weight:bold;
   transition:0.2s;
@@ -52,7 +52,7 @@ body {
 .mobile-menu-button{
 background:inherit;
 border:none;
-color:white;
+color:grey;
 font-size:30px;
 margin:0px 30px;
 display:none;
@@ -97,7 +97,7 @@ background-position: bottom 0px right -350px;
 .header-box{
   width:100vw;
   height:78px;
-  background: #242424;
+  background: #e8e8e8;
   display: -webkit-flex;
   display: flex;
   margin:-8px;
@@ -137,7 +137,7 @@ background-position: bottom 0px right -350px;
   font-size:20px;
   font-weight:bold;
   transition:0.3s;
-  color:white;
+  color:grey;
   border:none;
    transition:0.1s;
    letter-spacing: 1px;
@@ -219,7 +219,7 @@ animation:fadein 1s 1;
   appearance: none;
 }
 .containerbottom{
-  background-color:#191919;
+  background: #e8e8e8;
     height:20vh;
     width: 100vw;
     position: relative;
@@ -231,7 +231,8 @@ flex-direction:row;
 margin:-8px;
  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;  box-shadow:#242424 0px 8px 24px;
+  appearance: none;
+  box-shadow:lightgrey 0px 8px 24px;
 }
 
 .footer-logo{
@@ -255,9 +256,8 @@ margin:-8px;
   
 }
 .footer-copyright > p{
-    color:white;
+    color:#242424;
   font-weight:bold;
-   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 
 }
 .footer-socials{
@@ -274,11 +274,10 @@ margin:-8px;
   display:flex;
   align-items:center;
   justify-content:center;
-  color:white;
+  color:#242424;
   font-weight:Bold;
   margin:10px 0px;
   letter-spacing:1.5px;
-   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 }
 .social-item:hover{
   width:100%;
@@ -288,21 +287,22 @@ margin:-8px;
   font-weight:Bold;
   margin:10px 0px;
   letter-spacing:1.5px;
-   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 }
-.fa-twitter{
-    color:white;
+.social-item >.fa-twitter{
+    color:#242424;
     margin:10px;
     font-size:25px;
 }
 .roblox-icon{
   width:25px;
   margin:10px;
+  filter:brightness(20%);
 }
-.sectiontitle,.section-title{
+.sectiontitle,.section-title,.section-header{
   font-size:40px;
   font-weight:bold;
-      color:white;
+      color:#242424;
+      letter-spacing:2px;
   
       animation:slideinfromright 1s 1;
 
@@ -343,11 +343,8 @@ margin:-8px;
   align-items:center;
   text-align:center;
   flex-direction:column;
-      color:white;
+      color:grey;
       
-}
-.section-header{
-  color:white;
 }
 
 
@@ -358,7 +355,7 @@ margin:-8px;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-background:#191919;
+background:white;
  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
