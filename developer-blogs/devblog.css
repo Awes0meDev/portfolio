@@ -39,10 +39,13 @@
   border-radius: 4px;
   font-size:15px;
   border:none;
+    transition:0.3s;
+    animation:fadeInUp 1s 1;
 }
 .feedback:hover{
   background:black;
-  
+  transition:0.3s;
+  cursor:pointer;
 }
 .feedback > .fa-caret-left{
   margin:0px 5px;
@@ -195,5 +198,11 @@ margin:20px;
    transition:0.3s;
     animation:fadein 2s 1;
   
+}
+
+@media only screen and (max-width: 1000px) {
+  .feedback{
+    
+  }
 }
 
