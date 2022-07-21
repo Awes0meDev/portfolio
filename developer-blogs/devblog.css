@@ -83,7 +83,7 @@ margin:20px;
   border-radius:10px;
    transition:0.3s;
     animation:fadein 2s 1;
-         box-shadow:black 0px 8px 24px;
+         box-shadow:lightgrey 0px 8px 24px;
 }
 .newitem{
   width:calc(220px + 30px);
