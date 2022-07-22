@@ -24,51 +24,27 @@
     
     #img{
       width:calc(100px + 10vw);
+      max-width:250px;
       height:auto;
       margin:10px;
-      animation:img 2s ease 0s infinite normal forwards;
+      z-index: z-index:1000000;
+      position:absolute;
+      left:60%;
     }
     .link{
       text-decoration:none;
-      color:#38c3ff;
+      color:#242424;
       text-align:center;
     }
     .box{
       display:flex;
       justify-content:center;
       align-items:center;
-
+      text-align:center;
       flex-direction:column;
     }
    
 
-   @keyframes img {
-  0%,
-  100% {
-    transform: translateX(0%);
-    transform-origin: 50% 50%;
-  }
-
-  15% {
-    transform: translateX(-30px) rotate(-6deg);
-  }
-
-  30% {
-    transform: translateX(15px) rotate(6deg);
-  }
-
-  45% {
-    transform: translateX(-15px) rotate(-3.6deg);
-  }
-
-  60% {
-    transform: translateX(9px) rotate(2.4deg);
-  }
-
-  75% {
-    transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
     .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -92,14 +68,65 @@
   transform-origin: bottom left;
 }
 
-   
-    
-    
+   .fourofour{
+     width:50vw;
+     height:50vh;
+     display:flex;
+      justify-content:center;
+      align-items:center;
+      
+   }
+   .fourofourtext{
+     color:#242424;
+     position:absolute;
+     font-size:300px;
+     
+   }
+    .ocean{
+      width:100vw;
+      height:40vh;
+      position:absolute;
+      z-index:-1000;
+      bottom:0px;
+      background:linear-gradient(to bottom,#30d6db,#4287f5);
+      filter:blur(5px);
+    }
+    @media only screen and (max-width: 600px) {
+      .fourofourtext{
+     color:#242424;
+     position:absolute;
+     font-size:150px;
+     
+   }
+    .ocean{
+      width:100vw;
+      height:40vh;
+      position:absolute;
+      z-index:-1000;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      bottom:0px;
+      background:linear-gradient(to bottom,#30d6db,#4287f5);
+      filter:blur(5px);
+    }
+      #img{
+      width:calc(100px + 10vw);
+      height:auto;
+      margin:10px;
+      z-index: z-index:1000000;
+      position:absolute;
+      left:50%;
+    }
+    }
     
     
     
   </style>
-   
+   <body>
+     <div class="ocean">
+     <img src="images/aslogo-1.png"id="img">
+     </div>
    
    
 
@@ -108,13 +135,14 @@
   
 <div class="box">
   
-  <img src="images/aslogo-1.png"id="img">
+  <div class="fourofour">
+    <div class="fourofourtext">404.</div>
+  </div>
   
-  
-  <div class="words"><div style="color:white;">Page Not Found.</div> <i><a href="index.html"class="link"> <p class="hover-underline-animation">Go back home?</p></a></i></div>
+  <div class="words"><div style="color:#242424;">Beluga searched the whole ocean, but he couldn't find that page :( </div> <i><a href="index.html"class="link"> <p class="hover-underline-animation">Go back home?</p></a></i></div>
   
   </div>
   
 
-  
+  </body>
 </html>
