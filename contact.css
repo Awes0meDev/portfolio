@@ -75,6 +75,7 @@ input,textarea{
 }
 input:not(:placeholder-shown){
   border-color:lime;
+  color:black;
 }
 textarea:not(:placeholder-shown){
   border-color:lime;
