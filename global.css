@@ -114,7 +114,7 @@ background-position: bottom 0px right -350px;
   animation-duration:1.5s;
 }
 .header-favicon > img{
-  height:100px;
+  height:70px;
   margin:0px 20px;
 }
 .header-button-group{
@@ -199,7 +199,7 @@ h1,h2,h3{
 
 }
 #avatar{
-  width:300px;
+  width:220px;
 }
 
 .header{
@@ -244,7 +244,7 @@ margin:-8px;
       margin:20px;
 }
 .footer-logo > img{
-  width:130px;
+  width:70px;
 }
 .footer-copyright{
   width:100%;
