@@ -199,6 +199,14 @@ margin:20px;
     animation:fadein 2s 1;
   
 }
+.pharagraphcontainer{
+  width:70vw;
+  padding:20vh 0px;
+}
+.pharagraph{
+  font-size:20px;
+  line-height:30px;
+}
 
 @media only screen and (max-width: 1000px) {
   .feedback{
