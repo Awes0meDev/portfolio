@@ -102,6 +102,9 @@ margin:20px;
   font-size:30px;
    animation:fadein 2s 1;
 }
+.pharagraphimg{
+  display:block;
+}
 .newmap{
   width:calc(350px + 30px);
   margin:30px;
@@ -212,5 +215,8 @@ margin:20px;
   .feedback{
     
   }
+  .pharagraphimg{
+  display:none;
+}
 }
 
