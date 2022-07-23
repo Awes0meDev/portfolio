@@ -103,7 +103,7 @@ margin:20px;
    animation:fadein 2s 1;
 }
 .pharagraphimg{
-  display:block;
+  display:inline;
 }
 .newmap{
   width:calc(350px + 30px);
