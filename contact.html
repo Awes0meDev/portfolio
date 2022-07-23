@@ -73,7 +73,7 @@
                
             </div>
             
-          <span class="container"style="height:90vh">
+          <span class="container"style="height:100vh">
             
             
             
@@ -98,6 +98,8 @@
              
 
              <input type="text" class="email" name="email" placeholder="Email"id="email"><br>
+             
+             <input type="text" class="discord" name="discord" placeholder="Discord Username(optional)"id="discord"><br>
 
         
          
@@ -111,12 +113,11 @@
              </div>
        
            
-  </body>
 
   <script>
     function sendMessage() {
       var name= document.getElementById("name").value;
-      
+        var discord= document.getElementById("discord").value;
       
 var email= document.getElementById("email").value;
 var message= document.getElementById("message").value;
@@ -138,6 +139,10 @@ const params = {
         {
           "name": `Email`,
           "value": `${email}`
+        },
+        {
+          "name": `Discord`,
+          "value": `${discord}`
         },
         {
           "name": `Message`,
@@ -216,6 +221,7 @@ document.getElementById("submitted-content").style.display = "flex";
 <div class="containerbottom">
 <div class="footer-logo"><img src="images/aslogo-1.png"></img></div>
 <div class="footer-copyright"><p>Copyright © 2022 Beluga Games</p></div>
+
 </div>
 
         
