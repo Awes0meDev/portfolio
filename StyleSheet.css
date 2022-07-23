@@ -352,7 +352,7 @@ width: 200px;
    z-index:100;
    font-size:20px;
 }
-.announcmentb{
+.announcmentb,.closeannounment{
   border:2px solid black;
   background:transparent;
   color:black;
@@ -362,7 +362,7 @@ width: 200px;
    font-size:20px;
    transition:0.3s;
 }
-.announcmentb:hover{
+.announcmentb:hover,.closeannounment:hover{
   border:2px solid white;
   background:white;
   cursor:pointer;
