@@ -367,16 +367,22 @@ width: 200px;
   background:white;
   cursor:pointer;
   transition:0.3s;
-  color:black;
-  border-radius:5px;
-  padding:5px;
-  margin:10px;
-   font-size:20px;
+
 }
 
 @media only screen and (max-width: 600px) {
 
-  
+
+  .announcmentheader p{
+  font-size:17px;
+  margin:10px;
+}
+.announcmentb{
+  font-size:15px;
+}
+.closeannounment{
+  display:none;
+}
   aboutsectionOC{
     display:none;
   }
