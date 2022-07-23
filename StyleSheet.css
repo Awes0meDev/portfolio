@@ -339,7 +339,40 @@ width: 200px;
   object-position: -120px 50px;
   
 }
-
+.announcmentheader{
+  width:100vw;
+  margin:-8px;
+  height:78px;
+  position:fixed;
+   background-image:linear-gradient(to bottom right,#38c3ff,cyan);
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:row;
+   z-index:100;
+   font-size:20px;
+}
+.announcmentb{
+  border:2px solid black;
+  background:transparent;
+  color:black;
+  border-radius:5px;
+  padding:5px;
+  margin:10px;
+   font-size:20px;
+   transition:0.3s;
+}
+.announcmentb:hover{
+  border:2px solid white;
+  background:white;
+  cursor:pointer;
+  transition:0.3s;
+  color:black;
+  border-radius:5px;
+  padding:5px;
+  margin:10px;
+   font-size:20px;
+}
 
 @media only screen and (max-width: 600px) {
 
