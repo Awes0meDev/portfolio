@@ -103,15 +103,22 @@
 
         
          
-          <textarea id="message" name="message"class="message" placeholder="Write something interesting.." style="height:200px"></textarea>
+          <textarea id="message" name="message"class="message" placeholder="Write something interesting.."></textarea>
 
             
             
             <div class="submit-b-container">
-             <input type="submit" value="Submit"id="submit-b"onclick="sendMessage();">
              
+             
+             <button id="submit-b"onclick="sendMessage();"><p id="btnText">Submit</p><div class="check-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg></div></button>
+
+
+
              </div>
        
+        
            
 
   <script>
@@ -202,10 +209,20 @@ var email = document.getElementById('email');
     
 request.send(JSON.stringify(params));
 
-document.getElementById("form-content").style.display = "none";
-document.getElementById("submitted-content").style.display = "flex";
 
-    
+ const btn = document.querySelector("#submit-b");
+        const btnText = document.querySelector("#btnText");
+        
+        var playsubmitanimation = 1;
+
+        if (playsubmitanimation == 1){
+            btnText.innerHTML = "Thanks";
+            btn.classList.add("active");
+        }
+        setTimeout(function() {
+        document.getElementById("form-content").style.display = "none";
+        document.getElementById("submitted-content").style.display = "flex";
+        }, 2000);
  
 }
    
@@ -232,5 +249,3 @@ document.getElementById("submitted-content").style.display = "flex";
         
     </body>
 </html>
-
-
