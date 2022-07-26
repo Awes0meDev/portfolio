@@ -252,7 +252,7 @@ width:100%;
 .footerbar{
   width:100vw;
   height:100px;
-  background:#191919;
+  background:#ff1f8f;
   display:flex;
   justify-content:center;
   text-align:center;
@@ -271,10 +271,14 @@ margin:-8px;
   width:15%;
   height:100%;
 }
-#discordfooter,#codepenfooter > i{
-  margin:30px;
-  filter:drop-shadow(0px 0px 15px black);
+#discordfooter > i{
+  margin:10px;
+  filter:drop-shadow(0px 0px 15px white);
   
+}
+#codepenfooter > i{
+   margin:10px;
+  filter:drop-shadow(0px 0px 15px white);
 }
 nav {
 	margin: 27px auto 0;
