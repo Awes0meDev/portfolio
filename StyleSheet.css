@@ -410,8 +410,8 @@ width: 200px;
   font-size:calc(20px + 0.2vw);
 }
 .communitysectionbox{
-  width:90vw;
-  height:50vh;
+  width:65vw;
+  height:35vh;
   border-radius:20px;
   margin:20px;
   background-image:linear-gradient(to bottom right,#38c3ff,cyan);
