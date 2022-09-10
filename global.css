@@ -205,7 +205,7 @@ h1,h2,h3{
 .header{
 
   width:100vw;
-  height:calc(160px + 10vw);
+  height:calc(260px + 10vw);
 margin:-8px;
   background:transparent;
 display:flex;
@@ -228,6 +228,7 @@ flex-direction:column;
     align-items: center;
     text-align:center;
 flex-direction:column;
+justify-content:center;
 margin:-8px;
  -webkit-appearance: none;
   -moz-appearance: none;
@@ -298,7 +299,7 @@ margin:-8px;
   filter:brightness(20%);
 }
 .sectiontitle,.section-title,.section-header{
-  font-size:40px;
+  font-size:60px;
   font-weight:bold;
       color:#242424;
       letter-spacing:2px;
@@ -381,11 +382,95 @@ background:white;
  from{transform:translate(120px, 0%); opacity:0%;}
  to{ opacity:100%;}
 }
+.communitysection{
+  background:white;
+  width:100vw;
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+.communitysectionbox{
+  width:80vw;
+  height:50vh;
+  border-radius:20px;
+  margin:20px;
+  
+  background-image:linear-gradient(to bottom right,#38c3ff,cyan);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:lightgrey 0px 8px 24px;
+  flex-direction:row;
+  
+}
+.communityheader{
+  width:70%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.communitytext{
+  text-align:center;
+ width:100%;
+ height:auto;
+    z-index:1;
 
+}
+.communityheader-h1{
+  color:#242424;
+  letter-spacing:2px;
+  font-size:70px;
+}
+.communityheader-p{
+  color:grey;
+  letter-spacing:2px;
+  font-size:23px;
+}
+.communitysocialbuttons{
+  display:flex;
+text-align:center;
+justify-content:center;
+align-items:center;
+  flex-direction:row;
+  width:100%;
+     z-index:1;
+  height:25%;
+  margin:0px 30px;
+}
+.communitysocialb{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100px;
+  height:70%;
+  margin-right:20px;
+  font-size:30px;
+  border:none;
+  border-radius:15px;
+   box-shadow:grey 0px 8px 24px;
+   color:white;
+     transition:0.3s;
+}
+.communitysocialb:hover{
+  transform: translate(0, -5px) scale(1.05) rotate(2deg);
+   transition:0.3s;
+}
 
 @media only screen and (max-width: 1000px) {
   
-
+  .communityheader-h1{
+    color:#242424;
+    letter-spacing:2px;
+    font-size:50px;
+  }
+  .communityheader{
+    width:100%;
+  }
 .header-box{
 
   display: flex;
