@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      
+ 
+        <title>Beluga Games</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+        <link href="events.css" rel="stylesheet" type="text/css">
+        
+   <link href="global.css" rel="stylesheet" type="text/css">
+     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+ <script type="text/javascript" src="global.js"></script>
+<link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+    <link rel="shortcut icon" href="images/aslogo-1.png">
+    </head>
+
+      
+      
+         
+       <body>
+         
+         
+         
+          <script>
+      function getrandomcode(){
+      window.randomcode = (Math.floor(100000 + Math.random() * 900000));
+      
+      const request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/995660931914809404/JWqiqN3OUSU7t8mvNm9iJFyIQmKSZQD-nb936ER8Q1neTRxKCcMgBtH_CtaGLaAQ6jp9");
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+  "content": `This is your 6-digit code`,
+  "embeds": [
+    {
+      "type": "rich",
+      "title": `6-digit code`,
+      "description": `Submit this code into the stats page login.`,
+      "fields": [
+         {
+          "name": `Code`,
+          "value": `${window.randomcode}`
+        }
+      ]
+    }
+  ]
+}
+
+    
+request.send(JSON.stringify(params));
+
+
+}
+
+function varify(){
+  
+  var x = document.getElementById("input").value;
+  
+  var y = window.randomcode;
+
+
+  if (x == y){
+    document.getElementById("login").style.display = "none";
+  } else {
+    alert("wrong password!");
+}
+}
+    </script>
+    <login style="background:black;width:100vw;height:100vh;z-index:100;margin:-8px;display:flex;justify-content:center;align-items:center;position:fixed;overflow:none;"id="login">
+
+<buttongroup style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+<button onclick="getrandomcode();"
+style="padding:20px;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px;
+font-weight:bold;
+border:none;
+margin:-8px;
+background:#242424;
+color:white;
+">Send Auth Code</button>
+      
+      <input id="input"style="padding:20px;border:none;margin:-8px;background:#191919;color:white;letter-spacing:10px;font-weight:bold;resize: none;
+    outline: none;"></input>
+      
+      <button onclick="varify();"
+      style="padding:20px;
+      border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+font-weight:bold;
+border:none;
+background:#1e70ff;
+margin:-8px;
+color:white;
+      ">Enter</button>
+      
+      </buttongroup>
+</login>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                   
+         <div class="header-box">
+  
+<div class="header-favicon"><img src="images/aslogo-1.png"></img></div>
+  
+       
+  
+  <div class="header-button-group">
+       
+   
+    
+    <a href="../index.html"class="header-button"><p class="hover-underline-animation">Home</p></a>
+  
+ <a href="jobs.html"class="header-button"><p class="hover-underline-animation">Jobs</p></a>
+  
+  <a href="developer-blogs.html"class="header-button"><p class="hover-underline-animation">Blog</p></a>
+  
+  <a href="contact.html"class="header-button"><p class="hover-underline-animation">Contact</p></a>
+  
+  </div>
+</div>
+        
+          
+           <div class="headerfixedbackground"style="background-image: url('images/header.jpg');">
+             
+             </div>
+             
+             
+            <div class="header">
+              
+      <div class="pagetitle">Statistics</div>
+               
+            </div>
+        
+       <span class="container"style="background:rgb(50 45 41);display:flex;justify-content:center;align-items:center;flex-direction:column;">
+        
+        
+
+ 
+
+
+      
+      
+     </span>
+      
+   
+            
+        
+    </body>
+</html>
