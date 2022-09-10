@@ -466,7 +466,9 @@ align-items:center;
 }
 
 @media only screen and (max-width: 1000px) {
-  
+  .bannerlogo{
+    width:400px;
+  }
   .communityheader-h1{
     color:#242424;
     letter-spacing:2px;
