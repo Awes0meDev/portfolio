@@ -1,29 +1,4 @@
 
-.headerfixedbackgroundhome{
-
-background-position: bottom 0px right -350px;
-background-size:cover;
-  filter:brightness(17%) blur(5px);
-  margin:-8px ;
-  -moz-width:100vw;
--webkit-width:100vw;
-  width:100vw;
-  transform: scale(1.1);
-  height:50vh;
-
-  
-   -moz-position:fixed;
-  -webkit-position:fixed;
-  position:fixed;
-  
-   -moz-z-index:-2;
-  -webkit-z-index:-2;
-  z-index:-2;
-  
-  -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-}
 .goalscontent{
   font-size: 30px;
   display: flex;
