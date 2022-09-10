@@ -78,7 +78,7 @@ background-position: bottom 0px right -350px;
 -webkit-width:100vw;
   width:100vw;
   transform: scale(1.1);
-  height:70vh;
+  height:100%;
 
   
    -moz-position:fixed;
@@ -198,6 +198,10 @@ h1,h2,h3{
    
 
 }
+
+.bannerlogo{
+  width:500px;
+}
 #avatar{
   width:220px;
 }
@@ -207,7 +211,7 @@ h1,h2,h3{
   width:100vw;
   height:calc(260px + 10vw);
 margin:-8px;
-  background:transparent;
+  background:t1ransparent;
 display:flex;
 justify-content:center;
 align-items:center;
