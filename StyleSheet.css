@@ -1,7 +1,4 @@
 
-.bannerlogo{
-  width:500px;
-}
 .headerfixedbackgroundhome{
 
 background-position: bottom 0px right -350px;
@@ -28,32 +25,6 @@ background-size:cover;
         appearance: none;
 }
 
-
-.pagetitlehome{
-   color:#38c3ff;
-  font-size:60px;
-  font-weight:bold;
-  margin:20px;
-  letter-spacing:2px;
-    animation:slideinfromleft 1s 1;
-
-}
-
-.typed-out-container{
-  display: inline-block;
-}
-.typed-out{
-  overflow: hidden;
-  border-right: .15em transparent;
-  white-space: nowrap;
-  animation:
-    typing 2s forwards;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
 
 .container-home {
 
