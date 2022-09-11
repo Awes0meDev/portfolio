@@ -1,4 +1,83 @@
 
+.communitysection_partnerpage{
+  background:white;
+  width:100vw;
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+.communitysectionbox_partnerpage{
+  width:80vw;
+  height:50vh;
+  margin:20px;
+  background:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:row;
+  
+}
+.communityheader_partnerpage{
+  width:70%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.communitytext_partnerpage{
+  text-align:center;
+ width:100%;
+ height:auto;
+    z-index:1;
+
+}
+.communityheader-h1_partnerpage{
+  color:#242424;
+  letter-spacing:2px;
+  font-size:70px;
+}
+.communityheader-p_partnerpage{
+  color:grey;
+  letter-spacing:2px;
+  font-size:23px;
+}
+.communitysocialbuttons_partnerpage{
+  display:flex;
+text-align:center;
+justify-content:center;
+align-items:center;
+  flex-direction:row;
+  width:100%;
+     z-index:1;
+  height:25%;
+  margin:0px 30px;
+}
+.communitysocialb_partnerpage{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:70px;
+padding:0px 60px;
+  font-size:20px;
+  border:none;
+  background:#5865F2;
+  border-radius:15px;
+   box-shadow:grey 0px 8px 24px;
+   color:white;
+     transition:0.3s;
+}
+.communitysocialb_partnerpage:hover{
+  transform: translate(0, -5px) scale(1.05) rotate(2deg);
+   transition:0.3s;
+}
+.communityimg{
+  position:absolute;
+  transform:translate(20vw,200px);
+}
 .section-p{
     font-size:20px;
     margin:20px;
@@ -15,9 +94,10 @@
   flex-wrap:wrap;
   
 }
+
 .y-work-with-us-item{
   border-radius:50%;
-  background:#fffff;
+  background:#ffffff;
   height:250px;
   margin:20px;
   width:250px;
@@ -28,6 +108,7 @@
   flex-direction:column;
       box-shadow:lightgrey 0px 8px 24px;
 }
+
 .y-work-with-us-item-title{
   font-size:25px;
   color:#38c3ff;
@@ -43,15 +124,18 @@
  @media(max-width: 770px){
    .y-work-with-us{
   width:90vw;
-  
-  
-}
-.devsliderframe{
-  display:block;
-}
-.cards{
-  display:none;
-}
+   }
+   .communityimg{
+    display:none;
+  }
+  .communityheader-h1_partnerpage{
+    color:#242424;
+    letter-spacing:2px;
+    font-size:50px;
+  }
+  .communityheader_partnerpage{
+    width:100%;
+  }
          .y-work-with-us-item{
            width:100%;
            height:40vh;
@@ -73,40 +157,7 @@
            line-height:20px
            
          }
-         
-         .detailb{
-         margin: 10px 0px;
-           
-        
         }
-        .jobname{
-          text-align:center;
-        }
-        .jobstats{
-          text-align:center;
-        }
-        .cards{
-  flex-direction:column;
-  width:100vw;
-
-}
-        .testimonial-card{
-  width:80vw;
-  height:auto;
-  padding:20px 0px;
-}
-.testimonial-card-p{
-  margin:0px 20px;
-  font-size:20px;
-}
-    
-        .detailb{
-         margin: 20px 0px;
-         width:60vw;
-         height:50px;
-         font-size:20px;
-        }
-}
 
 
 
