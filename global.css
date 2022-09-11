@@ -104,9 +104,10 @@ background-position: bottom 0px right -350px;
   z-index:100000000;
 }
 .header-favicon{
-  width:50vw;
+  width:0vw;
   display:flex;
-    display: -webkit-flex;
+    display: none;
+    background:red;
   align-items:center;
    -webkit-justify-content:left;
     justify-content:left;
@@ -120,12 +121,12 @@ background-position: bottom 0px right -350px;
 .header-button-group{
   display: -webkit-flex;
   display:flex;
- -webkit-justify-content:right;
-  justify-content:right;
+ -webkit-justify-content:center;
+  justify-content:center;
   align-items:center;
-    text-align:right;
+    text-align:center;
   height:78px;
-  width:50vw;
+  width:100vw;
  }
 .header-button{
   display:flex;
@@ -485,9 +486,15 @@ align-items:center;
   text-align:center;
 }
 .header-button-group{
-  width:70vw;
-  text-align:right;
-}
+  display: -webkit-flex;
+  display:flex;
+ -webkit-justify-content:right;
+  justify-content:right;
+  align-items:center;
+    text-align:right;
+  height:78px;
+  width:100vw;
+ }
 .header-button{
   display:none;
 }
