@@ -460,6 +460,31 @@ align-items:center;
 }
 
 @media only screen and (max-width: 1000px) {
+  .containerbottom{
+    flex-direction:column;
+  }
+  .footer-logo{
+    display:none;
+  }
+  .footer-left-side{
+
+    height:100%;
+    width:100%;
+    padding-left:0%;
+    display: flex;
+    flex-direction:column;
+        align-items: center;
+        text-align:center;
+    justify-content:center;
+  }
+  .footer-links{
+    text-align:center;
+    justify-content:center;
+  }
+  .footer-copyright{
+    text-align:center;
+    justify-content: center;
+  }
   .bannerlogo{
     width:400px;
   }
