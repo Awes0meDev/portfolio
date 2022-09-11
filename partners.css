@@ -41,7 +41,7 @@
   font-size:70px;
 }
 .communityheader-p_partnerpage{
-  color:grey;
+  color:lightgrey;
   letter-spacing:2px;
   font-size:23px;
 }
@@ -64,9 +64,9 @@ align-items:center;
 padding:0px 60px;
   font-size:20px;
   border:none;
-  background:#5865F2;
+  background:#38c3ff;
   border-radius:15px;
-   box-shadow:grey 0px 8px 24px;
+   box-shadow:lightgrey 0px 8px 24px;
    color:white;
      transition:0.3s;
 }
