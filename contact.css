@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 .form-box{
-  padding:20px;
+  padding:40px;
   width:50vw;
-  margin:10vh;
   border-radius:10px;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  background:white;
 }
 
 
@@ -68,13 +68,6 @@ input,textarea{
    border-radius: 20px;
    box-shadow: 0 6px 20px -5px lightgrey;
 }
-.module-border-wrap {
-  max-width: 250px;
-  padding: 1rem;
-  position: relative;
-  background: linear-gradient(to right, red, purple);
-  padding: 3px;
-}
 input:not(:placeholder-shown){
   border-color:lime;
   color:black;
@@ -133,52 +126,4 @@ textarea:not(:placeholder-shown){
     position: relative;
     overflow: hidden;
     cursor: pointer;
-}
-
-.check-box{
-    width: 60px;
-    height: 60px;
-    border-radius: 40px;
-    box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-    right: -40px;
-    opacity: 0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.check-box svg{
-    width: 40px;
-}
-
-svg path{
-    stroke-width: 3;
-    stroke: #fff;
-    stroke-dasharray: 34;
-    stroke-dashoffset: 34;
-    stroke-linecap: round;
-}
-
-.active{
-    background: #ff2b75;
-    transition: 1s;
-}
-
-.active .check-box{
-    right: 0;
-    opacity: 1;
-    transition: 1s;
-}
-
-.active p{
-    margin-right: 70px;
-    transition: 1s;
-}
-
-.active svg path{
-    stroke-dashoffset: 0;
-    transition: 1s;
-    transition-delay: 1s;
 }
