@@ -78,7 +78,7 @@
                
             </div>
             
-          <span class="container"style="height:90vh;">
+          <span class="container"style="height:90vh;background:white;">
             
             
             
@@ -117,7 +117,7 @@
              
              <button id="submit-b"onclick="sendMessage();">Submit</button>
 
-
+        
 
 
              </div>
@@ -129,6 +129,7 @@
      function sendMessage() {
       
       var name= document.getElementById("name").value;
+
       var message= document.getElementById("message").value;
       var email = document.getElementById("email").value;
       
@@ -136,10 +137,9 @@
       request.open("POST","https://discord.com/api/webhooks/1018998214608814260/KeQA8sEAR-DGn60F3vRbTr--4zR_9ANGj6VaWsYwSkpJCTJALRP6OyHiMZIXfrqkExzD" );
       request.setRequestHeader('Content-type', 'application/json');
       const params = {
-      "username": "Contact Form",
-      "avatar_url": "https://belugagames.io/aslogo-1.png",
-      "content": "",
-      "embeds": [
+  "username": "Contact Page Webhook",
+  "content": "",
+  "embeds": [
       {
       
       "title": "Webhook",
@@ -161,48 +161,14 @@
          "value": `${email}`,
          "inline": true
        }
-      ],
+      ]
       
       }
       ]
       };
       
       
-      
-      
-      var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-      
-      if (!filter.test(email.value)) {
-        
-      
-        document.getElementById('submit-b').style.animation = 'shakeX 1s 1';
-      
-      return false;
-      }
-      
-       document.getElementById("name").value = name;
-      var x = "name";
-      
-      if (name == "") {
-      
-      document.getElementById('submit-b').style.animation = 'shakeX 1s 1';
-      name.focus;
-      return false;
-      
-      
-      }
-      
-      document.getElementById("message").value = message;
-      var y = "message";
-      
-      if (message == "") {
-      
-      document.getElementById('submit-b').style.animation = 'shakeX 1s 1';
-      message.focus;
-      return false;
-      
-      
-      }
+
       
       request.send(JSON.stringify(params));
       
@@ -213,7 +179,7 @@
       
       }
       
-          }
+          
        
       
   </script>
@@ -235,7 +201,7 @@
             <div class="containerbottom">
               <div class="footer-left-side">
               <div class="footer-links">
-              <a href="terms.html">Terms of service</a>|
+              <a href="terms.html">Terms of Service</a>|
               <a href="support.html">Support</a>|
               <a href="status.html">Status</a>|
               <a href="contact.html">Contact</a>
