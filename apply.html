@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+     
+ 
+        <title>Apply | Beluga Games</title>
+        <meta charset="UTF-8">
+                         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta name="description" content="Here you can apply for for the partner program, or for a career at Beluga."/>
+
+
+
+        <link href="apply.css" rel="stylesheet" type="text/css">
+        
+   <link href="global.css" rel="stylesheet" type="text/css">
+ <script type="text/javascript" src="global.js"></script>
+     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+       
+      <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+        
+    <link rel="shortcut icon" href="images/aslogo-1.png">
+
+    
+    </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+</style>
+      <body onload="onload()">
+     
+              
+         <div class="header-box">
+  
+<div class="header-favicon"><img src="images/aslogo-1.png"></img></div>
+  
+
+  
+   <div class="header-button-group">
+       
+   
+    
+    
+    <a href="index.html"class="header-button"><p class="hover-underline-animation">Home</p></a>
+  
+ <a href="partners.html"class="header-button"><p class="hover-underline-animation">Partners</p></a>
+  
+  <a href="developer-blogs.html"class="header-button"><p class="hover-underline-animation">Blog</p></a>
+  
+  <a href="jobs.html"class="header-button"><p class="hover-underline-animation">Jobs</p></a>
+
+  <a href="contact.html"class="header-button"><p class="hover-underline-animation">Contact</p></a>
+  
+  <button class="mobile-menu-button"onclick="openmobilemenu();"id="mobilemenub"><i class="fa-solid fa-bars"></i></button>
+   <button class="mobile-menu-close-button"onclick="closemobilemenu();"id="mobilemenucloseb"><i class="fa-solid fa-xmark"></i></button>
+  
+  </div>
+  
+</div>
+        
+      <div class="mobilemenu"id="mobilemenu">
+        <a href="index.html"><button class="mobilemenub">Home</button></a>
+        <a href="partners.html"><button class="mobilemenub">Partners</button></a>
+         <a href="developer-blogs.html"><button class="mobilemenub">Blog</button></a>
+         <a href="jobs.html"><button class="mobilemenub">Jobs</button></a>
+          <a href="contact.html"><button class="mobilemenub">Contact</button></a>
+      </div>
+        
+      
+      
+    
+
+          
+           <div class="headerfixedbackground"style="background-image: url('images/header.jpg');">
+             
+             </div>
+            <div class="header">
+           <div class="pagetitle">Apply</div>
+            </div>
+         <span class="container"style="background:white;height:auto;">
+           
+
+           <div class="application-select"id="applicationselect">
+            <h2>Welcome to the Beluga Games Application Center! We are so glad that you’re applying. Before we start, make sure to answer all the questions with valid and honest information, this way, we’ll get to know you better and won’t run into any issues further on! Good luck!</h2>
+            <h2>What are you applying for?</h1>
+           <div class="applicationselectbgroup">
+<button onclick="choosepartnerapp();"id="partnerappb">Partner Application</button>
+<button onclick="choosejobapp();"id="jobappb">Job Application</button>
+           </div>
+           </div>
+
+           <script>
+            function onload(){
+            const partnerappb = document.getElementById("partnerappb");
+            const jobappb = document.getElementById("jobappb");
+            const applicationselect = document.getElementById("applicationselect");
+            const partnerapplication = document.getElementById("partnerapplication");
+            const jobapplication = document.getElementById("jobapplication");
+            partnerapplication.style.display = "none";
+            jobapplication.style.display = "none";
+        }
+        
+        function choosepartnerapp(){
+            applicationselect.style.display = "none";
+            partnerapplication.style.display = "flex";
+            }
+            function choosejobapp(){
+            applicationselect.style.display = "none";
+            jobapplication.style.display = "flex";
+            }
+            
+           </script>
+
+
+           <div class="application"id="jobapplication">
+            <h1>What is your name?</h1>
+            <input id="jobquestion1">
+
+            <h1>What is your Discord username?</h1>
+            <input id="jobquestion2">
+
+            <h1>What are your pronouns?</h1>
+            <input id="jobquestion3">
+            
+            <h1>What position are you applying for?</h1>
+            <select id="jobquestion4">
+              <option value="R15 Animator">R15 Animator</option>
+              <option value="Visual Effects Designer">Visual Effects Designer</option>
+              <option value="2D Artist">2D Artist</option>
+            </select>
+           
+            
+            <h1>How many years of experience do you have doing this?</h1>
+            <input id="jobquestion5">
+            
+            
+            <h1>What projects have you worked on in the past?</h1>
+            <input id="jobquestion6">
+            
+            <h1>Add one or more link(s) to your previous work below</h1>
+            <input id="jobquestion7">
+
+            <h1>Do you work well with others?</h1>
+            <textarea id="jobquestion8"></textarea>
+
+            
+            <h1>Why do you want to work with us?</h1>
+            <textarea id="jobquestion9"></textarea>
+
+            <h1> Tell us a bit about yourself:</h1>
+            <textarea id="jobquestion10"></textarea>
+
+            <h1>Where did you hear about us?</h1>
+            <select id="jobquestion11">
+              <option value="Website">Website</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Discord">Discord</option>
+              <option value="Roblox">Roblox</option>
+              <option value="Blog Post">Blog Post</option>
+              <option value="Staff Member">Staff Member</option>
+              <option value="Other">Other</option>
+            </select>
+            
+            <h2>Woohoo! You reached the end of the developer application. We are so glad you applied and we are looking forward to working with you!  Please make sure you have answered all the questions honestly and valid. You may go back to make any edits to your responses. If you qualify for the position, we’ll reach out to you within 7 days. Thanks again!</h2>
+            
+            <input type="submit"id="submitjob"class="submitb"value="Submit"onclick="submitjob();">
+           </div>
+
+
+           <div class="application"id="partnerapplication">
+            <h1>What is your name?</h1>
+            <input id="partnerquestion1">
+
+            <h1>What is your Discord username?</h1>
+            <input id="partnerquestion2">
+
+            <h1>What are your pronouns?</h1>
+            <input id="partnerquestion3">
+            
+            <h1>Where do you upload your content?</h1>
+            <select id="partnerquestion4">
+              <option value="Youtube">Youtube</option>
+              <option value="Twitch">Twitch</option>
+              <option value="TikTok">TikTok</option>
+              <option value="Other">Other</option>
+            </select>
+           
+            
+            <h1>How many followers/subscribers do you have?</h1>
+            <select id="partnerquestion5">
+              <option value="0-1,000">0-1,000</option>
+              <option value="1,000-5,000">1,000-5,000</option>
+              <option value="5,000-20,000">5,000-20,000</option>
+              <option value="20,000-50,000+">20,000-50,000+</option>
+            </select>
+            
+            
+            <h1>What kind of content do you create?</h1>
+            <textarea id="partnerquestion6"></textarea>
+            
+            <h1>Is your content appropriate for all users?</h1>
+            <select id="partnerquestion7">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+              <option value="I’m not sure">I’m not sure</option>
+            </select>
+            
+            <h1>How many videos do you upload per week?</h1>
+            <input id="partnerquestion8">
+            
+            <h1>Where did you hear about us?</h1>
+            <select id="partnerquestion9">
+              <option value="Website">Website</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Discord">Discord</option>
+              <option value="Roblox">Roblox</option>
+              <option value="Blog Post">Blog Post</option>
+              <option value="Staff Member">Staff Member</option>
+              <option value="Other">Other</option>
+            </select>
+            
+            <h2>Awesome! You’ve reached the end of our partner application. Please make sure you have answered all the questions honestly and valid. You may go back to make any edits to your responses. If you qualify for the program, we’ll reach out to you within 7 days. Thanks again!</h2>
+            
+            <button id="submitpartner"class="submitb"onclick="submitpartner()">Submit</button>
+           </div>
+
+<script>
+
+
+
+  function submitjob() {
+var webhook = "https://discord.com/api/webhooks/1018998096941809775/fzYQtcV0nJtLvYMXB8hS2RNP3RnunCjI59tNeyptXvamewa6JTqw-fCKjzGHxhsJ6XJZ";
+              var question1 = document.getElementById("jobquestion1").value;
+              var question2 = document.getElementById("jobquestion2").value;
+              var question3 = document.getElementById("jobquestion3").value;
+              var question4 = document.getElementById("jobquestion4").value;
+              var question5 = document.getElementById("jobquestion5").value;
+              var question6 = document.getElementById("jobquestion6").value;
+              var question7 = document.getElementById("jobquestion7").value;
+              var question8 = document.getElementById("jobquestion8").value;
+              var question9 = document.getElementById("jobquestion9").value;
+              var question10 = document.getElementById("jobquestion10").value;
+              var question11 = document.getElementById("jobquestion11").value;
+
+              const request = new XMLHttpRequest();
+request.open("POST", webhook);
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+  "username": "Apply Page Webhook - Developer application",
+  "content": "",
+  "embeds": [
+    {
+     
+      "title": "Webhook",
+      "url": "https://belugagames.io/apply",
+      "description": "`Hello!`",
+      "color": 15258703,
+      "fields": [
+        {
+          "name": "What is your name?",
+          "value": `${question1}`,
+          "inline": true
+        },
+        {
+          "name": "What is your Discord username?",
+          "value": `${question2}`,
+          "inline": true
+        },
+        {
+          "name": "What are your pronouns?",
+          "value": `${question3}`,
+          "inline": true
+        },
+        {
+          "name": "What position are you applying for?",
+          "value": `${question4}`,
+          "inline": true
+        },
+        {
+          "name": "How many years of experience do you have doing this?",
+          "value": `${question5}`,
+          "inline": true
+        },
+        {
+          "name": "What projects have you worked on in the past?",
+          "value": `${question6}`,
+          "inline": true
+        },
+        {
+          "name": "Add one or more link(s) to your previous work below",
+          "value": `${question7}`,
+          "inline": true
+        },
+        {
+          "name": "Do you work well with others?",
+          "value": `${question8}`,
+          "inline": true
+        },
+        {
+          "name": "Why do you want to work with us?",
+          "value": `${question9}`,
+          "inline": true
+        },
+        {
+          "name": "Tell us a bit about yourself:",
+          "value": `${question10}`,
+          "inline": true
+        },
+        {
+          "name": "Where did you hear about us?",
+          "value": `${question11}`,
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+if (question1 == "" || question2 == "" || question3 == "" || question4 == "" || question5 == "" || question6 == "" || question7 == "" || question8 == "" || question9 == "" || question10 == "" || question11 == "") { 
+  alert("Please answer all of the questions.");
+  return false;
+
+}
+
+request.send(JSON.stringify(params));
+
+
+ 
+}
+              function submitpartner(){
+var webhook = "https://discord.com/api/webhooks/1018998096941809775/fzYQtcV0nJtLvYMXB8hS2RNP3RnunCjI59tNeyptXvamewa6JTqw-fCKjzGHxhsJ6XJZ";
+
+              var question1 = document.getElementById("partnerquestion1").value;
+              var question2 = document.getElementById("partnerquestion2").value;
+              var question3 = document.getElementById("partnerquestion3").value;
+              var question4 = document.getElementById("partnerquestion4").value;
+              var question5 = document.getElementById("partnerquestion5").value;
+              var question6 = document.getElementById("partnerquestion6").value;
+              var question7 = document.getElementById("partnerquestion7").value;
+              var question8 = document.getElementById("partnerquestion8").value;
+              var question9 = document.getElementById("partnerquestion9").value;
+
+              const request = new XMLHttpRequest();
+request.open("POST", webhook );
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+  "username": "Apply Page Webhook - Partner application",
+  "content": "",
+  "embeds": [
+    {
+     
+      "title": "Webhook",
+      "url": "https://belugagames.io/apply",
+      "description": "`Hello!`",
+      "color": 15258703,
+      "fields": [
+        {
+          "name": "What is your name?",
+          "value": `${question1}`,
+          "inline": true
+        },
+        {
+          "name": "What is your Discord username?",
+          "value": `${question2}`,
+          "inline": true
+        },
+        {
+          "name": "What are your pronouns?",
+          "value": `${question3}`,
+          "inline": true
+        },
+        {
+          "name": "Where do you upload your content?",
+          "value": `${question4}`,
+          "inline": true
+        },
+        {
+          "name": "How many followers/subscribers do you have?",
+          "value": `${question5}`,
+          "inline": true
+        },
+        {
+          "name": "What kind of content do you create?",
+          "value": `${question6}`,
+          "inline": true
+        },
+        {
+          "name": "Is your content appropriate for all users?",
+          "value": `${question7}`,
+          "inline": true
+        },
+        {
+          "name": "How many videos do you upload per week?",
+          "value": `${question8}`,
+          "inline": true
+        },
+        {
+          "name": "Where did you hear about us?",
+          "value": `${question9}`,
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+if (question1 == "" || question2 == "" || question3 == "" || question4 == "" || question5 == "" || question6 == "" || question7 == "" || question8 == "" || question9 == "") { 
+  alert("Please answer all of the questions.");
+  return false;
+
+}
+request.send(JSON.stringify(params));
+
+
+ 
+}
+</script>
+    </body>
+</html>
+
+
+           

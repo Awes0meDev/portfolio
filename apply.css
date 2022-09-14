@@ -1,0 +1,71 @@
+.application-select{
+    background:white;
+    padding:20px;
+    width:50vw;
+    margin:20vh 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.applicationselectbgroup{
+    display:flex;
+    flex-direction: row;
+}
+.applicationselectbgroup > button{
+   padding:10px; 
+   font-size:20px;
+   margin:10px;
+}
+.application{
+    width:50vw;
+    display:flex;
+    justify-content:left;
+    text-align:left;
+    flex-direction:column;
+    margin:20px;
+}
+.application > input{
+    padding:10px 0px;
+font-size:20px;
+}
+.application > select{
+    padding:10px 0px;
+    font-size:20px;
+}
+.application > textarea{
+    padding:10px 0px;
+    font-size:20px;
+    resize:none;
+    height:200px;
+}
+.submitb{
+    padding:10px 0px;
+    font-size:20px;
+}
+@media only screen and (max-width: 1000px) {
+
+    .application-select{
+        text-align:center;
+        margin:50px 0px;
+    }
+    .application{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        width:70vw;
+    }
+    .application > input{
+        width:70vw;
+    }
+    .application > textarea{
+        width:70vw;
+    }
+    .application > select{
+        width:70vw;
+    }
+    .submitb{
+        width:70vw;
+    }
+}
