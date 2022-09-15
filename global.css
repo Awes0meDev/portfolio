@@ -78,8 +78,7 @@ background-position: bottom 0px right -350px;
 -webkit-width:100vw;
   width:100vw;
   transform: scale(1.1);
-  height:50vh;
-
+  height:calc(260px + 10vw);
   
    -moz-position:fixed;
   -webkit-position:fixed;
