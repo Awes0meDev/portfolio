@@ -164,8 +164,9 @@
   
   }
   .testimonial-card{
-    width:25%;
-    height:50vh;
+    width:500px;
+    height:30vw;
+    max-height:400px;
     background:#38c3ff;
     display:flex;
     justify-content:left;
