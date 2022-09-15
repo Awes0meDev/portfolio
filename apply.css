@@ -13,9 +13,20 @@
     flex-direction: row;
 }
 .applicationselectbgroup > button{
-   padding:10px; 
-   font-size:20px;
-   margin:10px;
+    border: none;
+    outline: none;
+    background: #38c3ff;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    margin:10px 10px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: auto;
+    padding:30px;
 }
 .application{
     width:50vw;
@@ -26,28 +37,61 @@
     margin:20px;
 }
 .application > input{
-    padding:10px 0px;
-font-size:20px;
+padding:16px 10px;
+  border:2px solid #38c3ff;
+   color:black;
+   border-radius: 20px;
+   box-shadow: 0 6px 20px -5px lightgrey;
+
 }
 .application > select{
+    padding:16px 10px;
+  border:2px solid #38c3ff;
+   color:black;
+   border-radius: 20px;
+   box-shadow: 0 6px 20px -5px lightgrey;
     padding:10px 0px;
     font-size:20px;
 }
 .application > textarea{
-    padding:10px 0px;
+    padding:16px 10px;
+    border:2px solid #38c3ff;
+     color:black;
+     border-radius: 20px;
+     box-shadow: 0 6px 20px -5px lightgrey;
     font-size:20px;
     resize:none;
     height:200px;
 }
 .submitb{
-    padding:10px 0px;
-    font-size:20px;
+    border: none;
+    outline: none;
+    background: #38c3ff;
+    color: white;
+    font-size: 22px;
+    border-radius: 40px;
+    margin:10px 10px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: auto;
+    padding:10px;
 }
 @media only screen and (max-width: 1000px) {
-
+    .applicationselectbgroup > button{
+        width: 70vw;
+        height:100px;
+        padding:0px;
+    }
+    .applicationselectbgroup{
+        flex-direction: column;
+    }
     .application-select{
         text-align:center;
         margin:50px 0px;
+        width:70vw;
     }
     .application{
         display:flex;
