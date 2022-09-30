@@ -8,6 +8,17 @@
     align-items:center;
     flex-direction:column;
 }
+.finished{
+    background:white;
+    padding:20px;
+    width:50vw;
+    margin:20vh 0px;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+}
 .applicationselectbgroup{
     display:flex;
     flex-direction: row;
