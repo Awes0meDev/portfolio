@@ -94,6 +94,11 @@
            </div>
            </div>
 
+           <div class="finished"id="finished">
+            <i class="fa-solid fa-calendar-check"style="font-size:100px;"></i>
+            <h1>Thanks for submitting an application! We will reach out to you regarding your application within the next 7 days via email or discord!</h1>
+           </div>
+
            <script>
             function onload(){
             const partnerappb = document.getElementById("partnerappb");
@@ -234,6 +239,7 @@
 
 
   function submitjob() {
+    var finished = document.getElementById("finished");
 var webhook = "https://discord.com/api/webhooks/1018998096941809775/fzYQtcV0nJtLvYMXB8hS2RNP3RnunCjI59tNeyptXvamewa6JTqw-fCKjzGHxhsJ6XJZ";
               var question1 = document.getElementById("jobquestion1").value;
               var question2 = document.getElementById("jobquestion2").value;
@@ -329,9 +335,12 @@ if (question1 == "" || question2 == "" || question3 == "" || question4 == "" || 
 request.send(JSON.stringify(params));
 
 
- 
+ jobapplication.style.display = "none";
+ finished.style.display = "flex";
+
 }
               function submitpartner(){
+                var finished = document.getElementById("finished");
 var webhook = "https://discord.com/api/webhooks/1018998096941809775/fzYQtcV0nJtLvYMXB8hS2RNP3RnunCjI59tNeyptXvamewa6JTqw-fCKjzGHxhsJ6XJZ";
 
               var question1 = document.getElementById("partnerquestion1").value;
@@ -414,8 +423,8 @@ if (question1 == "" || question2 == "" || question3 == "" || question4 == "" || 
 }
 request.send(JSON.stringify(params));
 
-
- 
+partnerapplication.style.display = "none";
+ finished.style.display = "flex";
 }
 </script>
     </body>
